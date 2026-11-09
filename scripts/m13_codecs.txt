@@ -1,0 +1,28 @@
+# Milestone 13 (silent): compressed audio out and in. The demo song is exported as OGG (and MP3 when its codec
+# is built in); the files are then placed in the playlist of a new project and exported again as WAV.
+# Run with: PULP.exe --no-audio --script scripts\m13_codecs.txt --log out\m13_codecs.log --data-dir out\m1x_data
+wait 600
+new demo
+export ../out/m13/demo_ref.wav song 48000 24 cut
+waitexport
+export ../out/m13/demo.ogg song 48000 24 cut
+waitexport
+export ../out/m13/demo.mp3 song 48000 24 cut
+waitexport
+log --- the OGG read back by PULP: an audio clip in the playlist of a new project
+new
+set tempo 122
+fx 0 0 none
+addaudio ../out/m13/demo.ogg 0 0
+set song 1
+export ../out/m13/ogg_back.wav song 48000 24 cut
+waitexport
+log --- and the MP3
+new
+set tempo 122
+fx 0 0 none
+addaudio ../out/m13/demo.mp3 0 0
+set song 1
+export ../out/m13/mp3_back.wav song 48000 24 cut
+waitexport
+quit

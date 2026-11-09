@@ -1,0 +1,62 @@
+# Milestone 14 (silent): notes played while recording in song mode land in the playlist.
+# Run with: PULP.exe --no-audio --script scripts\m14_recsong.txt --log out\m14_recsong.log
+# The notes are played against the clock, so their exact ticks differ a little from run to run; what must hold
+# is where they go: the first two into a new pattern whose clip starts at bar 1 and grows, the third into the
+# pattern whose clip is already playing at bar 5.
+wait 600
+new
+wait 200
+set song 1
+show playlist
+playlist
+log --- an empty song: record, play, two notes about a bar apart
+record on
+key space
+wait 300
+note on 60
+wait 200
+note off 60
+wait 2000
+note on 64
+wait 300
+note off 64
+wait 200
+key space
+wait 300
+record off
+playlist
+piano
+log --- undo takes the last note away again, redo puts it back
+undo
+piano
+undo
+log --- a second pass from bar 5, where nothing plays: a take of its own
+seek 15360
+wait 200
+record on
+key space
+wait 300
+note on 67
+wait 200
+note off 67
+key space
+wait 300
+record off
+playlist
+log --- played again from bar 5 with that pattern selected: the note joins the clip that is there
+seek 15360
+wait 200
+record on
+key space
+wait 500
+note on 72
+wait 200
+note off 72
+key space
+wait 300
+record off
+playlist
+piano
+shot playlistwin ../out/m14_recsong.png
+save ../out/m14_recsong.pulp
+quit

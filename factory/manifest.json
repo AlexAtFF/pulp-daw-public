@@ -1,0 +1,3534 @@
+{
+ "format": "pulp-factory-manifest",
+ "version": 1,
+ "files": [
+  {
+   "path": "Drums/808 Kit/808 Kick.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "409253c6d0e7b0303425271715a821d764c31d746c9a9b520afdb18b0af8ebe4"
+  },
+  {
+   "path": "Drums/808 Kit/808 Kick Long.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "5f007d36289b659fe4e22ecaca05063599d95433ae0d3e09b009381047d0321b"
+  },
+  {
+   "path": "Drums/808 Kit/808 Snare.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "dba621e2c5e1170465fb75d226702e3ce1edc1d31c3599f3eeae9ead9489ad2a"
+  },
+  {
+   "path": "Drums/808 Kit/808 Clap.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "68de7891bb44c39a8d80374198a2779b43692656fd7a36af0b326533d3e226c6"
+  },
+  {
+   "path": "Drums/808 Kit/808 Hat Closed.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "db059a2dad9ed4c01f18114b803e296d40780f81467b78c229cdd305fd405b03"
+  },
+  {
+   "path": "Drums/808 Kit/808 Hat Open.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "8a076ab5e292684a2f21fdda5643272e9920b4065869eff601af1057a6144215"
+  },
+  {
+   "path": "Drums/808 Kit/808 Cymbal.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "032c0e1ff6f36979111e52e2fac97b4d6dc7455a933c023e9312aac81f6fdaf2"
+  },
+  {
+   "path": "Drums/808 Kit/808 Tom Low.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "ab1de066c621751d219fec03c5f71782caad434fd7323699fb6e47326644f51a"
+  },
+  {
+   "path": "Drums/808 Kit/808 Tom Mid.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "1cc2a48d8ec632432ab46cbdcd9aaacf6aabc65843575ddf921c261a7c8fd171"
+  },
+  {
+   "path": "Drums/808 Kit/808 Tom High.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "a6bd8859555666046362548569bb91c7c162e7bab26e6909a356a47442c5dbd6"
+  },
+  {
+   "path": "Drums/808 Kit/808 Conga.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "ec2406a99bec4ce1b5e33052550f48bac359c78c5a2abf54142a9affe32eb06a"
+  },
+  {
+   "path": "Drums/808 Kit/808 Cowbell.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "5c9e170b8c9aecd934db181527ddaef767a76d0a6614904db779df67484f8610"
+  },
+  {
+   "path": "Drums/808 Kit/808 Rimshot.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "3ab942e987c418092a2bbb0be60350def2fca4abdcd1de49fc89b68a76dbf8ae"
+  },
+  {
+   "path": "Drums/808 Kit/808 Clave.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "f4128a56ce1b09d979625ca5d598ed34949eb215cf7db1f84176ad7685e086db"
+  },
+  {
+   "path": "Drums/808 Kit/808 Maracas.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "6d2b5b843563656fbef392d3d7ff60aa1e5f7a8ee445151fd2bf20941454277c"
+  },
+  {
+   "path": "Drums/909 Kit/909 Kick.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "99e068480acac314d3a1b3c7653feda9fbf09b0a47c2b48411405c9e123c099e"
+  },
+  {
+   "path": "Drums/909 Kit/909 Snare.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "60c39017f78df40af8d4fb7bebae58b451e75690022a4caa6eea11fc2fb69cd7"
+  },
+  {
+   "path": "Drums/909 Kit/909 Clap.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "75f4587433997e0388d7df5eeace2e32cedd4520ca515aa2dd6c5c71ad3cd74e"
+  },
+  {
+   "path": "Drums/909 Kit/909 Hat Closed.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "df3aef681da1b313c9050b6d42cda4b0d8298f309d384aa5cb58785d2dc2b870"
+  },
+  {
+   "path": "Drums/909 Kit/909 Hat Open.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "ec4c13b5042571de471bc2cac1c02c8111a7f188142f38610f7ee4547950e114"
+  },
+  {
+   "path": "Drums/909 Kit/909 Ride.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "0592935d2ec977ae6e7add27fdf8db8ebc9cf4bbd2d5dff4478cae326ff88dbe"
+  },
+  {
+   "path": "Drums/909 Kit/909 Crash.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "02635c806d109fb2ffacef26251675a3f9a4e9af183957fdc78d4ec2f2c487f4"
+  },
+  {
+   "path": "Drums/909 Kit/909 Tom Low.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "ae4d5c4be27c794e40bac66b256724dc1d7fb44306bb7afb4ee718ea776e489d"
+  },
+  {
+   "path": "Drums/909 Kit/909 Tom Mid.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "f4c1d76163481773f831a97a09bc2a51ab8d342d00dc98eb66d0011badd299c7"
+  },
+  {
+   "path": "Drums/909 Kit/909 Tom High.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "1816255d51d6c0210d2392ec05d2d871dbbf632d6034940b125610c51e7f9edb"
+  },
+  {
+   "path": "Drums/909 Kit/909 Rimshot.wav",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/DrumSynth.cpp)",
+   "licence": "CC0-1.0",
+   "sha256": "63eeadce678c7b1653afe534775cb6c712c184c63131fa9326f47c68dba9b4ab"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "a603d66ecc606977f483aa59484076012ebbc9f690b7be5cc94a2f548ecc0976"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano A#1.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_A%230_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "c424a32c3bbe03919d234899a8d600dce95dfc499d514cd74670237f8d13b58c"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano E2.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_E1_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "fce1b3c2044014771f8e397a9f4f3e078eb735a4cdce401d33922647a9b18f06"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano A#2.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_A%231_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "9e0dfa01d2d2e28219f314c9371661cbc0f1caf417b9413e6c17c8ce93e59135"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano E3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_E2_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "3d4ba6f06370a4f97b6d9639ce588c4088b6fc2bbc52361dc7146dc294401149"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano A#3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_A%232_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "ca077d3f129b62e17073c8ed29e516b6c591491f5f85dbaef6cfaf4b07989678"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano E4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_E3_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "075bec209492e11a573ddf9e641a7fbfdbb0b1b57b62800ccb436634f1d3ed23"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano A#4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_A%233_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "83fa01d853d034723e9e8b9ad2321c34a28a192436b502c11dc709dbbba01162"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano D5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_D4_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "f4aa0c642180eaf3188f7dff9c50e9eb49b73098dc549af7410bf0d6c799e34e"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano G#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_G%234_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "7835b1e9cfb952ce672871c5a077f48ea495f5b8df1f1701ad0e651e9f970ad4"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano D6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_D5_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "d6160fd08844ca8177f0f3654d5fb21d730cbb9dfc62d42f204c357a1ab28022"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano G#6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_G%235_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b153f6cb6b49b4b61c19a8fe786188f45e2be93da17b266ab545f665744c3f17"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano D7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_D6_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "89cda7d3af6f191aeabd879fb4ed467c7942d6486f5785925786ea55c9a393e4"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano G#7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_G%236_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a203871d30ce2f5acf6db382773d46b0fc5a3360ebad6baf40f9703f2bfefacc"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano D8.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_D7_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "16420c6025234c6e7e8e6cddf61e80b0fc571c4da7d4a7c906ab17893f56f80b"
+  },
+  {
+   "path": "Instruments/Keys/Grand Piano/Grand Piano G#8.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_G%237_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "394c3f8f8593bfa2bd6deea23456429f7d5a97508bbc7853261b7ab5718afa38"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "b64ed2701e86338cffaaba0c392d9600f6d8ec239cb679721bcf26178be60db6"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano F2.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/29_F1_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "ed311b0d13029f4e696f77f1b11f0d2e387664c09160e664d1bff297c8b9756e"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano A2.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/33_A1_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "daf6c7d893090ec16ca7cce78c409683367d15eb91c07bead65f38d97c1a75c4"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano C#3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/37_C%232_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "3192bca7c5d548f32b75d955b52dac78302673e440d5b08e583ebff01d870014"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano F3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/41_F2_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "b5d50c4fe94973b9b9b27839fac2630e94881aff36ee58dd055391f8b46bfd94"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano A3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/45_A2_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "c86c28ee4d1b25748705079e0d117694fafc6b296fc8389145666924041d7fa1"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano C#4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/49_C%233_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "4c368db692c785d297a64cc6c80282163bc8284b5363fb614012c6b22e8da690"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano F4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/53_F3_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "6a1e9a4cf176d428f456dffe4f267233697190d2fe18327abc7b35b70b53f1a1"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano A4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/57_A3_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "26c7a039476ce7149891138c4b7707d52673aa112b9166d9aed06e246933e466"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano C#5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/61_C%234_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "ad73e38abeff5e9a3a5c703f556dc13632447b52f29546882023dee86c3b59ec"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano F5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/65_F4_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "4490da546f66f3c0c5dda4de30cc454a6cfc2a5289186db799b081392428efc1"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano A5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/69_A4_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "d622b7c982a5de4500f6b458f6d07063835688355f6e52fc568acb79ab8713f4"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano C#6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/73_C%235_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "86c466acb6b7ea6e721491ef272958c156837e7dfe46e8699f20f35d71f411dd"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano F6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/77_F5_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "b407d1cbb206147e3652999ab0f578be056e639d34e03790dc02776ca881a069"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano A6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/81_A5_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "32bc48eb6ef098fa6e88f716c3139d8a3a73af94ffff96053a84edd00db7bcd2"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano C#7.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/85_C%236_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "3b0d9304bf258edcf9fd9d7885e2d7b5f9c42e974471bb2425b34f582c279785"
+  },
+  {
+   "path": "Instruments/Keys/Pianet Electric Piano/Pianet Electric Piano E7.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/88_E6_FF.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "bc8c6ec07672d08e93d8e67d2a8eb13015cfd5e99feaf53898fbe0ab2ef95b8a"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "2037ae2ac35b7293bfe84f40aff4213bcbb63e2a473b24c7ed877e39ada5e0ad"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano A2.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/a1f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "b41867dd6da63c09f62086402d5eaa8ca9834ae450275d5f33a5ad7653375a55"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano C3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/c2f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "8a0d9d103b967c2d34942ee61d1cdde1fbc6d9f7b58651f3317a3ba6ee9923e5"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano F3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/f2f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "ed72b8f4e23ea3225d37e7aa6c1b1b92c8a8973adf3b6cfaba19a2016c4bc2be"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano B3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/b2f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "652016f894cf0231ec449072182d75fd300f695f81aa98be7916733e896a9b7e"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano E4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/e3f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "162b830ce6acb8e39e220c52afe77716d31e100e6db9dc055a42122269bd80eb"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano G#4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/ab3f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "6aed201c491554ae793af17ba13e6468e6273e783c4a150a2e0eac86a110d22c"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano C#5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/db4f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "73479bc452f5fa7056c700efa2810c4033b2e8ee7180213ab1f7e5b0c6fffdd2"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano G#5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/ab4f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "03a13529bc9bd165c9a1a3a44ec8a21778b09e3115cab2b954d68d14d87ba86e"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano C#6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/db5f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "437f23b5fc56bf1c32e90d2c042dbed46188b54912f0660d3bcbe98f7c88cfdf"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano G6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/g5f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "2bf749e613db21365396f765220a5ee3ad4d97ad73e8ff7d24beec437ccc97ea"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano C#7.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/db6f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "7386bfea0c5c3d9e3ad4e905d4c60a1f83e81d30a74dd68c06829bf31aff9577"
+  },
+  {
+   "path": "Instruments/Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano G#7.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/ab6f.flac",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "source": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC-BY-3.0",
+   "sha256": "0a52b63e01593a65c7e62059e38b15eb811543790b1af8102ecc3b50e5808dd0"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "873d9314a7c66538095744d1466487b30847f0025d18eb0bfcceec4c934d4daa"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ C2.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "22df409cc88291a92e7f788355160d16ec7cbb0d83f91fe58948ee5874efd2df"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ F#2.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_F%231.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "48f9afa5dab7a1d1813c781ee105eef4c58c8ddd2890f513735fdfe42312390b"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ C3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "09a3e4b35c97c4e156a6974bc0a14426c216f2a4e8f70cce835eb3f9aae936aa"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ F#3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_F%232.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "85ed7c969654e0c65c29c1072fa0c3bc9beaa56c0ba2af52064187184a6436f3"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ C4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C3.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "888e834018584c6f73e68983942a6d99b32940caf9000bf211cb78277175f05d"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ F#4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_F%233.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a51d636a174605ba4b7f31eef364d4c604b03669659d81d6d2baa159f14d4b78"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ C5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C4.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "71c6f2c87c0ed896b73bc1e31ff54196fc6d68a07847ca74fb9de679ef9b8f7d"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ F#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_F%234.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "6f5bec741be42ef53904db024f2caf7022a252fcad58191b9303aff3b7322bdc"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ C6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C5.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "66ea0ed2c0e1281c4050746037799ff5b29d50392542140e1a01ce414a988f93"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ F#6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_F%235.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "734bcc864870e32d9b039737343690e011f0852d99e41c948582058074e11349"
+  },
+  {
+   "path": "Instruments/Keys/Pipe Organ/Pipe Organ C7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C6.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b6c9c3f5605dbccd2906d5d327fa083b3c1c0cc46719fa89b49e5f276a28c103"
+  },
+  {
+   "path": "Instruments/Guitars/Acoustic Guitar/Acoustic Guitar.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "b54bb094bdd89791c5bd2492bb0d18ea9ec5623f5a3181e4f6a7b97bd3fe0dfa"
+  },
+  {
+   "path": "Instruments/Guitars/Acoustic Guitar/Acoustic Guitar C#3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/db2_vl3_rr1_1.wav",
+   "author": "Karoryfer Lecolds (played by D. Smolken)",
+   "source": "Karoryfer Samples Shinyguitar (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b7c1bfe7af0e5cccc935357348ac5e9946199c822e25a19723b010b6c0103bd5"
+  },
+  {
+   "path": "Instruments/Guitars/Acoustic Guitar/Acoustic Guitar F#3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/gb2_vl3_rr1_1.wav",
+   "author": "Karoryfer Lecolds (played by D. Smolken)",
+   "source": "Karoryfer Samples Shinyguitar (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "43d54c1f089927a4c3ede99b3c98fb1478b81a0be308dbe09eb917e9f5dea7bc"
+  },
+  {
+   "path": "Instruments/Guitars/Acoustic Guitar/Acoustic Guitar C4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/c3_vl3_rr1_1.wav",
+   "author": "Karoryfer Lecolds (played by D. Smolken)",
+   "source": "Karoryfer Samples Shinyguitar (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "9c58d01ed1064ba0d05fd112cef9282258504ebf9f5637d6e6eb0744bfbe89bc"
+  },
+  {
+   "path": "Instruments/Guitars/Acoustic Guitar/Acoustic Guitar F#4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/gb3_vl3_rr1_1.wav",
+   "author": "Karoryfer Lecolds (played by D. Smolken)",
+   "source": "Karoryfer Samples Shinyguitar (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "1ee71182e5b80d4df19ee57183e066159d90f07eaa73a98be45753212710a03d"
+  },
+  {
+   "path": "Instruments/Guitars/Acoustic Guitar/Acoustic Guitar C5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/c4_vl3_rr1_1.wav",
+   "author": "Karoryfer Lecolds (played by D. Smolken)",
+   "source": "Karoryfer Samples Shinyguitar (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "978ad772162477fabf54e891e63d03e1ecd1c1175a0aebf094600d18cc83a103"
+  },
+  {
+   "path": "Instruments/Guitars/Acoustic Guitar/Acoustic Guitar F#5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/gb4_vl3_rr1_1.wav",
+   "author": "Karoryfer Lecolds (played by D. Smolken)",
+   "source": "Karoryfer Samples Shinyguitar (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "c15fe0748c208baa131bd0803a773576069250c8c6a98a34785c535959c82a28"
+  },
+  {
+   "path": "Instruments/Guitars/Acoustic Guitar/Acoustic Guitar C6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/c5_vl3_rr1_1.wav",
+   "author": "Karoryfer Lecolds (played by D. Smolken)",
+   "source": "Karoryfer Samples Shinyguitar (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "8951be3cf8c74e5e1a20131a499715494a1da8c49b8bee8667800e3e78159e05"
+  },
+  {
+   "path": "Instruments/Guitars/Acoustic Guitar/Acoustic Guitar F#6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/gb5_vl3_rr1_1.wav",
+   "author": "Karoryfer Lecolds (played by D. Smolken)",
+   "source": "Karoryfer Samples Shinyguitar (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "5a294b13818108f4aac707290b89af255b32af3dc13b89f147081ecc67f62854"
+  },
+  {
+   "path": "Instruments/Guitars/Acoustic Guitar/Acoustic Guitar C7.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/c6_vl3_rr1_1.wav",
+   "author": "Karoryfer Lecolds (played by D. Smolken)",
+   "source": "Karoryfer Samples Shinyguitar (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b9d5856cc77c878fa08ced813fc823f3f22e823135f344cda630c3e98aa379d7"
+  },
+  {
+   "path": "Instruments/Guitars/Electric Guitar/Electric Guitar.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "c481039538061b646585d0d341580cac8de23b40ba7223e5c155882aaab1eb56"
+  },
+  {
+   "path": "Instruments/Guitars/Electric Guitar/Electric Guitar E3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_e3_f_rr1.wav",
+   "author": "Karoryfer Lecolds (recorded by Brian Wood)",
+   "source": "Karoryfer Samples Black And Green Guitars (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "eb271a69f78f46a687196496b3dd84333789e3e5364f6e70abf965dd02c1dbe5"
+  },
+  {
+   "path": "Instruments/Guitars/Electric Guitar/Electric Guitar A#3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_bb3_f_rr1.wav",
+   "author": "Karoryfer Lecolds (recorded by Brian Wood)",
+   "source": "Karoryfer Samples Black And Green Guitars (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "66d221f3bfd1f63c107edef2084ee098a80b688c6f3a3905057fc9b185f36901"
+  },
+  {
+   "path": "Instruments/Guitars/Electric Guitar/Electric Guitar D#4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_eb4_f_rr1.wav",
+   "author": "Karoryfer Lecolds (recorded by Brian Wood)",
+   "source": "Karoryfer Samples Black And Green Guitars (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "80c47a978eea43f2293b20387a5790c54e1f2c3b6652aeb5d3d47a9111dfd09d"
+  },
+  {
+   "path": "Instruments/Guitars/Electric Guitar/Electric Guitar A4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a4_f_rr1.wav",
+   "author": "Karoryfer Lecolds (recorded by Brian Wood)",
+   "source": "Karoryfer Samples Black And Green Guitars (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "7f8536b92539d3356d08eeae3ef2b2bf96acbb051597b3f4406cde99a5809593"
+  },
+  {
+   "path": "Instruments/Guitars/Electric Guitar/Electric Guitar D#5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_eb5_f_rr1.wav",
+   "author": "Karoryfer Lecolds (recorded by Brian Wood)",
+   "source": "Karoryfer Samples Black And Green Guitars (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "567ca9b23730ab858f6192cb0223d8295c3dfb01a72f10c746c7e60b9414390f"
+  },
+  {
+   "path": "Instruments/Guitars/Electric Guitar/Electric Guitar A5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a5_f_rr1.wav",
+   "author": "Karoryfer Lecolds (recorded by Brian Wood)",
+   "source": "Karoryfer Samples Black And Green Guitars (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "46f43c54c0c885aa5f05d410977cf4fd9ddaea051268278254e0be2359c7a19f"
+  },
+  {
+   "path": "Instruments/Guitars/Electric Guitar/Electric Guitar D6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d6_f_rr1.wav",
+   "author": "Karoryfer Lecolds (recorded by Brian Wood)",
+   "source": "Karoryfer Samples Black And Green Guitars (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "625c067ae52e0935ff066f100a01a524c4bb26ec7a7f06c46b9425e974dca54f"
+  },
+  {
+   "path": "Instruments/Guitars/Electric Guitar/Electric Guitar G#6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_ab6_f_rr1.wav",
+   "author": "Karoryfer Lecolds (recorded by Brian Wood)",
+   "source": "Karoryfer Samples Black And Green Guitars (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "18d62932ab370338604027dd1a7b8c0c356ebc7771aac886b17a46c32458d4c9"
+  },
+  {
+   "path": "Instruments/Guitars/Electric Guitar/Electric Guitar D7.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d7_f_rr1.wav",
+   "author": "Karoryfer Lecolds (recorded by Brian Wood)",
+   "source": "Karoryfer Samples Black And Green Guitars (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "df94e6a484bc569b867e4dfdd0fc6b79b7e813eaf347bf41994b8c3df905aabe"
+  },
+  {
+   "path": "Instruments/Bass/Electric Bass/Electric Bass.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "e7d5d4a267873bdd7d8a1a7f900af83021282e448d64bac3ec6f32f5a38a77a1"
+  },
+  {
+   "path": "Instruments/Bass/Electric Bass/Electric Bass C#2.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/db2_f_rr1.wav",
+   "author": "Karoryfer Lecolds",
+   "source": "Karoryfer Samples Growlybass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "6f1cef7b7d75a86a3c02033560999f6ad5d67fc5dad6c2e082a6fe8532bb0c4b"
+  },
+  {
+   "path": "Instruments/Bass/Electric Bass/Electric Bass F#2.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/gb2_f_rr1.wav",
+   "author": "Karoryfer Lecolds",
+   "source": "Karoryfer Samples Growlybass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "ec0b96f6f18b218fce806b764a208d6e3a681414bc9c2efa1259147851abe795"
+  },
+  {
+   "path": "Instruments/Bass/Electric Bass/Electric Bass C3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/c3_f_rr1.wav",
+   "author": "Karoryfer Lecolds",
+   "source": "Karoryfer Samples Growlybass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "14491732f3790922bc89e5538f087dcaef89ec02c59c5c304c1d5c838b109dcb"
+  },
+  {
+   "path": "Instruments/Bass/Electric Bass/Electric Bass F#3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/gb3_f_rr1.wav",
+   "author": "Karoryfer Lecolds",
+   "source": "Karoryfer Samples Growlybass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "54d18208358707a1ebab9009d2c4602b74a8c043f716506b0d5c8289a936864a"
+  },
+  {
+   "path": "Instruments/Bass/Electric Bass/Electric Bass C4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/c4_f_rr1.wav",
+   "author": "Karoryfer Lecolds",
+   "source": "Karoryfer Samples Growlybass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "9a11c89945d686b71f7ceae462d26d5cb52706e7c5bd5ac4ab4f163abe31e8f6"
+  },
+  {
+   "path": "Instruments/Bass/Electric Bass/Electric Bass D#4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/eb4_f_rr1.wav",
+   "author": "Karoryfer Lecolds",
+   "source": "Karoryfer Samples Growlybass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "86ca6d0deea3de88f016a6f2a0281c3fdf0515fec50da5a1c7ba3fd42c16e85c"
+  },
+  {
+   "path": "Instruments/Bass/Electric Bass/Electric Bass A4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/a4_f_rr1.wav",
+   "author": "Karoryfer Lecolds",
+   "source": "Karoryfer Samples Growlybass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "346dbf0a1b4960dfbac66ed4389d7d514800528d00bdb77242bf8a2ff691fd0d"
+  },
+  {
+   "path": "Instruments/Bass/Electric Bass/Electric Bass D#5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/eb5_f_rr1.wav",
+   "author": "Karoryfer Lecolds",
+   "source": "Karoryfer Samples Growlybass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "4fc5bb9e0cad280d18134705bc88054a7b811fcb02edde2803dd21785207f26e"
+  },
+  {
+   "path": "Instruments/Bass/Upright Bass/Upright Bass.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "acb29f9da0949a153bdab434ac3857d9972595b94a59455d98c180baaa73e71c"
+  },
+  {
+   "path": "Instruments/Bass/Upright Bass/Upright Bass C2.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/c1_vl3_rr1.wav",
+   "author": "Karoryfer Lecolds (played by Drogomir Smolken, recorded by Ludwik Zamenhof)",
+   "source": "Karoryfer Samples Meatbass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "3b876432ad904244fdec7c5bb88da6302f9fc4e0abe03b0dcdb2b4395457a287"
+  },
+  {
+   "path": "Instruments/Bass/Upright Bass/Upright Bass F#2.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/gb1_vl3_rr1.wav",
+   "author": "Karoryfer Lecolds (played by Drogomir Smolken, recorded by Ludwik Zamenhof)",
+   "source": "Karoryfer Samples Meatbass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "da118d2bf57b9f607e2055c43bc07ae2a8c36213a541b95c0e544e4077258262"
+  },
+  {
+   "path": "Instruments/Bass/Upright Bass/Upright Bass C3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/c2_vl3_rr1.wav",
+   "author": "Karoryfer Lecolds (played by Drogomir Smolken, recorded by Ludwik Zamenhof)",
+   "source": "Karoryfer Samples Meatbass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "7f5cae61e2e7e325961576dee08943a6c47f8e765aad787b6e042866167ba201"
+  },
+  {
+   "path": "Instruments/Bass/Upright Bass/Upright Bass F#3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/gb2_vl3_rr1.wav",
+   "author": "Karoryfer Lecolds (played by Drogomir Smolken, recorded by Ludwik Zamenhof)",
+   "source": "Karoryfer Samples Meatbass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "f0e4bbf9ea8d59239d7cf34671268392753fec331a99b6837086140227c27425"
+  },
+  {
+   "path": "Instruments/Bass/Upright Bass/Upright Bass C4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/c3_vl3_rr1.wav",
+   "author": "Karoryfer Lecolds (played by Drogomir Smolken, recorded by Ludwik Zamenhof)",
+   "source": "Karoryfer Samples Meatbass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "c6bbf62473859dfa100024e265d2b595381345a4d32672da37c401610f98b0b6"
+  },
+  {
+   "path": "Instruments/Bass/Upright Bass/Upright Bass F#4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/gb3_vl3_rr1.wav",
+   "author": "Karoryfer Lecolds (played by Drogomir Smolken, recorded by Ludwik Zamenhof)",
+   "source": "Karoryfer Samples Meatbass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "d64d9b7c5ae82b07f5a6e5e457fcf1bc3fda33ccbdf88fa0513bf2b32951d3aa"
+  },
+  {
+   "path": "Instruments/Bass/Upright Bass/Upright Bass C5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/c4_vl3_rr1.wav",
+   "author": "Karoryfer Lecolds (played by Drogomir Smolken, recorded by Ludwik Zamenhof)",
+   "source": "Karoryfer Samples Meatbass (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "eff5f290ec95ee7b5d71354ffd3ef5c3e7663d80ac38349cccccf3be99608ce7"
+  },
+  {
+   "path": "Instruments/Strings/Violin/Violin.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "9b4a5e258176d06a39c363770ef78175bc2f63eede51332b2f10ecf906ac44c3"
+  },
+  {
+   "path": "Instruments/Strings/Violin/Violin G4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_G3_f.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "35ae1ded54bf7714b60068c75ddf4a13005dcd05f3cbf97cba9e5fabda402ba2"
+  },
+  {
+   "path": "Instruments/Strings/Violin/Violin C5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_C4_f.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "2176489c6adc71d30e81d563762cb2b2b55cd0b91bbf89874e44e14974f00e4e"
+  },
+  {
+   "path": "Instruments/Strings/Violin/Violin G5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_G4_f.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "4bdf289d24783609e515df0cd4f9d55df0d5e0ce3ccfdc610502314e3506ae68"
+  },
+  {
+   "path": "Instruments/Strings/Violin/Violin C6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_C5_f.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "6bc84329e1cdeb035bc1bc302692b1c8b5a4ed842f8d4ba6716810653c9e3823"
+  },
+  {
+   "path": "Instruments/Strings/Violin/Violin G6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_G5_f.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "3496869afd08d2d34e2310fe61d30b8d9eb20ed452b870ea27a2f138075e2f5b"
+  },
+  {
+   "path": "Instruments/Strings/Violin/Violin C7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_C6_f.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "eefde0da92cc8183500369e3ba3d07e3ec729ad6b886f6ff72aaee34d54160d8"
+  },
+  {
+   "path": "Instruments/Strings/Violin/Violin G7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_G6_f.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "0971a0ff7242d6b3bdf28a20eecc09052703f4a15582a0fea7fbace2eaf27a8b"
+  },
+  {
+   "path": "Instruments/Strings/Violin/Violin C8.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_C7_f.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "317fe4f49e84ef051db74b6796af1d95569b9aeeacc5bdd91ef5bcc5556c5826"
+  },
+  {
+   "path": "Instruments/Strings/Viola/Viola.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "9a522951cc10fc0b2901f6fee9f44f32994c32b886caa16d019fc5defc9c853f"
+  },
+  {
+   "path": "Instruments/Strings/Viola/Viola C4.flac",
+   "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulC.C3.stereo.aif",
+   "author": "Lawrence Fritts, University of Iowa Electronic Music Studios",
+   "source": "University of Iowa Musical Instrument Samples (MIS) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "LicenseRef-UIowa-MIS-unrestricted",
+   "sha256": "98b52f80852769eeca68515c24428279216d83e677066dbd9862be9418a730d8"
+  },
+  {
+   "path": "Instruments/Strings/Viola/Viola F4.flac",
+   "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulC.F3.stereo.aif",
+   "author": "Lawrence Fritts, University of Iowa Electronic Music Studios",
+   "source": "University of Iowa Musical Instrument Samples (MIS) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "LicenseRef-UIowa-MIS-unrestricted",
+   "sha256": "8855a3a62d3eb4d44948a67c852affd740efc5514c3d857efe9d673510626c8c"
+  },
+  {
+   "path": "Instruments/Strings/Viola/Viola A#4.flac",
+   "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulG.Bb3.stereo.aif",
+   "author": "Lawrence Fritts, University of Iowa Electronic Music Studios",
+   "source": "University of Iowa Musical Instrument Samples (MIS) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "LicenseRef-UIowa-MIS-unrestricted",
+   "sha256": "494122d166e5628df9ed60acfef7466a02f8e12cfd4ccf7c09b13f1f1fb95f25"
+  },
+  {
+   "path": "Instruments/Strings/Viola/Viola D#5.flac",
+   "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulD.Eb4.stereo.aif",
+   "author": "Lawrence Fritts, University of Iowa Electronic Music Studios",
+   "source": "University of Iowa Musical Instrument Samples (MIS) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "LicenseRef-UIowa-MIS-unrestricted",
+   "sha256": "959e28b18182a78008b4c1568a15d30b019bee8bbd743be34ae4596a2bf919c8"
+  },
+  {
+   "path": "Instruments/Strings/Viola/Viola G#5.flac",
+   "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulD.Ab4.stereo.aif",
+   "author": "Lawrence Fritts, University of Iowa Electronic Music Studios",
+   "source": "University of Iowa Musical Instrument Samples (MIS) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "LicenseRef-UIowa-MIS-unrestricted",
+   "sha256": "1ed3da8a00dd714fe83973c4ccf9e5983ba81b153ce83298de395f4cb05e67d2"
+  },
+  {
+   "path": "Instruments/Strings/Viola/Viola C#6.flac",
+   "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulA.Db5.stereo.aif",
+   "author": "Lawrence Fritts, University of Iowa Electronic Music Studios",
+   "source": "University of Iowa Musical Instrument Samples (MIS) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "LicenseRef-UIowa-MIS-unrestricted",
+   "sha256": "dfaf75f1c4b4ebc32e71f80073d1e16b0f403ab967812c8f5de98d9d61a5e778"
+  },
+  {
+   "path": "Instruments/Strings/Viola/Viola F#6.flac",
+   "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulA.Gb5.stereo.aif",
+   "author": "Lawrence Fritts, University of Iowa Electronic Music Studios",
+   "source": "University of Iowa Musical Instrument Samples (MIS) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "LicenseRef-UIowa-MIS-unrestricted",
+   "sha256": "d000408d90bf0c720c827ced9adbf6c7f6b2eaa64d8983f4c1cf24ea03be5082"
+  },
+  {
+   "path": "Instruments/Strings/Viola/Viola B6.flac",
+   "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulA.B5.stereo.aif",
+   "author": "Lawrence Fritts, University of Iowa Electronic Music Studios",
+   "source": "University of Iowa Musical Instrument Samples (MIS) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "LicenseRef-UIowa-MIS-unrestricted",
+   "sha256": "ad8dfeb0e7f9a18e1cf8f10a245a0845a457b4168e4d34977232c8a92644cc17"
+  },
+  {
+   "path": "Instruments/Strings/Viola/Viola E7.flac",
+   "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulA.E6.stereo.aif",
+   "author": "Lawrence Fritts, University of Iowa Electronic Music Studios",
+   "source": "University of Iowa Musical Instrument Samples (MIS) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "LicenseRef-UIowa-MIS-unrestricted",
+   "sha256": "6c6d0a55532e45dafdff81d9a5472147f5ad4160c5bd376ab91f6ac3126dd0c0"
+  },
+  {
+   "path": "Instruments/Strings/Cello/Cello.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "1b05d5fe19a002dfb0c640f40a4038aec638ee9bea99d2be934eac97e14293cc"
+  },
+  {
+   "path": "Instruments/Strings/Cello/Cello C3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/C1_mf_d.wav",
+   "author": "Karoryfer Lecolds and bigcat instruments (performed by Kamila Borowiak)",
+   "source": "Karoryfer x bigcat cello (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "31bea3d4ebd7fe997f56c7808bb3c62d0491124f2c4fdbf86de6b8a9d901a178"
+  },
+  {
+   "path": "Instruments/Strings/Cello/Cello F#3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/Gb1_mf_d.wav",
+   "author": "Karoryfer Lecolds and bigcat instruments (performed by Kamila Borowiak)",
+   "source": "Karoryfer x bigcat cello (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "e13e44fbf6652ffa1a312e9e6317bf4c0a1440b80d2ee3558ea00c16e84d230a"
+  },
+  {
+   "path": "Instruments/Strings/Cello/Cello C4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/C2_mf_d.wav",
+   "author": "Karoryfer Lecolds and bigcat instruments (performed by Kamila Borowiak)",
+   "source": "Karoryfer x bigcat cello (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "cfbd7a3798e188c67a352a7df1b6fbfceb0cf77bfa9a6cb67a4630f493d7368e"
+  },
+  {
+   "path": "Instruments/Strings/Cello/Cello F#4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/Gb2_mf_d.wav",
+   "author": "Karoryfer Lecolds and bigcat instruments (performed by Kamila Borowiak)",
+   "source": "Karoryfer x bigcat cello (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "5a73c4909e8d8451ed42cc64b22c73578a8fd25e32c5d05b75855bafcf945747"
+  },
+  {
+   "path": "Instruments/Strings/Cello/Cello C5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/C3_mf_d.wav",
+   "author": "Karoryfer Lecolds and bigcat instruments (performed by Kamila Borowiak)",
+   "source": "Karoryfer x bigcat cello (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "ec98d7e41f1233f6e83ed62803732a6a5038f03ecda8668508bacb328950881f"
+  },
+  {
+   "path": "Instruments/Strings/Cello/Cello F#5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/Gb3_mf_d.wav",
+   "author": "Karoryfer Lecolds and bigcat instruments (performed by Kamila Borowiak)",
+   "source": "Karoryfer x bigcat cello (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "778b01bc6703a609867d9d961b2e3bbc45a52c13412dd7c4a77c35fd6da6c72e"
+  },
+  {
+   "path": "Instruments/Strings/Cello/Cello C6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/C4_mf_d.wav",
+   "author": "Karoryfer Lecolds and bigcat instruments (performed by Kamila Borowiak)",
+   "source": "Karoryfer x bigcat cello (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "262b7111d229c7e99936f38abdffef959608383d463851971be3f3c4a67c49d5"
+  },
+  {
+   "path": "Instruments/Strings/Cello/Cello F#6.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/Gb4_mf_d.wav",
+   "author": "Karoryfer Lecolds and bigcat instruments (performed by Kamila Borowiak)",
+   "source": "Karoryfer x bigcat cello (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "14fc9344e1e1725dec16583c41204006519311eca45443c61ffa069267eb43a2"
+  },
+  {
+   "path": "Instruments/Strings/Cello/Cello C7.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/C5_mf_d.wav",
+   "author": "Karoryfer Lecolds and bigcat instruments (performed by Kamila Borowiak)",
+   "source": "Karoryfer x bigcat cello (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "ccf2685ffd0689abd5f2022504dd015b863f97b5457168660377cf049092dfb1"
+  },
+  {
+   "path": "Instruments/Strings/String Ensemble/String Ensemble.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "99ac6f4f69c452b7435c26e51fd65017d3ca40ba8cdae34435596c2976036d4e"
+  },
+  {
+   "path": "Instruments/Strings/String Ensemble/String Ensemble C3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/susvib/susvib_C1_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "88cc660931e4eb70b75be6c4947011d10441702ca4809b305af3f1038d1e041c"
+  },
+  {
+   "path": "Instruments/Strings/String Ensemble/String Ensemble G3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/susvib/susvib_G1_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "4816e0181b3a1a7f40ea7f1cb2c2221c0b40682e6702ed5041259c91bc74fa71"
+  },
+  {
+   "path": "Instruments/Strings/String Ensemble/String Ensemble D4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/susvib/susvib_D2_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "f8498158721d0a1d2f8681e4dbe8f0a0edff80e0e71cebc2e8bd0cb83a7d1bc0"
+  },
+  {
+   "path": "Instruments/Strings/String Ensemble/String Ensemble A4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/susvib/susvib_A2_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "0f2be175e68bf71476d3a3a87e83b8dd0dc5d6ffc4d57e2f6a6bb67f709f1be9"
+  },
+  {
+   "path": "Instruments/Strings/String Ensemble/String Ensemble D5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Viola%20Section/susvib/ViolaEns_susvib_D3_v2_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "659732487d6ccd422311090a92b181d99cdc17b4e92fd19885d15835315c0059"
+  },
+  {
+   "path": "Instruments/Strings/String Ensemble/String Ensemble A5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Viola%20Section/susvib/ViolaEns_susvib_A3_v2_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "c322dafdd0c475d92d74c4c81f0fa3d2c95e7450e411d370f9babd257f7a7f2f"
+  },
+  {
+   "path": "Instruments/Strings/String Ensemble/String Ensemble E6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/susVib/VlnEns_susVib_E4_v2.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "4ec24b01bee10934eb3dc534d6ade5df2a6d21dced23bc527f66517645a5673e"
+  },
+  {
+   "path": "Instruments/Strings/String Ensemble/String Ensemble B6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/susVib/VlnEns_susVib_B4_v2.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "6977ec87405ddfb507f0f27b540ad70c515f33fafafeb5dfddc2881d562dbef0"
+  },
+  {
+   "path": "Instruments/Strings/String Ensemble/String Ensemble D7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/susVib/VlnEns_susVib_D5_v2.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "f17b30de77620d8f42862f219efb05feaedb92eb9ea57465eb98e3529ee72d4b"
+  },
+  {
+   "path": "Instruments/Brass/Trumpet/Trumpet.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "c35882554af68f9210304ce4e8fa2e22a5c84f665db0ad7a272659f0c1707b5b"
+  },
+  {
+   "path": "Instruments/Brass/Trumpet/Trumpet F4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_F2_v3_rr1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "51aafce5b85ff99fc2c3e449db4645f0b74e4b30d868b2274715fc68e54e2718"
+  },
+  {
+   "path": "Instruments/Brass/Trumpet/Trumpet A4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_A2_v3_rr1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "513f654436bab04d79fe23c9f96c1467e221d82972b412ab5e2c7a3dcec6ccd9"
+  },
+  {
+   "path": "Instruments/Brass/Trumpet/Trumpet D#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_D%233_v3_rr1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "1cf72c932e09f202d97ac7cfd6aeeebdf17339d12692e09212349a99f8ad3928"
+  },
+  {
+   "path": "Instruments/Brass/Trumpet/Trumpet G5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_G3_v3_rr1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "ba965121dc91818afc0e6fd7047b5635666e5397d2041d7e9f7425b28dac1489"
+  },
+  {
+   "path": "Instruments/Brass/Trumpet/Trumpet D6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_D4_v3_rr1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "c92f494f304748d18d008dd0d8b0ef6dc1ff8b1afe4d3b62728ed78026e29ce7"
+  },
+  {
+   "path": "Instruments/Brass/Trumpet/Trumpet F6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_F4_v3_rr1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "821286d65117bb940058aaf27a8fa80956212663c9673e36595148fcec776c9f"
+  },
+  {
+   "path": "Instruments/Brass/Trumpet/Trumpet C7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_C5_v3_rr1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "2aef00f61502898bdc05606f8529064d1759af7e26fdac9e73f3ce0ab223af2e"
+  },
+  {
+   "path": "Instruments/Brass/Trombone/Trombone.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "6308edc94397188a022cef36537ddb3ba0c4fa0eee32346ee3d03bdfe473cdf8"
+  },
+  {
+   "path": "Instruments/Brass/Trombone/Trombone A#2.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_A%230_v2_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a839014ab4254533d6d1107c1aef117b27324f9b812d0ad0d7ea68430f76ac5c"
+  },
+  {
+   "path": "Instruments/Brass/Trombone/Trombone D#3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_D%231_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b1d6b00ab04218764b85f1dd80ab018bb2c4cf0ac2f100534afeb29461e089b4"
+  },
+  {
+   "path": "Instruments/Brass/Trombone/Trombone A#3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_A%231_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "74c01ad008677edb403f308f738119c342815df9a66537141eaa666259c4edfc"
+  },
+  {
+   "path": "Instruments/Brass/Trombone/Trombone D4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_D2_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "2ca53f61f5f253a83a3f7b4488d438a997cedf75ca0da47324aeae9df89fef4b"
+  },
+  {
+   "path": "Instruments/Brass/Trombone/Trombone F4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_F2_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "4262398eb53ea50848f88e8aa17091078e187c4a34682c2f5c82d9f4f71846c0"
+  },
+  {
+   "path": "Instruments/Brass/Trombone/Trombone C5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_C3_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "372de5429f55e2cc9d1153db02de163ccd486d3ae7d1d3e9fc323ce85678b4ce"
+  },
+  {
+   "path": "Instruments/Brass/Trombone/Trombone F5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_F3_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "36ff65aed7d9d431af33f9ac5e714b04a83a7ee867c4f2842f5124fa1ef520ff"
+  },
+  {
+   "path": "Instruments/Brass/French Horn/French Horn.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "3c311a24e4d95305951dfdbb31da6f5423269f6dc21fe6adce835dfd55ca44ff"
+  },
+  {
+   "path": "Instruments/Brass/French Horn/French Horn A2.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_A0_v1_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "64f5f2e01c9988d08923ab1125bd2e3357841d7c0932d3ee191f3d279c7eda46"
+  },
+  {
+   "path": "Instruments/Brass/French Horn/French Horn D#3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_D%231_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "3e10828827439439c5ffb3a82f245f660f67f81c2a85306e76a890023ece8aba"
+  },
+  {
+   "path": "Instruments/Brass/French Horn/French Horn A#3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_A%231_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "c68b8439124d59fbed04d8ce5445d5d3e361f8e882268d262afff8a30a39128b"
+  },
+  {
+   "path": "Instruments/Brass/French Horn/French Horn F4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_F2_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "eab1bb30cb7b0fa5c2ef0ec9acb33eba9cf9424b8a6d0b6b8c796605de2c4523"
+  },
+  {
+   "path": "Instruments/Brass/French Horn/French Horn A4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_A2_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "198d0bd2f5552861bb8d16d72b5cf0cb1f65d1c58b1bfebb1d6b8ffcd5066787"
+  },
+  {
+   "path": "Instruments/Brass/French Horn/French Horn C5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_C3_v3_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "4cfd1d53c2e044563bdae7d80b1ceb4ef435e592076e987e618c63b6142caa01"
+  },
+  {
+   "path": "Instruments/Brass/French Horn/French Horn D6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_D4_v1_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "e6b093e7e451afdbc2ec2d3cb8ec3686d3d94c69e191cb4625c9a4279514f70d"
+  },
+  {
+   "path": "Instruments/Brass/French Horn/French Horn F6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_F4_v1_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "e44550ea93c980a6f95d0b32e6a4920ac6e595b210287d01aa25cf877a67c709"
+  },
+  {
+   "path": "Instruments/Woodwinds/Tenor Saxophone/Tenor Saxophone.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "021938a0c2a818b5d8149c1b7644192f1e2e7308b9f86d9979b62ce6bf9a032a"
+  },
+  {
+   "path": "Instruments/Woodwinds/Tenor Saxophone/Tenor Saxophone G#3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_G%231_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "7cf6f504fabf9235007db453869af1acb65167e2b71312c4ef02701951b553c9"
+  },
+  {
+   "path": "Instruments/Woodwinds/Tenor Saxophone/Tenor Saxophone D4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_D2_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "201c06b76249fb45726698e5232b0e65946d398f52622b7cd060cd10948139a4"
+  },
+  {
+   "path": "Instruments/Woodwinds/Tenor Saxophone/Tenor Saxophone G#4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_G%232_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "e43396e30d2a6eb573b5089e8bc3c145e140087742eed365f9abfb98ef735ff2"
+  },
+  {
+   "path": "Instruments/Woodwinds/Tenor Saxophone/Tenor Saxophone D5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_D3_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "dfc2a9c9741f42afa8c1211417777a6f334a6fa893e2914ccb8c7203c6d767e0"
+  },
+  {
+   "path": "Instruments/Woodwinds/Tenor Saxophone/Tenor Saxophone G#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_G%233_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "6b98e85b930ddba7f561c7499b96394761972e8188508ef41f0859c93bd41041"
+  },
+  {
+   "path": "Instruments/Woodwinds/Tenor Saxophone/Tenor Saxophone C6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_C4_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "23b09a9741c89f01c4c0b29961e9134ddb32eb0578808d3288921fc9c278cb93"
+  },
+  {
+   "path": "Instruments/Woodwinds/Tenor Saxophone/Tenor Saxophone E6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_E4_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b07889a118284d6de42bbcec0cb4486e7f536e2ff7b7db15eacd8dbfcf1074a9"
+  },
+  {
+   "path": "Instruments/Woodwinds/Tenor Saxophone/Tenor Saxophone A#6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_A%234_vl3_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "858c6f7bdc5307fd6412aa64d7311ee083ad2b737398c1b94042b1ddbff84b2a"
+  },
+  {
+   "path": "Instruments/Woodwinds/Flute/Flute.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "399abeee53802b159be29ee42f4dbd66d16abed78f243edcf80d5a5aba09f2a2"
+  },
+  {
+   "path": "Instruments/Woodwinds/Flute/Flute C5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_C3_v1_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "bc323708355c575ef27d1cbb73dceabcc0b51241d009568e0819dc9f0a529271"
+  },
+  {
+   "path": "Instruments/Woodwinds/Flute/Flute E5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_E3_v1_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "1aee096319cbc98a24ffb75b150a230a55c17f64c59b83fdc5d960b858eaeca2"
+  },
+  {
+   "path": "Instruments/Woodwinds/Flute/Flute C6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_C4_v1_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "87e6b3aaff125986de382d0bd4a3b061497a7c7b0c8a47994d8b57f8c47d0c54"
+  },
+  {
+   "path": "Instruments/Woodwinds/Flute/Flute E6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_E4_v1_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "2ab8d2c4a2bf39fab5d0e51e98ccfa9944e52b7c041c646eeae7e5a1a062c3f6"
+  },
+  {
+   "path": "Instruments/Woodwinds/Flute/Flute C7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_C5_v1_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "91a182682b0a4d7baa317cbf09b23e901ca3e67348838a1113c5dbceeb2e475d"
+  },
+  {
+   "path": "Instruments/Woodwinds/Flute/Flute E7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_E5_v1_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "41f4d9b724e3c4921efcea5a71176dfb9d2d382ce270fa3dd80d256e8c2397a6"
+  },
+  {
+   "path": "Instruments/Woodwinds/Flute/Flute C8.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_C6_v1_1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "82d5790cc9358e167e9ac76ad3876f215b14229cb78b350b964c0b5eb9ef1a90"
+  },
+  {
+   "path": "Instruments/Woodwinds/Clarinet/Clarinet.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "a4ce150a58063500b9ddc410139f9e40ea83fa86e6a87fe090aa2adec9cefb68"
+  },
+  {
+   "path": "Instruments/Woodwinds/Clarinet/Clarinet D4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_D2_v3_rr1_sum.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "86e326daebe53aa99a3e35e2ff1c14ea529ac806bde951b5f03e2546dcd5fa39"
+  },
+  {
+   "path": "Instruments/Woodwinds/Clarinet/Clarinet A#4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_A%232_v3_rr1_sum.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "21ad1287550c855a25bb2c0e56dd28b7bfc6177515243e6de9bcc011e40377aa"
+  },
+  {
+   "path": "Instruments/Woodwinds/Clarinet/Clarinet D5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_D3_v3_rr1_sum.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "5b0fa1d3d2e8aabe3638bdbadc7a122167c05585bcd361c94f3ff1a08fa5e332"
+  },
+  {
+   "path": "Instruments/Woodwinds/Clarinet/Clarinet F5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_F3_v3_rr1_sum.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "75890ecb71f6ee2b500c7613972e451e01ff10026b063f5ed66b44c447c85505"
+  },
+  {
+   "path": "Instruments/Woodwinds/Clarinet/Clarinet D6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_D4_v3_rr1_sum.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "adf9c9574d7bece37a88d2f606def4df76f29d2d8f01e919ffec7f2bce8a2dc6"
+  },
+  {
+   "path": "Instruments/Woodwinds/Clarinet/Clarinet F6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_F4_v3_rr1_sum.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "c440bca0eadf8b584a6902567c5da3836c2ed6323ad7f08ceea3c9e3d2318401"
+  },
+  {
+   "path": "Instruments/Woodwinds/Clarinet/Clarinet D7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_D5_v3_rr1_sum.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "21d74d14fbb8009a294e3beab6ab721c9dabe56f350ac17a76f44d3c57e86fae"
+  },
+  {
+   "path": "Instruments/Woodwinds/Clarinet/Clarinet F7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_F%235_v3_rr1_sum.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "d268ab0de74673e51cbc91e78dc22b281896e26106912e96cfd88fd9cfe74e2e"
+  },
+  {
+   "path": "Instruments/Voices/Solo Voice Aah/Solo Voice Aah.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "527ce4dcf44c380612ce474bb46dcba1dc2a47c47cba6ab837e5dde37c73fb3d"
+  },
+  {
+   "path": "Instruments/Voices/Solo Voice Aah/Solo Voice Aah D3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_d3.wav",
+   "author": "Karoryfer Samples",
+   "source": "Legato vocal tutorial (vowel 'a' from Karoryfer Samples Hadzi-Fia) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "d603beb2807da75cf14a08f09cfe2766da75be46f2625c847808f021d1af2156"
+  },
+  {
+   "path": "Instruments/Voices/Solo Voice Aah/Solo Voice Aah F3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_f3.wav",
+   "author": "Karoryfer Samples",
+   "source": "Legato vocal tutorial (vowel 'a' from Karoryfer Samples Hadzi-Fia) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "355c426085dd9724b10e21107d50c3d6fd3f6142f4b3809f30eaf6c94bc45bdd"
+  },
+  {
+   "path": "Instruments/Voices/Solo Voice Aah/Solo Voice Aah G#3.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_ab3.wav",
+   "author": "Karoryfer Samples",
+   "source": "Legato vocal tutorial (vowel 'a' from Karoryfer Samples Hadzi-Fia) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "10bb07f4ad98c6ddae5d4247f4d3807425eb69f6d8fba1f55d84627c67f0cc02"
+  },
+  {
+   "path": "Instruments/Voices/Solo Voice Aah/Solo Voice Aah C4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_c4.wav",
+   "author": "Karoryfer Samples",
+   "source": "Legato vocal tutorial (vowel 'a' from Karoryfer Samples Hadzi-Fia) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "6291ca411f45b22a74af453e5cc77ed89e02be19ecf5be2e611eeb62d19e3f18"
+  },
+  {
+   "path": "Instruments/Voices/Solo Voice Aah/Solo Voice Aah D4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_d4.wav",
+   "author": "Karoryfer Samples",
+   "source": "Legato vocal tutorial (vowel 'a' from Karoryfer Samples Hadzi-Fia) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "5d9a45aac3f2f146691caab6b928a2409b6983a74183798d027ea765d64fa308"
+  },
+  {
+   "path": "Instruments/Voices/Solo Voice Aah/Solo Voice Aah G#4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_ab4.wav",
+   "author": "Karoryfer Samples",
+   "source": "Legato vocal tutorial (vowel 'a' from Karoryfer Samples Hadzi-Fia) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "1d3f759f9fe2ab408104e334a00fab571666d3bb642775bb264d629af8d86dc6"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "c657dda2f27074b52d7d1159fd8a5d1253a14413569b776ae0270d274833b78f"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp G2.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_G1_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "48ef2d476e76acb1ac63abc1311e767cc0e9a6ddc6f1832fa09174c83cf01e57"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp D3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D2_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "4a1ae6dcd00254eb75f8bf67e23c9e85ab3a7a4f1050ee666ae25d607ac81eda"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp A3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A2_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "08e0c88e688a9988b951be5cd3a95866109fbc56a6eecd89e48a05d2234c03fa"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp E4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_E3_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "14ab29c852466c71685230962a549210607c2bb68a0d4a81ebe5a35f41ab7ecb"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp B4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_B3_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "dd6b122324378b4621973bc2779c0ebc02a2c4b6e1c950371e058bf02d6029d6"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp F5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_F4_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "0998a84d030ffcc81bbf83da103f81e39a29c7e91ca8524ae56ca7f318e11639"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp C6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_C5_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "6ee912d44b72e7c9e994e387e8e119388c184df4df5f7234b4994bf613ef6153"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp G6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_G5_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "338143e0e99b1a69ed6c7cac368a19ae9b8c544b7308bbb6c866b5a3360cdae9"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp D7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D6_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "e0a71b85b304589ba8f93f5ed7923a12d747e5202079edd85dd27f24ae7e7dbb"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp A7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A6_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a1817693e3560a30059cd1a09a12b6741ebe691472637b59f8bf929d242d1a56"
+  },
+  {
+   "path": "Instruments/Plucked/Harp/Harp D8.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D7_f1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a8426325b2f71f1110d5aeb428b6dd309fa0d9b3c73e20b5b3833592bcfbf2e1"
+  },
+  {
+   "path": "Instruments/Plucked/Harpsichord/Harpsichord.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "4da0d597f898e89c6e58d0af85e31558dd97b8e559c49be7f0924ed79e52966c"
+  },
+  {
+   "path": "Instruments/Plucked/Harpsichord/Harpsichord D2.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_D0_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b3ce471f383c53e7c3173c5d19b9ae9fc9477118375bef50e2e244baee72898e"
+  },
+  {
+   "path": "Instruments/Plucked/Harpsichord/Harpsichord A#2.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_A%230_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "9759081a85f51890d29acd81048115c212d0a4cd3b6af535d53657f53664694d"
+  },
+  {
+   "path": "Instruments/Plucked/Harpsichord/Harpsichord F#3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_F%231_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "c352ce7a196f77ac4527d6bf75c3b5df088666ce84526c8c1d8f2a85233eceef"
+  },
+  {
+   "path": "Instruments/Plucked/Harpsichord/Harpsichord D4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_D2_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "2b71c0c2d4cfed37baab9fb673b8022127e3527b0a5c079a684cbc87c0c6515e"
+  },
+  {
+   "path": "Instruments/Plucked/Harpsichord/Harpsichord C5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_C3_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "46eadefb3c1ef62cc4def90001092b683b2ba54363c8aa7022813ed923b41685"
+  },
+  {
+   "path": "Instruments/Plucked/Harpsichord/Harpsichord G#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_G%233_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "1ab7c16beb7bd917a479eb62dc2f208b1ac41be358cfacee5baa55183858a3b7"
+  },
+  {
+   "path": "Instruments/Plucked/Harpsichord/Harpsichord E6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_E4_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "149d126b2ae575815b603c9481de60ee1d57733271c31ebc921fcbc88c5992f4"
+  },
+  {
+   "path": "Instruments/Plucked/Harpsichord/Harpsichord C7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_C5_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "441831ddd082189481381a1b4cb50ff2bcb064c1d83f223362e4f7bdb7cf7dfe"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "28b4410a0abf4acc4ca4abb9cc14ad1b910aa01a31587de33681c866729106d7"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings C3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/pizzT/pizzT_C1_v2_RR1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a8e92e458dc8d98fc49d0e8aa4f796efda08eca4a0679dedeb8c902fa7845ad8"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings G3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/pizzT/pizzT_G1_v2_RR1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "742d83cb1fe227ecd80bb1b4f7e20740d89b81954eb61305b3beee097cb4f060"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings D4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/pizzT/pizzT_D2_v2_RR1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "f5c17d56383a4e0972de24092c39422ced50c03a68b901c9d7446b1d6339bf24"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings A4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/pizzT/pizzT_A2_v2_RR1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "880bb8a20e7d62592281d813e43afcf4d3cfebd1595d8f274c3d7649934d6b88"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings C5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/pizzT/pizzT_C3_v2_RR1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "81c9c1f9cf10b226db6368c5b611a1884bc9634e69d74b7ec0017ac6d7ad39aa"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings F#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/Pizz/VlnEns_Pizz_F%233_v2_rr2.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "7cd9fdc0731c92a146da5a194c5364694b734ad7be6118644360a7a1aef4ffaa"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings C6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/Pizz/VlnEns_Pizz_C4_v2_rr1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "9dac114bbedb0dca1a7507c4a4146917e79dd0ae3f668a2ef265e81ea9894e26"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings E6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/Pizz/VlnEns_Pizz_E4_v2_rr1.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "34ef54be5d4afb8cd3fbf3009b06ce5120c2cbba475305da9ae7007de13af4d5"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings B6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/Pizz/VlnEns_Pizz_B4_v2_rr2.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "ba89eb293379e930b3d4104cbfea8a502385f0fb3d5c860cdccf23cead847264"
+  },
+  {
+   "path": "Instruments/Plucked/Pizzicato Strings/Pizzicato Strings D7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/Pizz/VlnEns_Pizz_D5_v2_rr2.wav",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "source": "VSCO 2: Community Edition (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "41ccc1c2d90222776e54ead18d9ae1cf42fa3de837dbb9a47d73873ba8a531f6"
+  },
+  {
+   "path": "Instruments/Plucked/Banjo/Banjo.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "c5747094ee3ca2ebf5bf7665b76bb7b7aba3f7a1cabdafaaf89c1a21bd2765ef"
+  },
+  {
+   "path": "Instruments/Plucked/Banjo/Banjo F#4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20F%234_7.wav",
+   "author": "itsclipping",
+   "source": "Ganjo (SX 6-string guitar banjo) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "f41328716071416e0f3b65a646695ee698dea8feed614dee7bf2f7001b963298"
+  },
+  {
+   "path": "Instruments/Plucked/Banjo/Banjo A4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20A4.wav",
+   "author": "itsclipping",
+   "source": "Ganjo (SX 6-string guitar banjo) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "22a17b81b63007b1043f164eef4a773513ca423c9ab3ff8c3adbddf65bad0c6a"
+  },
+  {
+   "path": "Instruments/Plucked/Banjo/Banjo B4.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20B4_2.wav",
+   "author": "itsclipping",
+   "source": "Ganjo (SX 6-string guitar banjo) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "629d5c4935b983f54178f25d3a0f2ea1e9d875f14f18c489df4bd4f8b36db68e"
+  },
+  {
+   "path": "Instruments/Plucked/Banjo/Banjo D#5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20D%235_2.wav",
+   "author": "itsclipping",
+   "source": "Ganjo (SX 6-string guitar banjo) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "4b27a6539f524540ddc9ff5ddc3bb64a73e52aa3e32c8488de4f4e559a27f7b0"
+  },
+  {
+   "path": "Instruments/Plucked/Banjo/Banjo G#5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20G%235_2.wav",
+   "author": "itsclipping",
+   "source": "Ganjo (SX 6-string guitar banjo) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "efe45dc9ee31c42730a5203af110185c198464b9b98fe4f9671b5fa145a9cc87"
+  },
+  {
+   "path": "Instruments/Plucked/Banjo/Banjo B5.flac",
+   "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20B5.wav",
+   "author": "itsclipping",
+   "source": "Ganjo (SX 6-string guitar banjo) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "3e6c8a29763cd323d25ac2b0c3c75923fb58986c4ed692d4d3e4139b111c46bd"
+  },
+  {
+   "path": "Instruments/Plucked/Psaltery/Psaltery.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "b5c42e72298dfe89085da0ac29e497532d0151daa36b6720ec6d18edfbb8b179"
+  },
+  {
+   "path": "Instruments/Plucked/Psaltery/Psaltery A#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_A%233_Main_Pluck_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "2bfe3970806bcbb4aee656d98c263ff21ea8a9636af2199407346f83e5897700"
+  },
+  {
+   "path": "Instruments/Plucked/Psaltery/Psaltery D6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_D4_Main_Pluck_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "7b9918ad916a8ef5d4104b5ad080489a89b4d165d1eb05723d8fa5c03b3e162b"
+  },
+  {
+   "path": "Instruments/Plucked/Psaltery/Psaltery F#6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_F%234_Main_Pluck_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b74eeb52665cf9f03b16429341f2f02caa9f631d8c28625d10ca560103b126d2"
+  },
+  {
+   "path": "Instruments/Plucked/Psaltery/Psaltery A#6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_A%234_Main_Pluck_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "888f672f0afedbcbac6029d80cb577e8f2555f8b082d3f9c87fa931944518422"
+  },
+  {
+   "path": "Instruments/Plucked/Psaltery/Psaltery D7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_D5_Main_Pluck_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a3f7ee88113152114f2fbb1108f31f21d30d9757bcf38b8b2bfe5c2e5db5fa92"
+  },
+  {
+   "path": "Instruments/Plucked/Psaltery/Psaltery F#7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_F%235_Main_Pluck_rr3.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "06334f5845b66f79a605eefcbc8b6c4d7f6283c1c14cfefb85e74cc3d916135e"
+  },
+  {
+   "path": "Instruments/Plucked/Dan Tranh/Dan Tranh.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "fdcb000dac2893f042ebc96889de1aa121c71d8bbbf63b78a930cde149c84990"
+  },
+  {
+   "path": "Instruments/Plucked/Dan Tranh/Dan Tranh B3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/B1_f_1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "029f2de6e82192f479441b30ed7988e9dce129aa4c2aac31e46c513a6a99558a"
+  },
+  {
+   "path": "Instruments/Plucked/Dan Tranh/Dan Tranh F#4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/F%232_f_1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "abd3662bae16cf1939aba8b7c8f6305111914ce2428777c323e46c3c2bf32fb7"
+  },
+  {
+   "path": "Instruments/Plucked/Dan Tranh/Dan Tranh B4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/B2_f_1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "47bae0021e288dddf33b64ced5db17875fa7beb2114f580e6cefc278c239100b"
+  },
+  {
+   "path": "Instruments/Plucked/Dan Tranh/Dan Tranh F#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/F%233_f_1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "8de3c4d5652affb9483a70e50d6862ab2e889265d1bfe49fb80824d25fd67459"
+  },
+  {
+   "path": "Instruments/Plucked/Dan Tranh/Dan Tranh B5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/B3_f_1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "ad376eee0d60254a60a4c533e172635b096b6164f512e3e74e9662ffe65de84c"
+  },
+  {
+   "path": "Instruments/Plucked/Dan Tranh/Dan Tranh F#6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/F%234_f_1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a19d310d0a90a7e4708f7d5bc6211eb6b23b6e7fbe85068a96388952e2772dab"
+  },
+  {
+   "path": "Instruments/Plucked/Dan Tranh/Dan Tranh B6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/B4_f_1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "fc76ae48b286dbdfaaf22b88928842e369aa77d87ee04785d2f779c0a0813c59"
+  },
+  {
+   "path": "Instruments/Plucked/Kalimba/Kalimba.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "1d55aa66c6ca417a179a2f62888faaf4826ad9a11d3882fe1255ceae4a744b42"
+  },
+  {
+   "path": "Instruments/Plucked/Kalimba/Kalimba B4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_B2_k8_vl3_rr2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "fb1e3d74060133d555f530c2156286462ac30daece50e294562938a699e9123d"
+  },
+  {
+   "path": "Instruments/Plucked/Kalimba/Kalimba C#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_C%233_k7_vl3_rr2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "e47ee3311c7b700accffc3788091407bda101e64207afbdef6983e9b0bccdc63"
+  },
+  {
+   "path": "Instruments/Plucked/Kalimba/Kalimba D#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_D%233_k9_vl3_rr2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "370244886fba594de9ed5b8262f72ac1b52562748257db3878b3fefa313f8ee3"
+  },
+  {
+   "path": "Instruments/Plucked/Kalimba/Kalimba F#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_F%233_k5_vl3_rr2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "bb04bd11912d8f9e84925a43f668c7c7cc8359250ecb3fb0df51b75b828fe430"
+  },
+  {
+   "path": "Instruments/Plucked/Kalimba/Kalimba B5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_B3_k3_vl3_rr2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "f268165b659decedc6286a747486774bd10459aaf8127355f18471c201c54114"
+  },
+  {
+   "path": "Instruments/Plucked/Kalimba/Kalimba C#6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_C%234_k2_vl3_rr2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "63e76f01d0761657b5e486ec2ad7fe9f479b8da14b1b304137e2e1e46cd669d6"
+  },
+  {
+   "path": "Instruments/Plucked/Kalimba/Kalimba D#6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_D%234_k13_vl3_rr2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "3c675bf0fd80c4ea4df74e4386865b5b4b5ce6332afa31aa52a6cbd79fb8ed04"
+  },
+  {
+   "path": "Instruments/Mallets/Marimba/Marimba.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "a8aa7c9d616f66295c5455fbedcbaa1db5ac57353568c0261558d22f77260879"
+  },
+  {
+   "path": "Instruments/Mallets/Marimba/Marimba F3.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F1_loud_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "93dd35a8b72dcda73e8b71e4db998fa754499fd87c48e7d0036bf24a5a865689"
+  },
+  {
+   "path": "Instruments/Mallets/Marimba/Marimba C4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C2_loud_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "ce8d8b6ee6d9a53f7d966676ca4263039c81cce8522fbc0a07e4266534e2c8df"
+  },
+  {
+   "path": "Instruments/Mallets/Marimba/Marimba G4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_G2_loud_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "50da21f002741a39bd70b63ed91870238db308d34777201202f680fd28fd28f8"
+  },
+  {
+   "path": "Instruments/Mallets/Marimba/Marimba F5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F3_loud_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "f646bdef71b89afaf822594af3e4be50dfb2530d5511b5e104087941bff07ae3"
+  },
+  {
+   "path": "Instruments/Mallets/Marimba/Marimba C6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "03ab8eefa751b9b02d70abbacb87fb44d8c97246db887c95c0096dded0d5f241"
+  },
+  {
+   "path": "Instruments/Mallets/Marimba/Marimba G6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_G4_loud_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "20a0fbfd9dc5ed245a24057e5dc9ffe5b797d479ecad9d260edcdf9899e1fcae"
+  },
+  {
+   "path": "Instruments/Mallets/Marimba/Marimba F7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F5_loud_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "676e0503954237ce664399e34121a97ba1a9363d116bf00f9ded013e559e9085"
+  },
+  {
+   "path": "Instruments/Mallets/Marimba/Marimba C8.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C6_loud_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "17e1c51bd8c1ff06d4be5ac6285ada6befeb69e43f3cd7e1cad6d704405e5ca7"
+  },
+  {
+   "path": "Instruments/Mallets/Vibraphone/Vibraphone.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "a0324424e3debc26a3fac69b5c727c5ca05dec4e97e1d244db45362cf888c7dd"
+  },
+  {
+   "path": "Instruments/Mallets/Vibraphone/Vibraphone F4.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_F2_v2_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "7200dfd13c4c85b199e86df272d9c050593f4279529ff635a1171856bcc0a556"
+  },
+  {
+   "path": "Instruments/Mallets/Vibraphone/Vibraphone C5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_C3_v2_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "aa844bc6274b6348beebc7166e597dbd59857e8108800dc71f4e7e724eed9315"
+  },
+  {
+   "path": "Instruments/Mallets/Vibraphone/Vibraphone G5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_G3_v2_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "42ac85456704c30219490cb8cd5963ea7b5509299dd52316a5037d6a848b069b"
+  },
+  {
+   "path": "Instruments/Mallets/Vibraphone/Vibraphone D6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_D4_v2_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "22e883ca05beee39c021baa8ed2a4a470e227fdfe36b1fc83eda1cd5f6b212d8"
+  },
+  {
+   "path": "Instruments/Mallets/Vibraphone/Vibraphone A6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_A4_v2_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "977d7130d7fdaf57803f8830ba5cec518c189d07d6b425a8fe225bd0513958de"
+  },
+  {
+   "path": "Instruments/Mallets/Vibraphone/Vibraphone E7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_E5_v2_rr1_Main.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "10dd5ebfd6eb9fe4f8c7561ac4cbecfc78b1ddb3f291448ce25991b939356146"
+  },
+  {
+   "path": "Instruments/Mallets/Glockenspiel/Glockenspiel.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "7243e132d56026eee13336750829077235d2c5b48286349ae2e494e8c8cdb351"
+  },
+  {
+   "path": "Instruments/Mallets/Glockenspiel/Glockenspiel G6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_G4_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "d8db0351dd2dc7e8d5c9d19b5dadb94d3ae4b064e31e1a4e15a5ce6a732eaa96"
+  },
+  {
+   "path": "Instruments/Mallets/Glockenspiel/Glockenspiel C7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_C5_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "6e0fc4b193177416b6c4ff09b06ec3bec68a9aa277ac3d7b6e9e7294408b1151"
+  },
+  {
+   "path": "Instruments/Mallets/Glockenspiel/Glockenspiel G7.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_G5_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "3ab77a98d135c24160ead5d71088605cbab0d431f55324cf6c02be729c8c5b05"
+  },
+  {
+   "path": "Instruments/Mallets/Glockenspiel/Glockenspiel C8.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_C6_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b0afc45c357a6aed31b8af7fbc947b432c071c29ca6fd487d53f5b22894d235b"
+  },
+  {
+   "path": "Instruments/Mallets/Glockenspiel/Glockenspiel G#8.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_G%236_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "c3b2533d35b6ac98e377dd863be1caa41e40e91770ab74943ed8228f2a0919c1"
+  },
+  {
+   "path": "Instruments/Mallets/Glockenspiel/Glockenspiel C9.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_C7_01.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "2e6a7613f776f54e7d01085add5ae67bacc63d0ef6c96324dbf16bfd806ec0f0"
+  },
+  {
+   "path": "Instruments/Bells/Tubular Bells/Tubular Bells.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "6eb6cfee0660ff870581e77e96fbc2ced75aa330d8082511e41f59f5259cbb10"
+  },
+  {
+   "path": "Instruments/Bells/Tubular Bells/Tubular Bells C5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tubular%20Bells%201/chimes_C3_f_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "4bead70f84d1ceacd382a66b4da25026877de7556ca34c61c54a3ac1c2dea1b7"
+  },
+  {
+   "path": "Instruments/Bells/Tubular Bells/Tubular Bells E5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tubular%20Bells%201/chimes_E3_ff_rr2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "528284103bee93ecec9f41f9b603c4d04d9e48fa6acb77d1a6f84db1281b149c"
+  },
+  {
+   "path": "Instruments/Bells/Tubular Bells/Tubular Bells G#5.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tubular%20Bells%201/chimes_G%233_ff_rr1.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "f7f7491abd14e15223ae3d044d1b75263c0ed6c9ef5c7694f08dfccb3b236ad0"
+  },
+  {
+   "path": "Instruments/Bells/Tubular Bells/Tubular Bells C6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tubular%20Bells%201/chimes_C4_ff_rr2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "cefabf576d43ae9d09f0ccfd97d2f412dba39aba163e382c3e1a37dd8558b495"
+  },
+  {
+   "path": "Instruments/Bells/Tubular Bells/Tubular Bells E6.flac",
+   "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tubular%20Bells%201/chimes_E4_ff_rr2.wav",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed, looped and mapped by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a1e66209be8c1dd61d86b1bcfa801c3c8e8350cabd7c70f8b567946641c17abe"
+  },
+  {
+   "path": "Drums/Acoustic Kit/kick.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "fc69035452c8e9d62e47e3088169cab6d68467c64db215ae0671258fc4ea6220"
+  },
+  {
+   "path": "Drums/Acoustic Kit/snare.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "cd33bf39adffd06b59903e73247a6962accf183a20a51c96c2fb536e708b2e21"
+  },
+  {
+   "path": "Drums/Acoustic Kit/rimshot.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b4cc96be6feb517c57192d780328b757f10ced3f62fd6fde7616739a0401a693"
+  },
+  {
+   "path": "Drums/Acoustic Kit/sidestick.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "d7cc6cb17e2f39bad9590d47a9a65c85ef8264d62e44cdf2efa1a9f4eef809b9"
+  },
+  {
+   "path": "Drums/Acoustic Kit/hihat_closed.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "648adc25871ed56c84ce50bd4951f4665a7fe4b129b18b23df6cb6a5368730fa"
+  },
+  {
+   "path": "Drums/Acoustic Kit/hihat_open.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a6405e5abb3c964fd8f77e3b61ccb795278b69a0b58bfb1b69a229e10241a81b"
+  },
+  {
+   "path": "Drums/Acoustic Kit/hihat_pedal.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "19b287c7f80516c2dba8bfdfcd5f38546f8b4af28c418602261d6a1a4f198da8"
+  },
+  {
+   "path": "Drums/Acoustic Kit/tom_high.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "e45821b03f6865c6c980ec8d34cc42760a97eec59770cbf6c96835224fba2e54"
+  },
+  {
+   "path": "Drums/Acoustic Kit/tom_mid.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "2509eaac67521a73a9495051191f44ad4a99d9b6b8143f02c309af863ef9c7e1"
+  },
+  {
+   "path": "Drums/Acoustic Kit/tom_low.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "e4c88cb19510c935026722b322fd1af9e93b29f809d315d936c49679cde36f4d"
+  },
+  {
+   "path": "Drums/Acoustic Kit/crash.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "259aa0e1fdb09035770a99bfc7072ae75885d560fd95679950548edd0c0991ea"
+  },
+  {
+   "path": "Drums/Acoustic Kit/ride.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "89a5c7c77e53d8074e8b44b58cabad16e3a56d30f3660f8559cf5a3bac1b4b22"
+  },
+  {
+   "path": "Drums/Acoustic Kit/ride_bell.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "67676b836c6b40972aae6fa6de30b771f180e63af6ef3847b53d53c1dadc193d"
+  },
+  {
+   "path": "Drums/Acoustic Kit/tambourine.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "503c5a9a81a1a3984414df681c8e49293fce46584357ca174d75d71451f0556c"
+  },
+  {
+   "path": "Drums/Acoustic Kit/shaker.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "b5368e9eb1d33db9eb73f7bf1cd88b67a4eca26e7824ad205bad7a877d4a1ffb"
+  },
+  {
+   "path": "Drums/Acoustic Kit/clap.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "a9bc68b81da02eeb9f29e87f72d1b6406dab4180455fd5db46de9af0f46d5fb7"
+  },
+  {
+   "path": "Drums/Acoustic Kit/cowbell.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "4d8711554edf0731a55e37588f71fdbb64ab833e17bbb0c5f89f9ac3ceecf603"
+  },
+  {
+   "path": "Drums/Acoustic Kit/woodblock.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "04e731d6ea9b69e907af2892be0d2693e549f4955162ad0a642afe6bd216c884"
+  },
+  {
+   "path": "Effects/Orchestral Effects/impact_gong.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "0fb868baf980a0d0ed675cf46b8d91aef6b9d16f19170a92a2e8a6e029844974"
+  },
+  {
+   "path": "Effects/Orchestral Effects/impact_bass_drum.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "72474e7daf3d87290241c657e59b612d852c2d3dd87c768a06c90934d6cb07e7"
+  },
+  {
+   "path": "Effects/Orchestral Effects/impact_clash_cymbals.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "c59c4a7c6eb509e2a08c7b4bb40b78e6a0a9f8642bbc76d8ae2479d1389283c2"
+  },
+  {
+   "path": "Effects/Orchestral Effects/impact_anvil.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "0418104661e31f2247eb627c630d8ad1b0d183e4ddd8e342ea2804d77f3ab9bf"
+  },
+  {
+   "path": "Effects/Orchestral Effects/impact_slapstick.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "7e60a2cc3beddefe0fdc09adefcd4212274f1173d2108b98b19365312f1e02b9"
+  },
+  {
+   "path": "Effects/Orchestral Effects/riser_cymbal_swell_2s.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "0aa37658024e3436d36fb92f513e5ac7b4f8f0f45648577b43a614e79f536c69"
+  },
+  {
+   "path": "Effects/Orchestral Effects/riser_cymbal_swell_4s.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "74976045f75ffffd5a78f501b48c79ffba4353c7cb32f70fcae9f795b5a0f410"
+  },
+  {
+   "path": "Effects/Orchestral Effects/riser_cymbal_swell_7s.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "470d0c720e7197eff08101a6f8357cf1682615c28beda0e9aeed1a96c8396f72"
+  },
+  {
+   "path": "Effects/Orchestral Effects/riser_bass_drum_roll.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "0b01cc484bcf348e6aa320e14eea8b90e4fde113472661400eb565cd12985bb1"
+  },
+  {
+   "path": "Effects/Orchestral Effects/sweep_wind_chimes_up.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "409816dc8074560040793df563869efcca690364d4a73ab95bd9c8850ac32aeb"
+  },
+  {
+   "path": "Effects/Orchestral Effects/sweep_wind_chimes_down.wav",
+   "url": "",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "source": "Versilian Community Sample Library (VCSL) (recorded; trimmed and levelled by PULP)",
+   "licence": "CC0-1.0",
+   "sha256": "fecc43ba59faf44a22fb1e0f7914744c59e4f687a571bf72d572fc448b5ec7b9"
+  },
+  {
+   "path": "Instruments/Bass/808 Bass/808 Bass.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "bee4412ec224a529694bcae235ecd86518c015623c447f0bbd78c4226ccc110b"
+  },
+  {
+   "path": "Instruments/Bass/808 Bass/808 Bass C2.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a sine that drops onto its note, lightly driven: the 808's bass drum played as a bass",
+   "licence": "CC0-1.0",
+   "sha256": "6583432ec21e2a2478b004324acfa01d2c8e9fc98f798ea3a8678dfdf174c402"
+  },
+  {
+   "path": "Instruments/Bass/808 Bass/808 Bass E2.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a sine that drops onto its note, lightly driven: the 808's bass drum played as a bass",
+   "licence": "CC0-1.0",
+   "sha256": "d55e2ccd93f71fb7cdbde755fd65c4a4e5719aa9aece754cebac160cde7d5701"
+  },
+  {
+   "path": "Instruments/Bass/808 Bass/808 Bass G#2.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a sine that drops onto its note, lightly driven: the 808's bass drum played as a bass",
+   "licence": "CC0-1.0",
+   "sha256": "7cdc059b380349d211aa8fe822897ac51c3f818876169d4518026e39fbee870b"
+  },
+  {
+   "path": "Instruments/Bass/808 Bass/808 Bass C3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a sine that drops onto its note, lightly driven: the 808's bass drum played as a bass",
+   "licence": "CC0-1.0",
+   "sha256": "e7d2f808d8a076e907810ddaa245e9d239a63105053ced367ccee40736bbf6e0"
+  },
+  {
+   "path": "Instruments/Bass/808 Bass/808 Bass E3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a sine that drops onto its note, lightly driven: the 808's bass drum played as a bass",
+   "licence": "CC0-1.0",
+   "sha256": "8da1ba68ed8782235f1d1a0752d38a5dcdd4b9c679ac4f13857498604c3bca13"
+  },
+  {
+   "path": "Instruments/Bass/808 Bass/808 Bass G#3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a sine that drops onto its note, lightly driven: the 808's bass drum played as a bass",
+   "licence": "CC0-1.0",
+   "sha256": "bf5afa4c9fb8ef332f24f6d61f63710d5926a397d676973878d673c411cab995"
+  },
+  {
+   "path": "Instruments/Bass/808 Bass/808 Bass C4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a sine that drops onto its note, lightly driven: the 808's bass drum played as a bass",
+   "licence": "CC0-1.0",
+   "sha256": "b2ae89f94cf0c87ad892171ed236be3c7e0dc5d0c5a295a6a82341c5899073f0"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "525377e2716b3daa23bf2cc1fa2094577bb72e72fc585e214c40c19c8d95ee8e"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano C3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "5b79f5b39451d3d92bf78abcad644295ae03e9caaf9a70aefbebd1036d653c99"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano E3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "5ecfa32972f70f7015514e9befbfe61d548d6104ea13801a5d76eddafc474294"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano G#3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "a14e6987a4fd1b871c9f91412a8f58774e5d797aa5f64db0ac06c6ebfd2b5fb4"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano C4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "f7519ce5ead7eb9fe0bd09950720c33b5ea81d54308f70fae277c1bd768be8a3"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano E4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "f16669321128a7f9ae926c1efc4243c5dea08ff3c625869f57dd05eb44c1f331"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano G#4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "bfea0ff76afe9d2fb746c4336013ef39fb2e2c07db03f7a40528ee88f903fc3d"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano C5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "a8e633c2c928c2adfc854d7eadc8ddaed0b8bcf52e3eea8a990c8ef58ae47534"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano E5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "8312db39317556e845b1efcf466b5d063ea9976af2882e47ab683e358133bd6f"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano G#5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "3f900382742dca47dbbee82ef7317b15cc645d361da9bb500993e34524f84feb"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano C6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "9f9a4ea25f789eb5635a0d4d7db82959459a4522a5cad5783979068ca446cbbb"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano E6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "f448eec099b4356cfc4b1abd1bf9e38689f0e680ba95958cb2be65f8f38dd88e"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano G#6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "01e205184900b324dad4060f48d0e4137cea6cd1d8d130d0e468926d86338da9"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano C7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "43d4d4e472f45d019cd18edc973e94b27ed65080c66f15154ec394111341819d"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano E7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "9aadbeba9f672c12d14e95dfa0570f73fc6c45e37977f646b7cc5e197d00bc73"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano G#7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "331c83df2d64e36e12f4e333298334643d318ebcbe629a84ebb50267c27b13eb"
+  },
+  {
+   "path": "Instruments/Keys/Electric Piano/Electric Piano C8.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two-operator FM, the way a tine piano is usually synthesized",
+   "licence": "CC0-1.0",
+   "sha256": "c93ecd35e46c384e296c67b426251a5da19b9bf5216627d1ab7e71e239ccf206"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "f2795a63b0981cbca8ef793c944e77af4f482088be20a111a7773f9dff0987f9"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah G3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "051128bd695140a76ceee2bcb2d224d6adb1885f7792e8fe3dfa327411720a9d"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah B3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "179fbee989de71cc3c7dbd544bb93437a38f55e48e13ee27caea0e9488b19b31"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah D#4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "ff4460eb3f92ee8d5999ff13faf2b11da7b41601ba0b007b56af857af72cf5cc"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah G4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "cad3d623f038bb7b7f3c1bccf8d285d6e6e0e7a716db86620a6d4af96908c010"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah B4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "63726ac58e10e16238fe037a58228748d095983ea43dd96d3bda9d4c4d74d739"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah D#5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "f618e9d7d2fa5e9dd60f4a4c8111c11161fad886d71321b938d2c0f86ec45f81"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah G5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "a9c673ccbaef177a71081124a6b087d60460c8c2fee313ecf26ee3f8773c276d"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah B5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "377f90a01b13bb79892898dd1f39ec59d23f3137ff50cc4b10f27ecb14a69eb7"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah D#6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "db7435d2aef7258017e3a5d6a1c538814d69f1ac4dbf2164e571fe56fad57534"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah G6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "0f8ec74d560737b2301d60c2b059cb3fcaf245bd3f2de2124a4f087fd240286a"
+  },
+  {
+   "path": "Instruments/Voices/Choir Aah/Choir Aah B6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): five buzzing voices through the resonances of the vowel \"aah\"",
+   "licence": "CC0-1.0",
+   "sha256": "4e963cf95b4607694b8f6f41255c8de1f6cd52c3040b5045ec02a45f2089465f"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "1e29ef621743558c0aeea4f5fa4da9a8e6889cc74c03bced868b5f91c8e8d1e8"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ C3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "a0095700e9167c6663f70bcd7e90847fe9c565154a07bd853e2a88d280fe673c"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ F#3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "2b0e117be292c36f49b4a8cf09182ee8dc194e0d86904e3b95215e09e2dd8ec5"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ C4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "b91a22cf1ea02a4de52ddc5f2f4f5b5baa901849d3a95eef43aabe61f9fe4c15"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ F#4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "a4d7d40a251177640a775d4eca59612f09335efcea160b522f30aa0ad1c65f69"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ C5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "3aa5b1c1eee60b2ab9e8ffdff4dc2714681b79758dadd45ac1673e74098177d3"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ F#5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "bd7165e5f57000701e724de95614b19b7c4821990d99c116520422d657501b96"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ C6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "b47c489b0f0c4facaf46504aa936d5d5ae44b971603d3ff6bd0329a8eec04741"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ F#6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "9d029f17d2705068fba16493ed15124a68a258a9d825f5e45bfb549e3b7e9261"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ C7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "cdc7003c45dbc1aef39356d56d6caec1be40bda94d85dba4d6c173ad908edfe3"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ F#7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "5091efdf6f724aa962cb68b4c854332aa84d39da53fd051bcafdc7986a5c0f94"
+  },
+  {
+   "path": "Instruments/Keys/Tonewheel Organ/Tonewheel Organ C8.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven sine drawbars",
+   "licence": "CC0-1.0",
+   "sha256": "3d29433d4d9cfc4c88dcd531f6c1171846c118f7b3fae0e12f718b93c358e5f7"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "2ef94cb70b02bf1bdd4a43f73200f3350eb86d0f9e47cdf9794cc4145e29b627"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells C5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): FM with a non-integer ratio",
+   "licence": "CC0-1.0",
+   "sha256": "400b5f6043aa5ee2bcfa51237d9e0671afa37fa7b764720743cce316c712f742"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells E5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): FM with a non-integer ratio",
+   "licence": "CC0-1.0",
+   "sha256": "0c9b6a2fe26da16d8c57ae67baf4096ff85dabb2e65fa2b33e35a7a2927fe662"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells G#5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): FM with a non-integer ratio",
+   "licence": "CC0-1.0",
+   "sha256": "a4bf98639c4eb7959310826e59f9760559d6af59f33e549bd05064e2961624ab"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells C6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): FM with a non-integer ratio",
+   "licence": "CC0-1.0",
+   "sha256": "e75e3af027fc5f71f44c3a1cffe361426ba2b8de43b750c418f8c34dff2d553a"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells E6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): FM with a non-integer ratio",
+   "licence": "CC0-1.0",
+   "sha256": "2ab6fc651f0a42e117aefef94537d8d3236751de75306be936e98351734aed7f"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells G#6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): FM with a non-integer ratio",
+   "licence": "CC0-1.0",
+   "sha256": "bb5ed0915b91f04adc5d0929e290c28f5f400974c409029c9f0fd50f6335cca9"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells C7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): FM with a non-integer ratio",
+   "licence": "CC0-1.0",
+   "sha256": "dafc3b34e81dd07ed7caa1cf75dd9071d7559372c04936cf1408d9c339d31b5a"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells E7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): FM with a non-integer ratio",
+   "licence": "CC0-1.0",
+   "sha256": "33f57ee27e331c7865e1c8586aa0aec0feabfeb68c926989942de2ae6bd4ef51"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells G#7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): FM with a non-integer ratio",
+   "licence": "CC0-1.0",
+   "sha256": "ba261cacc0f03c829d7844bf9fa0b198d42370c9005fdf6444e3c5b3fab4b150"
+  },
+  {
+   "path": "Instruments/Bells/Bells/Bells C8.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): FM with a non-integer ratio",
+   "licence": "CC0-1.0",
+   "sha256": "548621ef2eab5e16187d7e71b0b29f37eeff055aed110bc9a5196d42d1311119"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "217016ad17c7ab2eb97284893138272dd7caace007c0f6b99bfc24bbe1a3e28c"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck C4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a plucked-string model, very soft pick",
+   "licence": "CC0-1.0",
+   "sha256": "0d144283d68eedfc01aa67b36f4d8a727182e99791c4e4e527f18830f6e1526c"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck E4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a plucked-string model, very soft pick",
+   "licence": "CC0-1.0",
+   "sha256": "d0fadfb8fb256f4e37b5c25acb041117008f1766095f4455ffe2073d8c43bf31"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck G#4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a plucked-string model, very soft pick",
+   "licence": "CC0-1.0",
+   "sha256": "1ed08ac083ecf2f56a4cb8ea6d0afb073f7153986ba685e07cb787a3481c08fd"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck C5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a plucked-string model, very soft pick",
+   "licence": "CC0-1.0",
+   "sha256": "11eada5258d186174238f779817687e45bd34f164b506ea0e38aad1cc408d862"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck E5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a plucked-string model, very soft pick",
+   "licence": "CC0-1.0",
+   "sha256": "5dc926ff270eeeaf880fe52c04ed2237b471acd2973f6cad5ad7249f42e3a75a"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck G#5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a plucked-string model, very soft pick",
+   "licence": "CC0-1.0",
+   "sha256": "3b4c976f359bf50142551812b781a1a6d87c5e62b79fffc0043b47154fef51b5"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck C6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a plucked-string model, very soft pick",
+   "licence": "CC0-1.0",
+   "sha256": "28aba5006fa2f53f37de80b038564ed33e059e20cbb3f31b906ade3aa1adf3f1"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck E6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a plucked-string model, very soft pick",
+   "licence": "CC0-1.0",
+   "sha256": "1e7748bfbf20d873a901cd59d7f1d8a81e5bc54d6cf4c748f603a42f359b94e4"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck G#6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a plucked-string model, very soft pick",
+   "licence": "CC0-1.0",
+   "sha256": "7dcc9ce401ee946f5a71b04f5eff8a49576b0dc724a862f5db7ffd741e0a1308"
+  },
+  {
+   "path": "Instruments/Plucked/Nylon Pluck/Nylon Pluck C7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): a plucked-string model, very soft pick",
+   "licence": "CC0-1.0",
+   "sha256": "5fa9a9696a5549d2ccfff3e98c27a545808b68223da8725031b93da4aec2fa3b"
+  },
+  {
+   "path": "Instruments/Plucked/Synth Pluck/Synth Pluck.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "f604c876e51d4db3ad2fac0f171149398f7f66f07d34faec5c78020ae190bd7b"
+  },
+  {
+   "path": "Instruments/Plucked/Synth Pluck/Synth Pluck C3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two detuned sawtooths through a closing filter",
+   "licence": "CC0-1.0",
+   "sha256": "6e5cda83797387c1c6aee6d677c74dd1eb5b60475e91e7449cf77c0d659e25ed"
+  },
+  {
+   "path": "Instruments/Plucked/Synth Pluck/Synth Pluck F#3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two detuned sawtooths through a closing filter",
+   "licence": "CC0-1.0",
+   "sha256": "d74f1237839d27bd5142588445783ad9f92e7798bdd67239e8aef0f5a945bfb0"
+  },
+  {
+   "path": "Instruments/Plucked/Synth Pluck/Synth Pluck C4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two detuned sawtooths through a closing filter",
+   "licence": "CC0-1.0",
+   "sha256": "f6ad0b583f80587af51d3bf37e8f0f8340302d17761951165e9b4211418cf0b3"
+  },
+  {
+   "path": "Instruments/Plucked/Synth Pluck/Synth Pluck F#4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two detuned sawtooths through a closing filter",
+   "licence": "CC0-1.0",
+   "sha256": "3ee256d3fa9c3e43a484ec357686f5840fc8a7147fd0ee25a77e95c926e09d56"
+  },
+  {
+   "path": "Instruments/Plucked/Synth Pluck/Synth Pluck C5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two detuned sawtooths through a closing filter",
+   "licence": "CC0-1.0",
+   "sha256": "eb77825cc2bc52d9fe51171eeb83b738cbd27847ef46af93dd30c522c7284130"
+  },
+  {
+   "path": "Instruments/Plucked/Synth Pluck/Synth Pluck F#5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two detuned sawtooths through a closing filter",
+   "licence": "CC0-1.0",
+   "sha256": "06c327f37d19096596bc76cc7f941e19f7a88df7dec34e7fc865caf80212bb0a"
+  },
+  {
+   "path": "Instruments/Plucked/Synth Pluck/Synth Pluck C6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two detuned sawtooths through a closing filter",
+   "licence": "CC0-1.0",
+   "sha256": "51be408e247bce032c11ebadaa5d16d8e811ce78af07e4165a79c1d48e4656f1"
+  },
+  {
+   "path": "Instruments/Plucked/Synth Pluck/Synth Pluck F#6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two detuned sawtooths through a closing filter",
+   "licence": "CC0-1.0",
+   "sha256": "f76d4203934c474975b992637cbe2b34132ddca3d56c19f16d6938b667bd6b01"
+  },
+  {
+   "path": "Instruments/Plucked/Synth Pluck/Synth Pluck C7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): two detuned sawtooths through a closing filter",
+   "licence": "CC0-1.0",
+   "sha256": "b08c00a9f98e8d0e3b26ed77ed59e49673b6b155b188d7ac989043b40574b726"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "9fa0ceea8587bae38954a569aa710be1506fc0194accd46812c73c96fec41b6e"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings C3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "f262250dedee2bb1ada3ba14873829d6eeb79f9706c07e19f1cec23e7324f396"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings F#3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "f84236c36d679ccdbb7a16f25a8ff8478c71d2a690865c65981c67796f1a6673"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings C4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "4e9700d3f62c793ce5b0b64c2839ef41f7d4331711a538357689ad0e6fe71b6f"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings F#4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "dc210eccc7e3d2a4a1b13ff26d5e16f2092533a93ac8c77893fb46f06fe04dc3"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings C5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "79aa26b27de4a8f07aabf2a4a9cd837536cdc45f6a56ba19c9ee7fb13223cb91"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings F#5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "934f3204905357bcb2beba3f85a3b20da47c3875f926e3a39356606fc2ae5395"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings C6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "3ff63f07a2d0b6dcb28d6359492e66ea586d8c22383ab9ec42af8ecb258ae2ac"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings F#6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "fb5dcab09ceebf54bc397522c44721613836ef888c06819a66935941b24b6909"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings C7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "11d1f09a5badb13ff28b38e42b4adf29108f9c85d85bb911802634862b8c44db"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings F#7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "1741e0dec4e96342f45eb136a4079dc85a37cc1166deeeaff95935c13d04dc23"
+  },
+  {
+   "path": "Instruments/Strings/Synth Strings/Synth Strings C8.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): seven detuned sawtooths through a low-pass, slow attack",
+   "licence": "CC0-1.0",
+   "sha256": "c8c364504c0d7f8a798c0610237a49522d40d98c1c87a806bf81646813e25cb8"
+  },
+  {
+   "path": "Instruments/Brass/Synth Brass/Synth Brass.pulpinst",
+   "url": "",
+   "author": "PULP",
+   "source": "Instrument description written by PULP's multisample builder",
+   "licence": "CC0-1.0",
+   "sha256": "7e26e76756ba6960122baaae08be8b67f187262e667856d3e90038365c3cae08"
+  },
+  {
+   "path": "Instruments/Brass/Synth Brass/Synth Brass C3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): three detuned sawtooths through a brighter low-pass",
+   "licence": "CC0-1.0",
+   "sha256": "f1f47ee17690e53cd2517fc1de64de6d657e8f5a4bcf0b9d0352ee42b52f0dc4"
+  },
+  {
+   "path": "Instruments/Brass/Synth Brass/Synth Brass F#3.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): three detuned sawtooths through a brighter low-pass",
+   "licence": "CC0-1.0",
+   "sha256": "d73151e53016528fc688507693cc66a3b8bf2424d32cc9f6dd0c212c06029bbc"
+  },
+  {
+   "path": "Instruments/Brass/Synth Brass/Synth Brass C4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): three detuned sawtooths through a brighter low-pass",
+   "licence": "CC0-1.0",
+   "sha256": "938fddd81d84ab147f871dd858924f67e4244d7b079dedd1c78b129ba7eb9639"
+  },
+  {
+   "path": "Instruments/Brass/Synth Brass/Synth Brass F#4.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): three detuned sawtooths through a brighter low-pass",
+   "licence": "CC0-1.0",
+   "sha256": "63170b01d7877b141e38cb3e66b20129b189d58461f54a7895824d232f5573b8"
+  },
+  {
+   "path": "Instruments/Brass/Synth Brass/Synth Brass C5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): three detuned sawtooths through a brighter low-pass",
+   "licence": "CC0-1.0",
+   "sha256": "1f84765019506366c0cd8b21bd3689b02b47ea60230ab58703e97016e0df2e52"
+  },
+  {
+   "path": "Instruments/Brass/Synth Brass/Synth Brass F#5.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): three detuned sawtooths through a brighter low-pass",
+   "licence": "CC0-1.0",
+   "sha256": "adb5615150ad2c2335fbe827071a5cb1734e08ed175531587cdac1a0075b6a0a"
+  },
+  {
+   "path": "Instruments/Brass/Synth Brass/Synth Brass C6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): three detuned sawtooths through a brighter low-pass",
+   "licence": "CC0-1.0",
+   "sha256": "d55ee2bf1ad6877aa1b3471d923585a23274fd0755b9a6dfea7ed004c208b273"
+  },
+  {
+   "path": "Instruments/Brass/Synth Brass/Synth Brass F#6.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): three detuned sawtooths through a brighter low-pass",
+   "licence": "CC0-1.0",
+   "sha256": "a53b560bc1f318e3898e0e4cc7a112d1ca387733783b232488e2d8daee6872ea"
+  },
+  {
+   "path": "Instruments/Brass/Synth Brass/Synth Brass C7.flac",
+   "url": "",
+   "author": "PULP",
+   "source": "Synthesized by PULP (engine/src/NoteSynth.cpp): three detuned sawtooths through a brighter low-pass",
+   "licence": "CC0-1.0",
+   "sha256": "8916875977937d552aee3e1ddf9e31209bf91321380db9da5b841d7db9eb415a"
+  }
+ ]
+}

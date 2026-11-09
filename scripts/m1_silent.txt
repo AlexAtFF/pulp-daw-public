@@ -1,0 +1,11 @@
+wait 600
+devices
+state
+play
+wait 1500
+state
+shot main ../out/m1_main.png
+key space
+wait 300
+state
+quit

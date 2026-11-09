@@ -1,0 +1,65 @@
+# Milestone 14 (silent): shortcuts added in the audit against the reference program's list.
+# Run with: PULP.exe --no-audio --script scripts\m14_keys.txt --log out\m14_keys.log --data-dir out\m14k_data
+wait 600
+shortcut reset
+log --- patterns: F4 makes the next one, numpad 1 goes back to the first
+click rack 254 49
+key F4
+state
+key numpad 1
+state
+log --- channel rack: 2 mutes the second channel, Ctrl+3 solos the third (and again brings the others back)
+keyto rack 2
+paramval ch:2:mute
+keyto rack ctrl + 3
+paramval ch:1:mute
+paramval ch:3:mute
+keyto rack ctrl + 3
+paramval ch:1:mute
+keyto rack 2
+log --- the kick's steps are copied onto the clap
+click rack 331 49
+keyto rack ctrl + C
+keyto rack cursor down
+keyto rack ctrl + V
+steps
+log --- mixer: Ctrl+L sends the selected channel to the selected track, S solos it
+show mixer
+mixsel 3
+keyto mixer ctrl + L
+keyto mixer S
+paramval mix:2:mute
+paramval mix:3:mute
+keyto mixer S
+paramval mix:2:mute
+mixer
+save ../out/m14k.pulp
+log --- playlist: two clips, select all, Alt+M mutes them, Alt+Shift+M unmutes, Shift+I inverts the selection
+show playlist
+click playlist 237 65
+click playlist 352 65
+keyto playlist ctrl + A
+keyto playlist alt + M
+playlist
+keyto playlist alt + shift + M
+keyto playlist shift + I
+playlist
+keyto playlist shift + 4
+log --- windows: F12 closes them all, Ctrl+Shift+H puts them back as they first were
+key F12
+windows
+key ctrl + shift + H
+windows
+log --- transport: numpad * and / move by a bar in song mode
+set song 1
+key numpad *
+wait 200
+state
+key numpad *
+key numpad *
+wait 100
+key numpad /
+wait 200
+state
+shortcut list
+quit

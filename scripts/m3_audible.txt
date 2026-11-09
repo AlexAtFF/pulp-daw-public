@@ -1,0 +1,19 @@
+# Milestone 3 on the real device, quiet and brief: a short riff on the Trio synth for about 1.8 s.
+wait 500
+set master 0.2
+device "Windows Audio" ""
+wait 600
+addchannel trio
+preset 4 6
+show piano
+tool 16
+tool -2
+keyto piano ctrl + 0
+dump ../out/m3_audible.pulp
+shot main ../out/m3_main.png
+key space
+wait 1800
+state
+key space
+wait 300
+quit

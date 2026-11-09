@@ -1,0 +1,7 @@
+wait 700
+set master 0
+mididevices
+settingspage 1
+wait 300
+shot settingswin ../out/m8_midi_real.png
+quit

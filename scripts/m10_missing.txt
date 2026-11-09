@@ -1,0 +1,16 @@
+# Milestone 10 (silent): a project that uses plugins this PC does not have.
+# Run after m10_vst3.txt, with a data folder in which no plugin scan has been run:
+#   PULP.exe --no-audio --script scripts\m10_missing.txt --log out\m10_missing.log --data-dir out\m10_data_empty
+wait 600
+vstlist
+open ../out/m10/song.pulp
+state
+steps
+mixer
+click rack 152 169
+wait 300
+shot chanwin ../out/m10_missing.png
+export ../out/m10/missing.wav pattern 48000 24 cut
+waitexport
+save ../out/m10/song_missing.pulp
+quit

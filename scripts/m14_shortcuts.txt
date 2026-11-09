@@ -1,0 +1,33 @@
+# Milestone 14 (silent): keyboard shortcuts can be changed, and are remembered.
+# Run with: PULP.exe --no-audio --script scripts\m14_shortcuts.txt --log out\m14_shortcuts.log --data-dir out\m14_data
+wait 600
+shortcut reset
+shortcut list
+log --- the standard keys work: F9 shows the mixer, L switches to song mode
+key F9
+key L
+windows
+state
+key L
+key F9
+log --- the mixer is given Ctrl+K; F9 no longer does anything; play is moved to P and the space bar is free
+shortcut mixer "ctrl + K"
+shortcut play P
+key F9
+windows
+key ctrl + K
+windows
+key space
+wait 200
+state
+key P
+wait 300
+state
+key P
+log --- a key that another command has is taken from it
+shortcut rack F5
+shortcut list
+settingspage 3
+wait 300
+shot settings ../out/m14_shortcuts.png
+quit

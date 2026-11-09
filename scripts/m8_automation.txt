@@ -1,0 +1,167 @@
+# Milestone 8 (silent, sandboxed): automation clips, event automation, controllers, links, MIDI.
+# Run with: PULP.exe --no-audio --script scripts\m8_automation.txt --log out\m8_automation.log --data-dir out\m8_data
+wait 600
+set tempo 120
+click rack 254 49
+click rack 331 49
+click rack 408 49
+click rack 485 49
+# the kick goes to insert 1, and a synth is added on the master
+key ctrl + L
+addchannel trio
+mixer
+
+log --- an automation clip made from a fader's right-click menu
+menuitem mix:1:volume 0
+autos
+autopoints 1 0,0.2 1920,0.9 3840,0.4
+show playlist
+move playlist 270 80 1100 420
+click playlist 237 130
+playlist
+set song 1
+seek 0
+key space
+wait 500
+paramval mix:1:volume
+wait 1000
+paramval mix:1:volume
+wait 1200
+paramval mix:1:volume
+key space
+wait 200
+
+log --- editing the curve with the mouse: drag the second point down, add a point with a right-click, bend the first stretch
+drag playlist 290 72 290 100
+click playlist 400 80 right
+drag playlist 261 101 261 70
+autos
+wait 200
+shot playlistwin ../out/m8_playlist.png
+
+log --- event automation: drawn in the event editor, played in pattern mode
+set song 0
+showevents ch:1:pan
+move events 270 500 760 300
+wait 200
+drag events 60 60 380 200
+drag events 400 200 700 60 shift
+eventinfo
+wait 200
+shot eventswin ../out/m8_events.png
+key space
+wait 400
+paramval ch:1:pan
+wait 900
+paramval ch:1:pan
+key space
+wait 200
+
+log --- a follower on the kick's mixer track drives the synth's volume (the ducking recipe)
+fx 1 0 ctl_peak
+fxparam 1 0 base 1
+fxparam 1 0 amount -1.4
+link ch:5:volume ctl 1 0 0 0 0.78
+autos
+key space
+wait 120
+paramval ch:5:volume
+wait 330
+paramval ch:5:volume
+key space
+openfx 1 0
+showlink ch:5:volume
+wait 300
+shot fx ../out/m8_follower.png
+shot linkwin ../out/m8_link.png
+unlink ch:5:volume
+
+log --- the XY pad and the formula controller
+fx 2 0 ctl_xy
+openfx 2 0
+link ch:5:pan ctl 2 0 1
+wait 200
+drag fx 30 80 150 60
+wait 400
+paramval ch:5:pan
+shot fx ../out/m8_pad.png
+fx 3 0 ctl_formula
+fxparam 3 0 a 0.25
+link ch:5:pitch ctl 3 0 0
+openfx 3 0
+wait 300
+shot fx ../out/m8_formula.png
+
+log --- MIDI: learn a hardware control, then move it; play and record notes from a keyboard
+learn mix:0:volume
+autos
+midiin cc 1 74 64
+wait 200
+autos
+midiin cc 1 74 127
+wait 200
+paramval mix:0:volume
+midiin cc 1 74 101
+wait 200
+paramval mix:0:volume
+set channel 4
+midiin on 60 100
+wait 150
+state
+midiin off 60
+record on
+key space
+wait 300
+midiin on 64 110
+wait 400
+midiin off 64
+wait 300
+
+log --- recording a knob movement while playing: in pattern mode it becomes events
+knobdown ch:2:volume
+knobset ch:2:volume 0.2
+wait 250
+knobset ch:2:volume 0.6
+wait 250
+knobset ch:2:volume 0.9
+knobup ch:2:volume
+wait 200
+key space
+wait 300
+piano
+autos
+
+log --- and in song mode it becomes an automation clip
+set song 1
+seek 0
+key space
+wait 200
+knobdown mix:1:pan
+knobset mix:1:pan 0.1
+wait 300
+knobset mix:1:pan 0.8
+wait 300
+knobset mix:1:pan 0.5
+knobup mix:1:pan
+wait 200
+key space
+record off
+wait 300
+autos
+playlist
+
+log --- the tempo can be automated too, and the settings window has a MIDI page
+menuitem tempo 0
+autos
+mididevices
+settingspage 1
+wait 300
+shot settingswin ../out/m8_midi.png
+hide settings
+shot main ../out/m8_main.png
+save ../out/m8/song.pulp
+new
+open ../out/m8/song.pulp
+autos
+playlist
+quit

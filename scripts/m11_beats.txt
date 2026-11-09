@@ -1,0 +1,67 @@
+# Milestone 11 (silent): the loop slicer (Chop) and the pad drum sampler (Sixteen).
+# Needs out\m11\loop.wav (a two-bar drum loop at 100 BPM; PROGRESS.md says how it is made).
+# Run with: PULP.exe --no-audio --script scripts\m11_beats.txt --log out\m11_beats.log --data-dir out\m11_data
+wait 600
+set tempo 100
+
+log --- a loop is sliced at its hits, each slice on its own key
+chop ../out/m11/loop.wav
+chop info
+click rack 152 169
+wait 300
+shot chanwin ../out/m11_chop.png
+log --- its notes are written into the piano roll: the pattern now plays the loop
+chop write
+piano
+steps
+export ../out/m11/chop100.wav pattern 48000 24 cut
+waitexport
+log --- at another tempo the slices follow the beat
+set tempo 125
+export ../out/m11/chop125.wav pattern 48000 24 cut
+waitexport
+set tempo 100
+param 4 mute 1
+
+log --- a pad sampler arrives with the 808 kit on its pads
+addchannel pads
+state
+padinfo
+click rack 152 199
+wait 300
+shot chanwin ../out/m11_pads.png
+log --- another kit from a folder of drum sounds; one sound replaced; a layer added
+padkit "../factory/Drums/909 Kit"
+padinfo
+padload 16 "../factory/Drums/808 Kit/808 Cowbell.wav"
+padload 16 "../factory/Drums/808 Kit/808 Clave.wav" layer
+padinfo
+shot chanwin ../out/m11_pads909.png
+log --- steps play pad 1 (the kick); the snare pad is played by hand while recording
+click rack 254 199
+click rack 562 199
+record on
+key space
+wait 580
+note on 61
+wait 120
+note off 61
+wait 400
+key space
+record off
+piano
+export ../out/m11/pads.wav pattern 48000 24 cut
+waitexport
+
+log --- saved and opened again
+save ../out/m11/beats.pulp
+new
+open ../out/m11/beats.pulp
+state
+click rack 152 199
+padinfo
+click rack 152 169
+chop info
+export ../out/m11/reopened.wav pattern 48000 24 cut
+waitexport
+quit

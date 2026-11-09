@@ -1,0 +1,39 @@
+# Milestone 12 (silent): the vocal effects on a recorded sung note from the factory library.
+# Run with: PULP.exe --no-audio --script scripts\m12_vocal.txt --log out\m12_vocal.log --data-dir out\m1x_data
+wait 600
+set tempo 120
+addaudio "../factory/Instruments/Voices/Solo Voice Aah/Solo Voice Aah C4.flac" 0 0
+set song 1
+fx 0 0 none
+export ../out/m12/voice_dry.wav song 48000 24 cut
+waitexport
+log --- pitch correction: the note moved up three semitones, formants kept
+fx 0 1 tune
+fxparam 0 1 speed 0
+fxparam 0 1 transpose 3
+openfx 0 1
+wait 300
+shot fx ../out/m12_truenote.png
+export ../out/m12/voice_up3.wav song 48000 24 cut
+waitexport
+log --- a harmony a fifth above, added to the voice
+fx 0 1 harmony
+openfx 0 1
+wait 300
+shot fx ../out/m12_secondvoice.png
+export ../out/m12/voice_harmony.wav song 48000 24 cut
+waitexport
+log --- the vocoder with its own carrier, and the noise reducer with nothing learned (it passes the voice)
+fx 0 1 vocoder
+export ../out/m12/voice_vocoder.wav song 48000 24 cut
+waitexport
+fx 0 1 denoise
+export ../out/m12/voice_lint.wav song 48000 24 cut
+waitexport
+mixer
+save ../out/m12/vocal.pulp
+new
+open ../out/m12/vocal.pulp
+wait 300
+mixer
+quit

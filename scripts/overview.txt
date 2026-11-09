@@ -1,0 +1,36 @@
+# Builds a small song and takes one picture of the whole program (silent).
+wait 600
+click rack 254 49
+click rack 331 49
+click rack 408 49
+click rack 485 49
+click rack 331 79
+click rack 485 79
+drag rack 254 109 542 109
+click rack 152 49
+click rack 234 109 ctrl
+keyto rack ctrl + L
+addchannel trio
+preset 4 6
+tool 16
+tool -2
+keyto piano ctrl + 0
+click playlist 237 65
+click playlist 352 65
+addaudio "../dist/PULP/factory/Drums/808 Kit/808 Cymbal.wav" 2 0
+fx 1 0 comp
+fx 2 0 eq7
+show piano
+show mixer
+move rack 266 80 620 250
+move playlist 896 80 596 250
+move piano 266 336 720 300
+move mixer 990 336 502 516
+move chan 2000 2000 300 300
+hide chan
+set song 1
+key space
+wait 1300
+shot main ../out/overview.png
+key space
+quit

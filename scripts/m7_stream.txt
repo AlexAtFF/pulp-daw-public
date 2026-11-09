@@ -1,0 +1,32 @@
+# Milestone 7 (silent): a 90-second file is played from disk by the real loader thread at real-time pace.
+# Needs out\m7b\long.wav (any WAV longer than 45 seconds).
+# Run with: PULP.exe --no-audio --script scripts\m7_stream.txt --log out\m7_stream.log
+wait 500
+set tempo 120
+addaudio ../out/m7b/long.wav 0 0
+audio
+set song 1
+key space
+wait 3000
+log --- three seconds of playback from the start: no page was missing
+audio
+state
+seek 76800
+wait 1500
+log --- after a jump of 40 seconds while playing
+audio
+state
+key space
+key space
+seek 153600
+wait 300
+key space
+wait 1500
+log --- after a jump made while stopped, then play
+audio
+key space
+show playlist
+move playlist 270 80 1100 300
+wait 300
+shot playlistwin ../out/m7_stream.png
+quit

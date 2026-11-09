@@ -1,0 +1,14 @@
+# Plays the default kick pattern quietly through the real output device for about 2.5 s.
+wait 500
+log first-run device:
+state
+devices
+set master 0.2
+device "Windows Audio" ""
+wait 700
+play
+wait 2600
+state
+stop
+wait 300
+quit

@@ -1,0 +1,10 @@
+# Milestone 14 (silent): window places are remembered. Run it, then run a script that only says "windows",
+# both with --layout and the same --data-dir: the second run starts with the mixer showing and the playlist hidden.
+#   PULP.exe --no-audio --layout --script scripts\m14_layout.txt --log out\m14_layout.log --data-dir out\m14l_data
+wait 600
+windows
+move mixer 300 200 900 400
+show mixer
+hide playlist
+windows
+quit

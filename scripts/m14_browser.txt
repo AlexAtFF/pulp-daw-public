@@ -1,0 +1,22 @@
+# Milestone 14 (silent): the Browser's plugin database lists effects and every plugin's presets.
+# Run with: PULP.exe --no-audio --script scripts\m14_browser.txt --log out\m14_browser.log --data-dir out\m1x_data
+wait 600
+log --- an instrument's preset from the Browser: a new channel; another preset of the same instrument goes onto it
+browse instrument zest 3
+state
+browse instrument zest 5
+state
+log --- an effect goes into a free slot of the selected mixer track; its preset goes onto it; another effect's preset adds that effect
+show mixer
+mixsel 2
+browse effect reverb
+browse effect reverb 2
+browse effect delay 1
+mixer
+vstclose
+log --- the tree itself: Plugin database, Effects, a kind of effect, one effect and its presets
+browseopen "Plugin database" Effects Dynamics Squeeze
+browseopen "Plugin database" Instruments
+wait 300
+shot browser ../out/m14_browser.png
+quit

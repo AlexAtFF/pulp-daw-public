@@ -1,0 +1,19 @@
+# Milestone 11 (silent): a MIDI Out channel. In silent mode its messages are counted and listed, not sent.
+# Run with: PULP.exe --no-audio --script scripts\m11_midiout.txt --log out\m11_midiout.log
+wait 600
+set tempo 120
+addchannel midiout
+state
+param 4 channel 3
+param 4 program 5
+click rack 254 169
+click rack 331 169
+click rack 152 169
+wait 300
+shot chanwin ../out/m11_midiout.png
+key space
+wait 1200
+key space
+wait 200
+midiout
+quit

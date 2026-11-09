@@ -1,0 +1,3456 @@
+{
+ "format": "pulp-factory-sources",
+ "version": 1,
+ "note_convention": "All 'note' / 'midi' values use middle C = C4 = MIDI 60 and are the sounding pitch. Several sources name their files in another octave: VSCO 2 CE (except the solo violin) and most of VCSL (everything used here except the Steinway piano, pipe organ and concert harp) name middle C 'C3', so 12 was added; Black And Green Guitars and Growlybass name their notes an octave above the sounding pitch, as does Ganjo, and the legato vocal names its notes an octave above the sung pitch, so 12 was subtracted; Karoryfer x bigcat cello names middle C 'C3', so 12 was added. Every octave conversion was confirmed by measuring the pitch of the downloaded file. 'source_note' is the note token exactly as it appears in the source file name. 'measured_cents' (where present) is the measured pitch minus the stated pitch in cents; it is omitted where the measurement was not reliable.",
+ "file_count": 282,
+ "total_bytes": 416451267,
+ "sources": [
+  {
+   "id": "vsco2ce",
+   "name": "VSCO 2: Community Edition",
+   "author": "Versilian Studios (Sam Gossner) and Ivy Audio (Simon Dalzell)",
+   "licence": "CC0-1.0",
+   "licence_url": "https://github.com/sgossner/VSCO-2-CE/blob/440300901dfe9275fd84e0b7763af1f8443ae62e/LICENSE",
+   "licence_quote": "CC0 1.0 Universal",
+   "home": "https://github.com/sgossner/VSCO-2-CE"
+  },
+  {
+   "id": "vcsl",
+   "name": "Versilian Community Sample Library (VCSL)",
+   "author": "Versilian Studios LLC (Sam Gossner) and contributors",
+   "licence": "CC0-1.0",
+   "licence_url": "https://github.com/sgossner/VCSL/blob/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/README.md",
+   "licence_quote": "This collection is under a Creative Commons 0 license.",
+   "home": "https://github.com/sgossner/VCSL"
+  },
+  {
+   "id": "shinyguitar",
+   "name": "Karoryfer Samples Shinyguitar",
+   "author": "Karoryfer Lecolds (played by D. Smolken)",
+   "licence": "CC0-1.0",
+   "licence_url": "https://github.com/sfzinstruments/karoryfer.shinyguitar/blob/57243cca85277dbcc120ce17c6178032f93c80f3/LICENSE",
+   "licence_quote": "CC0 1.0 Universal",
+   "home": "https://github.com/sfzinstruments/karoryfer.shinyguitar"
+  },
+  {
+   "id": "blackgreen",
+   "name": "Karoryfer Samples Black And Green Guitars",
+   "author": "Karoryfer Lecolds (recorded by Brian Wood)",
+   "licence": "CC0-1.0",
+   "licence_url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/blob/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/LICENSE",
+   "licence_quote": "CC0 1.0 Universal",
+   "home": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars"
+  },
+  {
+   "id": "growlybass",
+   "name": "Karoryfer Samples Growlybass",
+   "author": "Karoryfer Lecolds",
+   "licence": "CC0-1.0",
+   "licence_url": "https://github.com/sfzinstruments/karoryfer.growlybass/blob/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/LICENSE",
+   "licence_quote": "CC0 1.0 Universal",
+   "home": "https://github.com/sfzinstruments/karoryfer.growlybass"
+  },
+  {
+   "id": "meatbass",
+   "name": "Karoryfer Samples Meatbass",
+   "author": "Karoryfer Lecolds (played by Drogomir Smolken, recorded by Ludwik Zamenhof)",
+   "licence": "CC0-1.0",
+   "licence_url": "https://github.com/sfzinstruments/karoryfer.meatbass/blob/ac9e859564bda286ab5ec672d00ff1aa2fef2895/LICENSE",
+   "licence_quote": "CC0 1.0 Universal",
+   "home": "https://github.com/sfzinstruments/karoryfer.meatbass"
+  },
+  {
+   "id": "bigcatcello",
+   "name": "Karoryfer x bigcat cello",
+   "author": "Karoryfer Lecolds and bigcat instruments (performed by Kamila Borowiak)",
+   "licence": "CC0-1.0",
+   "licence_url": "https://github.com/sfzinstruments/karoryfer-bigcat.cello/blob/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/LICENSE",
+   "licence_quote": "CC0 1.0 Universal",
+   "home": "https://github.com/sfzinstruments/karoryfer-bigcat.cello"
+  },
+  {
+   "id": "legatovocal",
+   "name": "Legato vocal tutorial (vowel 'a' from Karoryfer Samples Hadzi-Fia)",
+   "author": "Karoryfer Samples",
+   "licence": "CC0-1.0",
+   "licence_url": "https://github.com/sfzinstruments/legato_vocal_tutorial/blob/fac6461ee4c7f498b23246eced644616fa58d2ec/LICENSE",
+   "licence_quote": "CC0 1.0 Universal",
+   "home": "https://github.com/sfzinstruments/legato_vocal_tutorial"
+  },
+  {
+   "id": "ganjo",
+   "name": "Ganjo (SX 6-string guitar banjo)",
+   "author": "itsclipping",
+   "licence": "CC0-1.0",
+   "licence_url": "https://github.com/sfzinstruments/ganjo/blob/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/LICENSE.md",
+   "licence_quote": "CC0 1.0 Universal",
+   "home": "https://github.com/sfzinstruments/ganjo"
+  },
+  {
+   "id": "virtuosity",
+   "name": "Virtuosity Drums",
+   "author": "Versilian Studios and Karoryfer Samples (drummer Austin McMahon)",
+   "licence": "CC0-1.0",
+   "licence_url": "https://github.com/sfzinstruments/virtuosity_drums/blob/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/LICENSE",
+   "licence_quote": "CC0 1.0 Universal",
+   "home": "https://github.com/sfzinstruments/virtuosity_drums"
+  },
+  {
+   "id": "sullivan",
+   "name": "Greg Sullivan's E-Pianos (Wurlitzer EP200, Hohner Pianet T)",
+   "author": "Greg Sullivan (sfz mapping and FLAC conversion by kinwie)",
+   "licence": "CC-BY-3.0",
+   "licence_url": "https://github.com/sfzinstruments/GregSullivan.E-Pianos/blob/8c3e581acda3594b553948ff0222d4f84a698376/README.md",
+   "licence_quote": "This work is licensed under a Creative Commons Attribution 3.0 Unported License.",
+   "home": "https://github.com/sfzinstruments/GregSullivan.E-Pianos",
+   "attribution": "Wurlitzer EP200 and Hohner Pianet T samples by Greg Sullivan (http://www.sullivang.net/), FLAC conversion and sfz mapping by kinwie, from https://github.com/sfzinstruments/GregSullivan.E-Pianos, licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Unmodified single-note samples."
+  },
+  {
+   "id": "uiowa",
+   "name": "University of Iowa Musical Instrument Samples (MIS)",
+   "author": "Lawrence Fritts, University of Iowa Electronic Music Studios",
+   "licence": "LicenseRef-UIowa-MIS-unrestricted",
+   "licence_url": "https://theremin.music.uiowa.edu/MIS.html",
+   "licence_quote": "may be downloaded and used for any projects, without restrictions",
+   "home": "https://theremin.music.uiowa.edu/MIS.html"
+  }
+ ],
+ "instruments": [
+  {
+   "name": "Grand Piano",
+   "category": "Keys",
+   "sustain": false,
+   "comment": "Steinway B, close microphones, no sustain pedal, velocity layer 3 of 2-4. Top notes are stretch-tuned (G#7 about +24 cents).",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_A%230_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_A#0.wav",
+     "note": "A#0",
+     "midi": 22,
+     "source_note": "A#0",
+     "measured_cents": 11,
+     "sha256": "2e19425000a50cbdf4c693bc41c592940715c7707d7232c5dd0580c4eeff3547",
+     "bytes": 5760388
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_E1_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_E1.wav",
+     "note": "E1",
+     "midi": 28,
+     "source_note": "E1",
+     "measured_cents": -19,
+     "sha256": "d28de24121d1ec81005365ecd62395a3e22990a3e9f7b632a77945abeab27fe5",
+     "bytes": 6021202
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_A%231_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_A#1.wav",
+     "note": "A#1",
+     "midi": 34,
+     "source_note": "A#1",
+     "measured_cents": -9,
+     "sha256": "ce1dd3fa29d86a0f4789d55182dcedc26788340eea2be90c056409ba2650d838",
+     "bytes": 6747460
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_E2_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_E2.wav",
+     "note": "E2",
+     "midi": 40,
+     "source_note": "E2",
+     "measured_cents": -4,
+     "sha256": "7850260b76184d63ed8b3b590456a3fd0caec6e4a22d3a8c145712b83ec81c34",
+     "bytes": 8811856
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_A%232_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_A#2.wav",
+     "note": "A#2",
+     "midi": 46,
+     "source_note": "A#2",
+     "measured_cents": 1,
+     "sha256": "fe69a9ecfb1e6cb25864ba60cc0461cbae781b7453aa775c5d27a29901f9c1be",
+     "bytes": 6895228
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_E3_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_E3.wav",
+     "note": "E3",
+     "midi": 52,
+     "source_note": "E3",
+     "measured_cents": -4,
+     "sha256": "2b70fb0d25ecceb1310ec97d1b02e95662e5c3031cdf6e5a4ab8fbf505d30720",
+     "bytes": 4861138
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_A%233_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_A#3.wav",
+     "note": "A#3",
+     "midi": 58,
+     "source_note": "A#3",
+     "measured_cents": -6,
+     "sha256": "c51e3fa1df64033a475ae3af13c7a0b9538a6201ee7071a81fb75bdbedda0d2c",
+     "bytes": 4636306
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_D4_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_D4.wav",
+     "note": "D4",
+     "midi": 62,
+     "source_note": "D4",
+     "measured_cents": -4,
+     "sha256": "821742374023797282d0ca15dcb525d6c4cbb074dda18494a568e445e373d405",
+     "bytes": 4633942
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_G%234_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_G#4.wav",
+     "note": "G#4",
+     "midi": 68,
+     "source_note": "G#4",
+     "measured_cents": -3,
+     "sha256": "ff4f726d2d1a78972cf4b651a66f24309faf37c304b92149edf00234e659ddea",
+     "bytes": 3993814
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_D5_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_D5.wav",
+     "note": "D5",
+     "midi": 74,
+     "source_note": "D5",
+     "measured_cents": -2,
+     "sha256": "8d94fdbf6a52fd010892b8855aeda8f6a2d605fa2b5d7b933725e768081a2f8f",
+     "bytes": 3669556
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_G%235_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_G#5.wav",
+     "note": "G#5",
+     "midi": 80,
+     "source_note": "G#5",
+     "measured_cents": -2,
+     "sha256": "3da8bb7bb50be92e91af8325184b399cb7e091d9506c1fe66028351e35ec27dc",
+     "bytes": 3393238
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_D6_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_D6.wav",
+     "note": "D6",
+     "midi": 86,
+     "source_note": "D6",
+     "measured_cents": 3,
+     "sha256": "f3a943ba9c28c2305f97271d98d25a911d6ca6ba389348a05afa0d8e469b85a3",
+     "bytes": 2461660
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_G%236_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_G#6.wav",
+     "note": "G#6",
+     "midi": 92,
+     "source_note": "G#6",
+     "measured_cents": 4,
+     "sha256": "e1c1a7a091fc9ba280ab1ddbeb24588984af6733669d09dbbf81e6a3fd1dfc91",
+     "bytes": 1129720
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_D7_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_D7.wav",
+     "note": "D7",
+     "midi": 98,
+     "source_note": "D7",
+     "measured_cents": 13,
+     "sha256": "c6456d6b19961c53e659bf6c2e12d6fd311c02ee26be241b83e76742024af0b1",
+     "bytes": 622474
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Grand%20Piano%2C%20Steinway%20B/NoSus/JHPiano_NoSus_Close_G%237_vl3_rr1.wav",
+     "file": "Keys/Grand Piano/Grand Piano_G#7.wav",
+     "note": "G#7",
+     "midi": 104,
+     "source_note": "G#7",
+     "measured_cents": 24,
+     "sha256": "7a41d6613d4d4b3ded24f43617f343cc30d686a16098cc30e9a8abbfe12bc8ba",
+     "bytes": 593788
+    }
+   ]
+  },
+  {
+   "name": "Pianet Electric Piano",
+   "category": "Keys",
+   "sustain": false,
+   "comment": "Hohner Pianet T, FF layer, mono 16-bit FLAC; full natural decays. CC BY 3.0: attribution required (see sources).",
+   "files": [
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/29_F1_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_F1.flac",
+     "note": "F1",
+     "midi": 29,
+     "source_note": "F1",
+     "measured_cents": 1,
+     "sha256": "a301b2d9acb2d675571ce4484b030b32428810ebc649e33c978988f4d73e7dd0",
+     "bytes": 610186
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/33_A1_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_A1.flac",
+     "note": "A1",
+     "midi": 33,
+     "source_note": "A1",
+     "measured_cents": 6,
+     "sha256": "5734cfd261cf6bf633a8a21ddba31e38d0628943566bdba91c2289fbf21229ea",
+     "bytes": 505871
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/37_C%232_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_C#2.flac",
+     "note": "C#2",
+     "midi": 37,
+     "source_note": "C#2",
+     "measured_cents": 1,
+     "sha256": "22a1f7cb0404eeebb7a590f679c7827e297853e80fa074d63a61d697a5a23702",
+     "bytes": 320302
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/41_F2_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_F2.flac",
+     "note": "F2",
+     "midi": 41,
+     "source_note": "F2",
+     "measured_cents": -2,
+     "sha256": "85721a3b2f4007d47613ec2b39c94dea886ae060c91da4cba95a843073756275",
+     "bytes": 280441
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/45_A2_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_A2.flac",
+     "note": "A2",
+     "midi": 45,
+     "source_note": "A2",
+     "measured_cents": -3,
+     "sha256": "09b7b2656ea8bca90251403bb0df57b88806b81927bcb004307705bf6b241ee9",
+     "bytes": 259508
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/49_C%233_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_C#3.flac",
+     "note": "C#3",
+     "midi": 49,
+     "source_note": "C#3",
+     "measured_cents": 0,
+     "sha256": "c1bb4c6d58b731303262f45571d08272fba2188f8dbf68ee706034840d2b8e5a",
+     "bytes": 239383
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/53_F3_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_F3.flac",
+     "note": "F3",
+     "midi": 53,
+     "source_note": "F3",
+     "measured_cents": 1,
+     "sha256": "1d71a2aa093e082e0cd0ac50f1ee70d10797f4595a3dbd8b31370d9407e6b769",
+     "bytes": 148301
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/57_A3_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_A3.flac",
+     "note": "A3",
+     "midi": 57,
+     "source_note": "A3",
+     "measured_cents": -1,
+     "sha256": "9447f14625a01ef53a967dae2d543bca0d5d22222ccc62ac1b22f8d0dae4c484",
+     "bytes": 280356
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/61_C%234_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_C#4.flac",
+     "note": "C#4",
+     "midi": 61,
+     "source_note": "C#4",
+     "measured_cents": 0,
+     "sha256": "3069338f28dcef83ae324ae2cd694b2a962aac07b9e65bc28d01ab8f1367f780",
+     "bytes": 249248
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/65_F4_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_F4.flac",
+     "note": "F4",
+     "midi": 65,
+     "source_note": "F4",
+     "measured_cents": 2,
+     "sha256": "dadb32e450ddb7f845584c171b57ac0548b752222ccb8a7c2acf32ab057e71e8",
+     "bytes": 179811
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/69_A4_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_A4.flac",
+     "note": "A4",
+     "midi": 69,
+     "source_note": "A4",
+     "measured_cents": 0,
+     "sha256": "b415c18ab0282db081b5168ea29c69fd49715de08372d23aa2a871845f5b3125",
+     "bytes": 117369
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/73_C%235_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_C#5.flac",
+     "note": "C#5",
+     "midi": 73,
+     "source_note": "C#5",
+     "measured_cents": 0,
+     "sha256": "559e03a7a1f3a373960827180a6005fae363246a9b6a2bce6ab0e305ad1aef28",
+     "bytes": 148957
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/77_F5_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_F5.flac",
+     "note": "F5",
+     "midi": 77,
+     "source_note": "F5",
+     "measured_cents": 1,
+     "sha256": "61b8f124f44d39b45d4893eccc503bdc46cdbc38396bb4f1a07e5341daf612ae",
+     "bytes": 107843
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/81_A5_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_A5.flac",
+     "note": "A5",
+     "midi": 81,
+     "source_note": "A5",
+     "measured_cents": 0,
+     "sha256": "c2ce323893016d9b3ca092e592abe70ab9e6e885a1a84ac04c5de617864bb794",
+     "bytes": 82942
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/85_C%236_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_C#6.flac",
+     "note": "C#6",
+     "midi": 85,
+     "source_note": "C#6",
+     "measured_cents": 3,
+     "sha256": "4bd22a7e19f94b07433a42b1e1747a8e6f2e51c53b87774ed2a4f44b6e22599e",
+     "bytes": 84145
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Pianet%20T/Samples/88_E6_FF.flac",
+     "file": "Keys/Pianet Electric Piano/Pianet Electric Piano_E6.flac",
+     "note": "E6",
+     "midi": 88,
+     "source_note": "E6",
+     "measured_cents": 0,
+     "sha256": "abb16d25f154b17f633562fb6a33e1d5abf34b9ac4513b0d25f2fc84b14c4ff0",
+     "bytes": 42398
+    }
+   ]
+  },
+  {
+   "name": "Wurlitzer Electric Piano",
+   "category": "Keys",
+   "sustain": false,
+   "comment": "Wurlitzer EP200, 'f' layer, mono 16-bit FLAC. Short samples (1 to 5 s) that stop while still 12 to 25 dB below their peak: fade or loop them. Normalised to full scale by the author (1 to 3 full-scale samples in five files). CC BY 3.0: attribution required (see sources).",
+   "files": [
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/a1f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_A1.flac",
+     "note": "A1",
+     "midi": 33,
+     "source_note": "a1",
+     "measured_cents": 5,
+     "sha256": "ac7949b428e1e8974c177e0ea39481ccf3dd1870c8af8710a07e5f52e812bc93",
+     "bytes": 82944
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/c2f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_C2.flac",
+     "note": "C2",
+     "midi": 36,
+     "source_note": "c2",
+     "measured_cents": 7,
+     "sha256": "08718ed4e5056faebe76474b2ab10e438f7cc12b68a7c36d2e7e870bbae7a940",
+     "bytes": 92770
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/f2f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_F2.flac",
+     "note": "F2",
+     "midi": 41,
+     "source_note": "f2",
+     "measured_cents": 6,
+     "sha256": "0f0dfdc26e048c1fc9d9a2d28e563e75d3ddfe969ba38f2442add1c3141e56b4",
+     "bytes": 89272
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/b2f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_B2.flac",
+     "note": "B2",
+     "midi": 47,
+     "source_note": "b2",
+     "measured_cents": 8,
+     "sha256": "f108bef2502572820e5e0875e55af7269acecb935bd45c5dc5fb461fbb712586",
+     "bytes": 76172
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/e3f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_E3.flac",
+     "note": "E3",
+     "midi": 52,
+     "source_note": "e3",
+     "measured_cents": 4,
+     "sha256": "ff6cabe344d017ab2f00dfcb62e2017b3f5a6256c6c3694c47ce6bd04be01be0",
+     "bytes": 56270
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/ab3f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_G#3.flac",
+     "note": "G#3",
+     "midi": 56,
+     "source_note": "ab3",
+     "measured_cents": 11,
+     "sha256": "0abe94b5e160be20501e99a0816d14d384d5c414e02a29af4c95cf47b9cd0d89",
+     "bytes": 60967
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/db4f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_C#4.flac",
+     "note": "C#4",
+     "midi": 61,
+     "source_note": "db4",
+     "measured_cents": 1,
+     "sha256": "ee85bf0a9ae66b56e523cca6823f0246fb83d841c4aa84b0ffa0fd8b294f705c",
+     "bytes": 64401
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/ab4f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_G#4.flac",
+     "note": "G#4",
+     "midi": 68,
+     "source_note": "ab4",
+     "measured_cents": 0,
+     "sha256": "eddec48948d58040c634c8755b2c1c07cb47b25b2b3ed639d64a7880f4cde630",
+     "bytes": 67295
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/db5f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_C#5.flac",
+     "note": "C#5",
+     "midi": 73,
+     "source_note": "db5",
+     "measured_cents": -2,
+     "sha256": "ea800df4e60ec214d53ec3034b72284a70cb6293784bea2f0a62be8892d7c2da",
+     "bytes": 58401
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/g5f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_G5.flac",
+     "note": "G5",
+     "midi": 79,
+     "source_note": "g5",
+     "measured_cents": 6,
+     "sha256": "52e029d9cfaa6f0e0251d66d3e887affadc958f474353b282488a87674624c17",
+     "bytes": 35062
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/db6f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_C#6.flac",
+     "note": "C#6",
+     "midi": 85,
+     "source_note": "db6",
+     "measured_cents": -1,
+     "sha256": "ed495b7e8314f498939c6d7904c59eeccd3095ac1b6294744151844457640b7c",
+     "bytes": 34214
+    },
+    {
+     "source": "sullivan",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/GregSullivan.E-Pianos/8c3e581acda3594b553948ff0222d4f84a698376/Wurlitzer%20EP200/Samples/ab6f.flac",
+     "file": "Keys/Wurlitzer Electric Piano/Wurlitzer Electric Piano_G#6.flac",
+     "note": "G#6",
+     "midi": 92,
+     "source_note": "ab6",
+     "measured_cents": 3,
+     "sha256": "0f34b3acc168a804f03031ea0385251fbcf8ec9e399f0f8b06d00136e7ba2bc0",
+     "bytes": 39063
+    }
+   ]
+  },
+  {
+   "name": "Pipe Organ",
+   "category": "Keys",
+   "sustain": true,
+   "comment": "Loud manual registration; 16-bit and quiet (peaks -16 to -29 dBFS): normalise. C3 and C6 have a strong octave partial.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C1.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_C1.wav",
+     "note": "C1",
+     "midi": 24,
+     "source_note": "C1",
+     "measured_cents": 2,
+     "sha256": "655578ef565eb845785935baca41600ca620f19dae8ba0c102ef53d4128febd4",
+     "bytes": 2230702
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_F%231.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_F#1.wav",
+     "note": "F#1",
+     "midi": 30,
+     "source_note": "F#1",
+     "measured_cents": 2,
+     "sha256": "03e8a7f44599f0df9975566fff56ece53990d61851f9051f264fa6506f1e075e",
+     "bytes": 2234062
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C2.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_C2.wav",
+     "note": "C2",
+     "midi": 36,
+     "source_note": "C2",
+     "measured_cents": 3,
+     "sha256": "6a45ea670fd525c8d9c6e26c2d0c0cf5248972b3aa9cc98521b826208aba03c7",
+     "bytes": 2169390
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_F%232.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_F#2.wav",
+     "note": "F#2",
+     "midi": 42,
+     "source_note": "F#2",
+     "measured_cents": 3,
+     "sha256": "0fccf2e5ad86e2ef4ea2475a69fdb4d6c2687e69f83a15d06cbae03e34ac5eee",
+     "bytes": 2197326
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C3.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_C3.wav",
+     "note": "C3",
+     "midi": 48,
+     "source_note": "C3",
+     "measured_cents": -2,
+     "sha256": "1524a5631561e898617154a2f1b6bdc6fbdacb383549255d78d14eb53b588f8b",
+     "bytes": 2180642
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_F%233.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_F#3.wav",
+     "note": "F#3",
+     "midi": 54,
+     "source_note": "F#3",
+     "measured_cents": 0,
+     "sha256": "5b0043d88777245103c73f04a5569b9e4e2cd143e21eeebdffd8b3684eec9df6",
+     "bytes": 2167714
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C4.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "C4",
+     "measured_cents": 0,
+     "sha256": "9f3b80ef47d908b8acae4d6e7898a28e8179c3e090d6ee1ff4c326d35ea1d945",
+     "bytes": 2187714
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_F%234.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_F#4.wav",
+     "note": "F#4",
+     "midi": 66,
+     "source_note": "F#4",
+     "measured_cents": 0,
+     "sha256": "bc9f4e8f0f20484a7b8eb1e35c2800c3658b59a1d8d28a8fc2f88b0ab788e28d",
+     "bytes": 2119798
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C5.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_C5.wav",
+     "note": "C5",
+     "midi": 72,
+     "source_note": "C5",
+     "measured_cents": 1,
+     "sha256": "abcfa8821cd0ff1279f427b71cfad6467d39b0a56481fda4f164880df8f6ddcc",
+     "bytes": 2135622
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_F%235.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_F#5.wav",
+     "note": "F#5",
+     "midi": 78,
+     "source_note": "F#5",
+     "measured_cents": 2,
+     "sha256": "02ad4cf4038e4934a6de35ce9e9a6928bb2191e2e23a7ceddce0a2e0f83be532",
+     "bytes": 2121458
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Edge-blown%20Aerophones/Pipe%20Organ/Loud/Rode_Man3Open_C6.wav",
+     "file": "Keys/Pipe Organ/Pipe Organ_C6.wav",
+     "note": "C6",
+     "midi": 84,
+     "source_note": "C6",
+     "measured_cents": 2,
+     "sha256": "fcb7ed9e78012eab036f89dfd9529852ba11193afa2f224fd4536fe427f8292b",
+     "bytes": 2099290
+    }
+   ]
+  },
+  {
+   "name": "Acoustic Guitar",
+   "category": "Guitars",
+   "sustain": false,
+   "comment": "Archtop acoustic guitar recorded with a microphone (not a flat-top), velocity layer 3 of 4, mono.",
+   "files": [
+    {
+     "source": "shinyguitar",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/db2_vl3_rr1_1.wav",
+     "file": "Guitars/Acoustic Guitar/Acoustic Guitar_C#2.wav",
+     "note": "C#2",
+     "midi": 37,
+     "source_note": "db2",
+     "measured_cents": 9,
+     "sha256": "732d620deafbe554032fc06f815dcb1eb63b7bc33f0443fddb9b125023754a94",
+     "bytes": 1054316
+    },
+    {
+     "source": "shinyguitar",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/gb2_vl3_rr1_1.wav",
+     "file": "Guitars/Acoustic Guitar/Acoustic Guitar_F#2.wav",
+     "note": "F#2",
+     "midi": 42,
+     "source_note": "gb2",
+     "measured_cents": -14,
+     "sha256": "78552af86cda5faa6a7ff51e0b4704cf1d0ece70c9f14e0d501e3bfb824b5899",
+     "bytes": 930284
+    },
+    {
+     "source": "shinyguitar",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/c3_vl3_rr1_1.wav",
+     "file": "Guitars/Acoustic Guitar/Acoustic Guitar_C3.wav",
+     "note": "C3",
+     "midi": 48,
+     "source_note": "c3",
+     "measured_cents": -10,
+     "sha256": "ec242d1c0a1aca8aa4507d24d4fc58c46c13a0a20b54ef9f3560aecdf438663e",
+     "bytes": 930284
+    },
+    {
+     "source": "shinyguitar",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/gb3_vl3_rr1_1.wav",
+     "file": "Guitars/Acoustic Guitar/Acoustic Guitar_F#3.wav",
+     "note": "F#3",
+     "midi": 54,
+     "source_note": "gb3",
+     "measured_cents": -5,
+     "sha256": "aacb73c8f2f1e11293faafac0448547baba89add2d031d713a50909028bcb1fa",
+     "bytes": 930284
+    },
+    {
+     "source": "shinyguitar",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/c4_vl3_rr1_1.wav",
+     "file": "Guitars/Acoustic Guitar/Acoustic Guitar_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "c4",
+     "measured_cents": -3,
+     "sha256": "0cd222f2c8c2d7c54e32f88cedc66a47766067243fd8fb81e3d35f342c7347b9",
+     "bytes": 930284
+    },
+    {
+     "source": "shinyguitar",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/gb4_vl3_rr1_1.wav",
+     "file": "Guitars/Acoustic Guitar/Acoustic Guitar_F#4.wav",
+     "note": "F#4",
+     "midi": 66,
+     "source_note": "gb4",
+     "measured_cents": 3,
+     "sha256": "0f58455166afa02e564ba2138e4f653c911a2923baef5ec075a629f289003ac2",
+     "bytes": 744236
+    },
+    {
+     "source": "shinyguitar",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/c5_vl3_rr1_1.wav",
+     "file": "Guitars/Acoustic Guitar/Acoustic Guitar_C5.wav",
+     "note": "C5",
+     "midi": 72,
+     "source_note": "c5",
+     "measured_cents": -4,
+     "sha256": "40ce5a6ecb73699e90810ce9c11f0f1106df621dfb9a837ab9ec3fb44ba40c09",
+     "bytes": 744236
+    },
+    {
+     "source": "shinyguitar",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/gb5_vl3_rr1_1.wav",
+     "file": "Guitars/Acoustic Guitar/Acoustic Guitar_F#5.wav",
+     "note": "F#5",
+     "midi": 78,
+     "source_note": "gb5",
+     "measured_cents": 1,
+     "sha256": "635456c316f2c86997702eee00a68decb04f67d2e63c2dc3c30b3689595e60b4",
+     "bytes": 620204
+    },
+    {
+     "source": "shinyguitar",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.shinyguitar/57243cca85277dbcc120ce17c6178032f93c80f3/Samples/acoustic/c6_vl3_rr1_1.wav",
+     "file": "Guitars/Acoustic Guitar/Acoustic Guitar_C6.wav",
+     "note": "C6",
+     "midi": 84,
+     "source_note": "c6",
+     "measured_cents": -2,
+     "sha256": "84d15f81e0318e5c1d996fc8ba2b4eaa2733668d7306213091178d646b06dfe7",
+     "bytes": 527180
+    }
+   ]
+  },
+  {
+   "name": "Electric Guitar",
+   "category": "Guitars",
+   "sustain": false,
+   "comment": "Green Gretsch Anniversary, direct signal, forte layer, mono; about 20 ms of lead-in.",
+   "files": [
+    {
+     "source": "blackgreen",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_e3_f_rr1.wav",
+     "file": "Guitars/Electric Guitar/Electric Guitar_E2.wav",
+     "note": "E2",
+     "midi": 40,
+     "source_note": "e3",
+     "measured_cents": 8,
+     "sha256": "fc1e4da6de242d7197f8efac253cc3b0c49328a7075646f10c0a7a74dabcea7c",
+     "bytes": 943712
+    },
+    {
+     "source": "blackgreen",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_bb3_f_rr1.wav",
+     "file": "Guitars/Electric Guitar/Electric Guitar_A#2.wav",
+     "note": "A#2",
+     "midi": 46,
+     "source_note": "bb3",
+     "measured_cents": 10,
+     "sha256": "a3cb4d7d7a754ed3eae8f447e8bc9d38ca40170c1ec42c6ec5db19fc81fdd2f6",
+     "bytes": 710798
+    },
+    {
+     "source": "blackgreen",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_eb4_f_rr1.wav",
+     "file": "Guitars/Electric Guitar/Electric Guitar_D#3.wav",
+     "note": "D#3",
+     "midi": 51,
+     "source_note": "eb4",
+     "measured_cents": 5,
+     "sha256": "353c9d816af0b92cc6c26f5ed2252139b7e23bb190db79958b13b55d8fa2ebd7",
+     "bytes": 884726
+    },
+    {
+     "source": "blackgreen",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a4_f_rr1.wav",
+     "file": "Guitars/Electric Guitar/Electric Guitar_A3.wav",
+     "note": "A3",
+     "midi": 57,
+     "source_note": "a4",
+     "measured_cents": 10,
+     "sha256": "d2c1709b28bdaa96c354de1691e579d7de148bb53e36db96a265eb34df108583",
+     "bytes": 805230
+    },
+    {
+     "source": "blackgreen",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_eb5_f_rr1.wav",
+     "file": "Guitars/Electric Guitar/Electric Guitar_D#4.wav",
+     "note": "D#4",
+     "midi": 63,
+     "source_note": "eb5",
+     "measured_cents": 6,
+     "sha256": "5366009313fab269471c9872937acf98e02255a1d00a0864a28c38d987e64219",
+     "bytes": 848520
+    },
+    {
+     "source": "blackgreen",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_a5_f_rr1.wav",
+     "file": "Guitars/Electric Guitar/Electric Guitar_A4.wav",
+     "note": "A4",
+     "midi": 69,
+     "source_note": "a5",
+     "measured_cents": -1,
+     "sha256": "26bcdb36a65e4b1912eb6c68b2b925ca7883e5ab8614b13a7dbb16eed0836de4",
+     "bytes": 701448
+    },
+    {
+     "source": "blackgreen",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d6_f_rr1.wav",
+     "file": "Guitars/Electric Guitar/Electric Guitar_D5.wav",
+     "note": "D5",
+     "midi": 74,
+     "source_note": "d6",
+     "measured_cents": -5,
+     "sha256": "4fae9f7a58631693178fe63a3a9c1d6f5a42ce3fce02555d71f9e54dbbe9ca76",
+     "bytes": 751340
+    },
+    {
+     "source": "blackgreen",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_ab6_f_rr1.wav",
+     "file": "Guitars/Electric Guitar/Electric Guitar_G#5.wav",
+     "note": "G#5",
+     "midi": 80,
+     "source_note": "ab6",
+     "measured_cents": -10,
+     "sha256": "8aae8f3078624d4802e3f32b7a3db6cc983b025c6d600329c6d749a3bc0d4ed7",
+     "bytes": 595250
+    },
+    {
+     "source": "blackgreen",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.black-and-green-guitars/b3b3249d37dc977a1a297bd2dc053e6d9b6b805c/Samples/green/ord/twang_d7_f_rr1.wav",
+     "file": "Guitars/Electric Guitar/Electric Guitar_D6.wav",
+     "note": "D6",
+     "midi": 86,
+     "source_note": "d7",
+     "measured_cents": -14,
+     "sha256": "b5eac465f4148adc2f15e79ac1197dfead4d854d3c237ce96b9f7b109e4ab280",
+     "bytes": 395952
+    }
+   ]
+  },
+  {
+   "name": "Electric Bass",
+   "category": "Bass",
+   "sustain": false,
+   "comment": "Squier Jazz Bass, direct signal, forte layer, mono; every file is exactly 6 s and cut at about -50 to -65 dB.",
+   "files": [
+    {
+     "source": "growlybass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/db2_f_rr1.wav",
+     "file": "Bass/Electric Bass/Electric Bass_C#1.wav",
+     "note": "C#1",
+     "midi": 25,
+     "source_note": "db2",
+     "measured_cents": -5,
+     "sha256": "6a51d063354b0cdc1a6f36d97b6110a6aafb5a88bd97646999997080e0d8bb49",
+     "bytes": 796606
+    },
+    {
+     "source": "growlybass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/gb2_f_rr1.wav",
+     "file": "Bass/Electric Bass/Electric Bass_F#1.wav",
+     "note": "F#1",
+     "midi": 30,
+     "source_note": "gb2",
+     "measured_cents": 2,
+     "sha256": "ae7199b00fad32a084d3195031fbd8be10713ba9de4b03a27f5c99aaee6eb260",
+     "bytes": 796608
+    },
+    {
+     "source": "growlybass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/c3_f_rr1.wav",
+     "file": "Bass/Electric Bass/Electric Bass_C2.wav",
+     "note": "C2",
+     "midi": 36,
+     "source_note": "c3",
+     "measured_cents": -4,
+     "sha256": "aecf86a56cca457c330e04fab89f1008be44d3d31e48912943ace153089009fb",
+     "bytes": 796606
+    },
+    {
+     "source": "growlybass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/gb3_f_rr1.wav",
+     "file": "Bass/Electric Bass/Electric Bass_F#2.wav",
+     "note": "F#2",
+     "midi": 42,
+     "source_note": "gb3",
+     "measured_cents": -8,
+     "sha256": "595b0f1c18147c72e1cf3e894afdcdd09a5a21922f09d17072eab95bbbf15a09",
+     "bytes": 796608
+    },
+    {
+     "source": "growlybass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/c4_f_rr1.wav",
+     "file": "Bass/Electric Bass/Electric Bass_C3.wav",
+     "note": "C3",
+     "midi": 48,
+     "source_note": "c4",
+     "measured_cents": 5,
+     "sha256": "80659acdf74f7d6fc39ff3d6d864a5aa3367f5ed25b966093e369367c3f8311b",
+     "bytes": 796608
+    },
+    {
+     "source": "growlybass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/eb4_f_rr1.wav",
+     "file": "Bass/Electric Bass/Electric Bass_D#3.wav",
+     "note": "D#3",
+     "midi": 51,
+     "source_note": "eb4",
+     "measured_cents": 2,
+     "sha256": "3435959e638aadf6b9e0af6bdbad5f11b32a4cfa00d86267bdcaf8a06883ee1d",
+     "bytes": 796606
+    },
+    {
+     "source": "growlybass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/a4_f_rr1.wav",
+     "file": "Bass/Electric Bass/Electric Bass_A3.wav",
+     "note": "A3",
+     "midi": 57,
+     "source_note": "a4",
+     "measured_cents": 1,
+     "sha256": "4b4898bb072ca44eb65ebe76dbb3a1e416919d97a69699711d3a8c2e1d65399c",
+     "bytes": 796608
+    },
+    {
+     "source": "growlybass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.growlybass/4f483268fc66b5a6d5781d421c0d11b8d08d3fc6/sustain/eb5_f_rr1.wav",
+     "file": "Bass/Electric Bass/Electric Bass_D#4.wav",
+     "note": "D#4",
+     "midi": 63,
+     "source_note": "eb5",
+     "measured_cents": 6,
+     "sha256": "f5f3582a416bacb5536d111ebcfba80aa133cc4a956e573e4c197dc41e2de2a2",
+     "bytes": 796608
+    }
+   ]
+  },
+  {
+   "name": "Upright Bass",
+   "category": "Bass",
+   "sustain": false,
+   "comment": "1958 double bass, pizzicato, velocity layer 3 of 4, mono. Sympathetic string resonance in every note; automatic pitch tracking is unreliable here, pitches were confirmed from the spectrum (all within about 21 cents).",
+   "files": [
+    {
+     "source": "meatbass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/c1_vl3_rr1.wav",
+     "file": "Bass/Upright Bass/Upright Bass_C1.wav",
+     "note": "C1",
+     "midi": 24,
+     "source_note": "c1",
+     "measured_cents": -20,
+     "sha256": "6504ca2dba9651695c3eb83299586903dd2d1f631b854b27a69ca525e25e6eae",
+     "bytes": 664302
+    },
+    {
+     "source": "meatbass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/gb1_vl3_rr1.wav",
+     "file": "Bass/Upright Bass/Upright Bass_F#1.wav",
+     "note": "F#1",
+     "midi": 30,
+     "source_note": "gb1",
+     "measured_cents": -10,
+     "sha256": "bf60279a41eee281ff045b5c11de65fcbde440fee5aaf09867b7803582e490c4",
+     "bytes": 558462
+    },
+    {
+     "source": "meatbass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/c2_vl3_rr1.wav",
+     "file": "Bass/Upright Bass/Upright Bass_C2.wav",
+     "note": "C2",
+     "midi": 36,
+     "source_note": "c2",
+     "measured_cents": -20,
+     "sha256": "511d55cfa51626a2c2531278a41484e5316c401928a8fbb741c67c3105a1d7c9",
+     "bytes": 532000
+    },
+    {
+     "source": "meatbass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/gb2_vl3_rr1.wav",
+     "file": "Bass/Upright Bass/Upright Bass_F#2.wav",
+     "note": "F#2",
+     "midi": 42,
+     "source_note": "gb2",
+     "sha256": "505ed4bfbab9fd7b15746f9997044a2c56c944028bb49498bd544018ab0affb2",
+     "bytes": 532002
+    },
+    {
+     "source": "meatbass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/c3_vl3_rr1.wav",
+     "file": "Bass/Upright Bass/Upright Bass_C3.wav",
+     "note": "C3",
+     "midi": 48,
+     "source_note": "c3",
+     "sha256": "c1c194a2f0055fa9a283576c2c9c3a9e4502ff29a3c6b7714a0d7ca3f532c19f",
+     "bytes": 505542
+    },
+    {
+     "source": "meatbass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/gb3_vl3_rr1.wav",
+     "file": "Bass/Upright Bass/Upright Bass_F#3.wav",
+     "note": "F#3",
+     "midi": 54,
+     "source_note": "gb3",
+     "sha256": "58a60623aa3196c24446494131839cf68ef6b762c70f18a34591c506443c15a7",
+     "bytes": 426162
+    },
+    {
+     "source": "meatbass",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.meatbass/ac9e859564bda286ab5ec672d00ff1aa2fef2895/Samples/pizz/c4_vl3_rr1.wav",
+     "file": "Bass/Upright Bass/Upright Bass_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "c4",
+     "measured_cents": -8,
+     "sha256": "317001fb34c2e281a440a023ae59c0cfd0800d5bbd0ebb58fa9da531d5ac8dd2",
+     "bytes": 333550
+    }
+   ]
+  },
+  {
+   "name": "Violin",
+   "category": "Strings",
+   "sustain": true,
+   "comment": "Solo violin, arco with vibrato, forte.",
+   "files": [
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_G3_f.wav",
+     "file": "Strings/Violin/Violin_G3.wav",
+     "note": "G3",
+     "midi": 55,
+     "source_note": "G3",
+     "measured_cents": -2,
+     "sha256": "80bae3776b0ccd3d4774f47429e829c7764f5fe6061ff844a8affc6ac68b7899",
+     "bytes": 2936890
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_C4_f.wav",
+     "file": "Strings/Violin/Violin_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "C4",
+     "measured_cents": 6,
+     "sha256": "4169605b51a72454f11bc2c34efc66c1d9993fd2b7d5f097a025ef9d3a2dbdfa",
+     "bytes": 2334170
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_G4_f.wav",
+     "file": "Strings/Violin/Violin_G4.wav",
+     "note": "G4",
+     "midi": 67,
+     "source_note": "G4",
+     "measured_cents": 3,
+     "sha256": "14e3ea3d5172722d4d2686bae5da3d603800a7a474fa295d98275a9410913822",
+     "bytes": 2366050
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_C5_f.wav",
+     "file": "Strings/Violin/Violin_C5.wav",
+     "note": "C5",
+     "midi": 72,
+     "source_note": "C5",
+     "measured_cents": 9,
+     "sha256": "af72f852ef2892233699851dacf5f8d97d446822d8eb4ce9e0ec27d5a721b118",
+     "bytes": 2497990
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_G5_f.wav",
+     "file": "Strings/Violin/Violin_G5.wav",
+     "note": "G5",
+     "midi": 79,
+     "source_note": "G5",
+     "measured_cents": 1,
+     "sha256": "b5bb27541d6187e6eeb20baf50625ca35fc9d44c7f113936a9369bc7ce490a68",
+     "bytes": 2222106
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_C6_f.wav",
+     "file": "Strings/Violin/Violin_C6.wav",
+     "note": "C6",
+     "midi": 84,
+     "source_note": "C6",
+     "measured_cents": -14,
+     "sha256": "7ec8e0c2dde75282a4aaacccc713c84faa3e84daa9cf43df45ffc0e209964d46",
+     "bytes": 2162774
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_G6_f.wav",
+     "file": "Strings/Violin/Violin_G6.wav",
+     "note": "G6",
+     "midi": 91,
+     "source_note": "G6",
+     "measured_cents": 23,
+     "sha256": "68c49e55565810ea822866e3d39e51c1a5ad53cfa1a67bc25836ca7feac3fe0c",
+     "bytes": 2164026
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Solo%20Violin/Arco%20Vib/LLVln_ArcoVib_C7_f.wav",
+     "file": "Strings/Violin/Violin_C7.wav",
+     "note": "C7",
+     "midi": 96,
+     "source_note": "C7",
+     "measured_cents": -3,
+     "sha256": "f8223aed62911ef3f6937111bf3cdcc36fc25a636d4f99480b97029c4d28f393",
+     "bytes": 2176486
+    }
+   ]
+  },
+  {
+   "name": "Viola",
+   "category": "Strings",
+   "sustain": true,
+   "comment": "Solo viola, arco, ff, anechoic chamber, no vibrato; AIFF files of 2.5 to 4.9 s with 0.1 to 0.5 s of leading silence. Licence is the University of Iowa's own unrestricted-use statement, not a formal licence.",
+   "files": [
+    {
+     "source": "uiowa",
+     "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulC.C3.stereo.aif",
+     "file": "Strings/Viola/Viola_C3.aif",
+     "note": "C3",
+     "midi": 48,
+     "source_note": "C3",
+     "measured_cents": 2,
+     "sha256": "c3c3cf1433dba22757b4490a9c89c78629c81c8ef57f7f8cfe665654cc6695da",
+     "bytes": 1182208
+    },
+    {
+     "source": "uiowa",
+     "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulC.F3.stereo.aif",
+     "file": "Strings/Viola/Viola_F3.aif",
+     "note": "F3",
+     "midi": 53,
+     "source_note": "F3",
+     "measured_cents": -12,
+     "sha256": "b720378769f545f9775fe3615bbd3f166e2b3dcd45edf6b9ed2f2c043729c7db",
+     "bytes": 1123870
+    },
+    {
+     "source": "uiowa",
+     "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulG.Bb3.stereo.aif",
+     "file": "Strings/Viola/Viola_A#3.aif",
+     "note": "A#3",
+     "midi": 58,
+     "source_note": "Bb3",
+     "measured_cents": -2,
+     "sha256": "b6de8d952efda8afa13b7a7c5bc1af840e86e0af26161da191e6adb5fb5dfcfb",
+     "bytes": 1298884
+    },
+    {
+     "source": "uiowa",
+     "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulD.Eb4.stereo.aif",
+     "file": "Strings/Viola/Viola_D#4.aif",
+     "note": "D#4",
+     "midi": 63,
+     "source_note": "Eb4",
+     "measured_cents": -8,
+     "sha256": "29b8346d9084b735609d6cad461d0457d16ef9d5bf9c0e395b52288dd5aa6232",
+     "bytes": 1044328
+    },
+    {
+     "source": "uiowa",
+     "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulD.Ab4.stereo.aif",
+     "file": "Strings/Viola/Viola_G#4.aif",
+     "note": "G#4",
+     "midi": 68,
+     "source_note": "Ab4",
+     "measured_cents": 18,
+     "sha256": "e709bc14a669ec842248a35d40890a1251b82e6cea4e9d0ca3782c503604808d",
+     "bytes": 929776
+    },
+    {
+     "source": "uiowa",
+     "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulA.Db5.stereo.aif",
+     "file": "Strings/Viola/Viola_C#5.aif",
+     "note": "C#5",
+     "midi": 73,
+     "source_note": "Db5",
+     "measured_cents": -11,
+     "sha256": "90771db55f131c2eb2e879d4017fb34ce028c2a2edb5e972a35be083eecff007",
+     "bytes": 823714
+    },
+    {
+     "source": "uiowa",
+     "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulA.Gb5.stereo.aif",
+     "file": "Strings/Viola/Viola_F#5.aif",
+     "note": "F#5",
+     "midi": 78,
+     "source_note": "Gb5",
+     "measured_cents": -20,
+     "sha256": "db4874554d482396c3cd6e69199b66d1ab103cc8e4335cf535912c75e6cb501c",
+     "bytes": 726136
+    },
+    {
+     "source": "uiowa",
+     "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulA.B5.stereo.aif",
+     "file": "Strings/Viola/Viola_B5.aif",
+     "note": "B5",
+     "midi": 83,
+     "source_note": "B5",
+     "measured_cents": 0,
+     "sha256": "7a6ccd8d6b625f803251626de5941b75611478f7c8645a39be04b90cd50f34d6",
+     "bytes": 662494
+    },
+    {
+     "source": "uiowa",
+     "url": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/Strings/Viola/Viola.arco.ff.sulA.E6.stereo.aif",
+     "file": "Strings/Viola/Viola_E6.aif",
+     "note": "E6",
+     "midi": 88,
+     "source_note": "E6",
+     "measured_cents": 0,
+     "sha256": "f43cba036dab4b65611fbdb311a9a7e776d9cf142e8bc2f2bd662bd397977f80",
+     "bytes": 781288
+    }
+   ]
+  },
+  {
+   "name": "Cello",
+   "category": "Strings",
+   "sustain": true,
+   "comment": "Solo cello, sustained, mf, mono. Files are cut for looping: they start and end at full level with no natural release.",
+   "files": [
+    {
+     "source": "bigcatcello",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/C1_mf_d.wav",
+     "file": "Strings/Cello/Cello_C2.wav",
+     "note": "C2",
+     "midi": 36,
+     "source_note": "C1",
+     "measured_cents": 6,
+     "sha256": "14aa60d92bb5470d388340e761949d4317a0a24f53bad12a9ff0559ddff92943",
+     "bytes": 680834
+    },
+    {
+     "source": "bigcatcello",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/Gb1_mf_d.wav",
+     "file": "Strings/Cello/Cello_F#2.wav",
+     "note": "F#2",
+     "midi": 42,
+     "source_note": "Gb1",
+     "measured_cents": -4,
+     "sha256": "cc84511ce22468b961e25d86ae3c4744e95f64e36a2d2e0fd8cd7a4f2816a379",
+     "bytes": 693810
+    },
+    {
+     "source": "bigcatcello",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/C2_mf_d.wav",
+     "file": "Strings/Cello/Cello_C3.wav",
+     "note": "C3",
+     "midi": 48,
+     "source_note": "C2",
+     "measured_cents": -3,
+     "sha256": "8bfc50e6f2c2925720db2793ab53cb8e801fbbbbcc8f5f290154c6cfd4b6871b",
+     "bytes": 559230
+    },
+    {
+     "source": "bigcatcello",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/Gb2_mf_d.wav",
+     "file": "Strings/Cello/Cello_F#3.wav",
+     "note": "F#3",
+     "midi": 54,
+     "source_note": "Gb2",
+     "measured_cents": 0,
+     "sha256": "34cc4d29d4c1b69624b35390caeaea2a216131578ad280cf42c6cebf31216852",
+     "bytes": 556326
+    },
+    {
+     "source": "bigcatcello",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/C3_mf_d.wav",
+     "file": "Strings/Cello/Cello_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "C3",
+     "measured_cents": -2,
+     "sha256": "da865eadda2f4edd7bc0714f5697db376dc0772673a1b5d7888c7785d42eda71",
+     "bytes": 596562
+    },
+    {
+     "source": "bigcatcello",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/Gb3_mf_d.wav",
+     "file": "Strings/Cello/Cello_F#4.wav",
+     "note": "F#4",
+     "midi": 66,
+     "source_note": "Gb3",
+     "measured_cents": 0,
+     "sha256": "d23ef2095092f911c0238147ecf66ef11401f9c9149d87b6a2e0f2995a4c1bd4",
+     "bytes": 621640
+    },
+    {
+     "source": "bigcatcello",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/C4_mf_d.wav",
+     "file": "Strings/Cello/Cello_C5.wav",
+     "note": "C5",
+     "midi": 72,
+     "source_note": "C4",
+     "measured_cents": -1,
+     "sha256": "95dfb42c88663b0f7e103bae8113c0834fb24bfb651671874734352eedd570a7",
+     "bytes": 572940
+    },
+    {
+     "source": "bigcatcello",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/Gb4_mf_d.wav",
+     "file": "Strings/Cello/Cello_F#5.wav",
+     "note": "F#5",
+     "midi": 78,
+     "source_note": "Gb4",
+     "measured_cents": 4,
+     "sha256": "930d14f23818a57c1f8a37f9ecb8ab1938e7834bbfe085e6331499198cfa6679",
+     "bytes": 617064
+    },
+    {
+     "source": "bigcatcello",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/karoryfer-bigcat.cello/6fd75fbfc1dbb3109bf26220ba1adea46188a18b/Samples/sus/C5_mf_d.wav",
+     "file": "Strings/Cello/Cello_C6.wav",
+     "note": "C6",
+     "midi": 84,
+     "source_note": "C5",
+     "measured_cents": 2,
+     "sha256": "9e025145317b63fa1328654aa156853f935a80e2ddaa11d3ccecf27288758e5b",
+     "bytes": 874258
+    }
+   ]
+  },
+  {
+   "name": "String Ensemble",
+   "category": "Strings",
+   "sustain": true,
+   "comment": "Built from three VSCO 2 CE sections: cello section (C2 to A3), viola section (D4, A4), violin section (E5 to D6), sustained with vibrato, loudest layer. Mixed 16- and 24-bit.",
+   "files": [
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/susvib/susvib_C1_v3_1.wav",
+     "file": "Strings/String Ensemble/String Ensemble_C2.wav",
+     "note": "C2",
+     "midi": 36,
+     "source_note": "C1",
+     "measured_cents": 0,
+     "sha256": "19195ab85ab71626bd11e7100febdaeeba1c237ff5887b934fd0ffd8dfad82cb",
+     "bytes": 3335948
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/susvib/susvib_G1_v3_1.wav",
+     "file": "Strings/String Ensemble/String Ensemble_G2.wav",
+     "note": "G2",
+     "midi": 43,
+     "source_note": "G1",
+     "measured_cents": 13,
+     "sha256": "e4c61d4ab855ec20ddb69ff608a1c066ff8a779ddd08d1dfe1d534d3a4563ad0",
+     "bytes": 3370496
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/susvib/susvib_D2_v3_1.wav",
+     "file": "Strings/String Ensemble/String Ensemble_D3.wav",
+     "note": "D3",
+     "midi": 50,
+     "source_note": "D2",
+     "measured_cents": -9,
+     "sha256": "fc946615cd6550570c8f05d61c0d59b9079bf9daba8bf25be7943487fea5a7ae",
+     "bytes": 3291368
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/susvib/susvib_A2_v3_1.wav",
+     "file": "Strings/String Ensemble/String Ensemble_A3.wav",
+     "note": "A3",
+     "midi": 57,
+     "source_note": "A2",
+     "measured_cents": -2,
+     "sha256": "b7f226f19b9616abe5fa4a27ef50116667e19eb0127f30eacfa6d1a83e9149f0",
+     "bytes": 3082676
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Viola%20Section/susvib/ViolaEns_susvib_D3_v2_1.wav",
+     "file": "Strings/String Ensemble/String Ensemble_D4.wav",
+     "note": "D4",
+     "midi": 62,
+     "source_note": "D3",
+     "measured_cents": 1,
+     "sha256": "f941028c5d5e854b4391669056f0f639799f80ac7c8da3939c7788b1a394d16c",
+     "bytes": 3596756
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Viola%20Section/susvib/ViolaEns_susvib_A3_v2_1.wav",
+     "file": "Strings/String Ensemble/String Ensemble_A4.wav",
+     "note": "A4",
+     "midi": 69,
+     "source_note": "A3",
+     "measured_cents": 2,
+     "sha256": "35984c7bfffe781d8e33bee045f66427a827794ff5c53c3d3bb82baeee3272dd",
+     "bytes": 2861282
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/susVib/VlnEns_susVib_E4_v2.wav",
+     "file": "Strings/String Ensemble/String Ensemble_E5.wav",
+     "note": "E5",
+     "midi": 76,
+     "source_note": "E4",
+     "measured_cents": 2,
+     "sha256": "030c09a631ebbc7304fc0b47bb5c346cd646e7451d9fdc531870f2534c60d9e9",
+     "bytes": 1702620
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/susVib/VlnEns_susVib_B4_v2.wav",
+     "file": "Strings/String Ensemble/String Ensemble_B5.wav",
+     "note": "B5",
+     "midi": 83,
+     "source_note": "B4",
+     "measured_cents": 2,
+     "sha256": "bdb85532f47e4ebd681f9617a415116e7e5aeb786dce2eeab5ab9b93c1b31644",
+     "bytes": 1923744
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/susVib/VlnEns_susVib_D5_v2.wav",
+     "file": "Strings/String Ensemble/String Ensemble_D6.wav",
+     "note": "D6",
+     "midi": 86,
+     "source_note": "D5",
+     "measured_cents": -18,
+     "sha256": "0c2ca9de723bed0a0968e32126b934f778cd678b367a29e7fde91004daf84daf",
+     "bytes": 1976276
+    }
+   ]
+  },
+  {
+   "name": "Trumpet",
+   "category": "Brass",
+   "sustain": true,
+   "comment": "Sustained, loudest layer (v3).",
+   "files": [
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_F2_v3_rr1.wav",
+     "file": "Brass/Trumpet/Trumpet_F3.wav",
+     "note": "F3",
+     "midi": 53,
+     "source_note": "F2",
+     "measured_cents": 0,
+     "sha256": "31992fbdf596d77e9464dc57166718389f13870f8b9b1f1e83380f5ec2217c87",
+     "bytes": 980856
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_A2_v3_rr1.wav",
+     "file": "Brass/Trumpet/Trumpet_A3.wav",
+     "note": "A3",
+     "midi": 57,
+     "source_note": "A2",
+     "measured_cents": 0,
+     "sha256": "6c331fb59ab6668e4f77ce59c19445fc52d1082f376df853c9282ed518205a5f",
+     "bytes": 1041256
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_D%233_v3_rr1.wav",
+     "file": "Brass/Trumpet/Trumpet_D#4.wav",
+     "note": "D#4",
+     "midi": 63,
+     "source_note": "D#3",
+     "measured_cents": 1,
+     "sha256": "8cf8ffb7948c8d787fa9dd2469ff7fc60ad26f079721ed038c9d6a9d6b402318",
+     "bytes": 1654796
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_G3_v3_rr1.wav",
+     "file": "Brass/Trumpet/Trumpet_G4.wav",
+     "note": "G4",
+     "midi": 67,
+     "source_note": "G3",
+     "measured_cents": 1,
+     "sha256": "e916631d4ef5c7d2afa356b76cb0d3a18ba2702d1229535edf4fb6d73c2e521c",
+     "bytes": 1638452
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_D4_v3_rr1.wav",
+     "file": "Brass/Trumpet/Trumpet_D5.wav",
+     "note": "D5",
+     "midi": 74,
+     "source_note": "D4",
+     "measured_cents": -1,
+     "sha256": "71d77fc5c3c43b9453f17293c6039bf8554dec6581ca15c14c45893f8bc57566",
+     "bytes": 1422408
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_F4_v3_rr1.wav",
+     "file": "Brass/Trumpet/Trumpet_F5.wav",
+     "note": "F5",
+     "midi": 77,
+     "source_note": "F4",
+     "measured_cents": 2,
+     "sha256": "4138d1dc994d485f8b7deecbe7811c2152006d5e8cde8d4c1256c72be7179af3",
+     "bytes": 1269372
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Trumpet/sus/Sum_SHTrumpet_sus_C5_v3_rr1.wav",
+     "file": "Brass/Trumpet/Trumpet_C6.wav",
+     "note": "C6",
+     "midi": 84,
+     "source_note": "C5",
+     "measured_cents": -1,
+     "sha256": "ba7dc7050f277c5bba6c59a6dd330c2d50e29dc1d97bd19fb6bcbba4a8cad4d5",
+     "bytes": 1339832
+    }
+   ]
+  },
+  {
+   "name": "Trombone",
+   "category": "Brass",
+   "sustain": true,
+   "comment": "Tenor trombone, sustained, loudest layer (v3); 16-bit and quiet (peaks -15 to -25 dBFS).",
+   "files": [
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_A%230_v2_1.wav",
+     "file": "Brass/Trombone/Trombone_A#1.wav",
+     "note": "A#1",
+     "midi": 34,
+     "source_note": "A#0",
+     "measured_cents": 1,
+     "sha256": "c8192572a34ba0c410cb77a33fe200a5850b334e1763b2ebc91ab5292978a0d4",
+     "bytes": 735596
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_D%231_v3_1.wav",
+     "file": "Brass/Trombone/Trombone_D#2.wav",
+     "note": "D#2",
+     "midi": 39,
+     "source_note": "D#1",
+     "measured_cents": -1,
+     "sha256": "dd2e358d7994ae2b3fce9ccdc902f53f22393294d6b0408821a2a916f3c42d3a",
+     "bytes": 881860
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_A%231_v3_1.wav",
+     "file": "Brass/Trombone/Trombone_A#2.wav",
+     "note": "A#2",
+     "midi": 46,
+     "source_note": "A#1",
+     "measured_cents": 0,
+     "sha256": "9385dcf9b1a1b32db2d29b696d051fe8fe00aac9bfbd81270ff3570c57970d39",
+     "bytes": 930872
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_D2_v3_1.wav",
+     "file": "Brass/Trombone/Trombone_D3.wav",
+     "note": "D3",
+     "midi": 50,
+     "source_note": "D2",
+     "measured_cents": 0,
+     "sha256": "aad670ae4e1c97487c000c7e8b47f90486d1b835e6244de4ddad18e06b70465b",
+     "bytes": 1162132
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_F2_v3_1.wav",
+     "file": "Brass/Trombone/Trombone_F3.wav",
+     "note": "F3",
+     "midi": 53,
+     "source_note": "F2",
+     "measured_cents": 0,
+     "sha256": "675abd9954c0bb01bd6049cb7f5dcf908f627c673668ac9393226a09ba0fad2a",
+     "bytes": 1107668
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_C3_v3_1.wav",
+     "file": "Brass/Trombone/Trombone_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "C3",
+     "measured_cents": 0,
+     "sha256": "ba3760e74edf6c25f96a0deb526bf87eba2bf74be94ba76bf31d0d6592efe687",
+     "bytes": 1351140
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/Tenor%20Trombone/sus/tenortbn_sus_F3_v3_1.wav",
+     "file": "Brass/Trombone/Trombone_F4.wav",
+     "note": "F4",
+     "midi": 65,
+     "source_note": "F3",
+     "measured_cents": 0,
+     "sha256": "6f27199604f9f14254ae2fca7368b08cb17039f7401402fa95b9d9e2b7943420",
+     "bytes": 1299872
+    }
+   ]
+  },
+  {
+   "name": "French Horn",
+   "category": "Brass",
+   "sustain": true,
+   "comment": "Sustained; layer v3 where it exists, otherwise v1 (A1, D5, F5); levels differ between notes (peaks -8 to -22 dBFS).",
+   "files": [
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_A0_v1_1.wav",
+     "file": "Brass/French Horn/French Horn_A1.wav",
+     "note": "A1",
+     "midi": 33,
+     "source_note": "A0",
+     "measured_cents": -2,
+     "sha256": "cf71214116045722b401d12867c1c4ea0c52314834e5fc0538eeae8b7da6acad",
+     "bytes": 947196
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_D%231_v3_1.wav",
+     "file": "Brass/French Horn/French Horn_D#2.wav",
+     "note": "D#2",
+     "midi": 39,
+     "source_note": "D#1",
+     "measured_cents": 4,
+     "sha256": "cab9954a651d0aa23becff6910f149442f6bc29c05a1843b2389445822f124f8",
+     "bytes": 927292
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_A%231_v3_1.wav",
+     "file": "Brass/French Horn/French Horn_A#2.wav",
+     "note": "A#2",
+     "midi": 46,
+     "source_note": "A#1",
+     "measured_cents": 1,
+     "sha256": "d30b661831843acb75220ae59549daec1557102cd6271414e54bff28da9f6766",
+     "bytes": 1829064
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_F2_v3_1.wav",
+     "file": "Brass/French Horn/French Horn_F3.wav",
+     "note": "F3",
+     "midi": 53,
+     "source_note": "F2",
+     "measured_cents": 0,
+     "sha256": "87351ffabbfb953553edb38d0f53c5f2a3f95a9085024461346ea977afb296bc",
+     "bytes": 1692688
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_A2_v3_1.wav",
+     "file": "Brass/French Horn/French Horn_A3.wav",
+     "note": "A3",
+     "midi": 57,
+     "source_note": "A2",
+     "measured_cents": -1,
+     "sha256": "7ca89d390ac4f9d680d8052a0df0adac9051d844f6fca9154f29cc7aa8b4095a",
+     "bytes": 1305440
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_C3_v3_1.wav",
+     "file": "Brass/French Horn/French Horn_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "C3",
+     "measured_cents": 1,
+     "sha256": "75156ce041d9c60e4de0099b4c6d81cafffd34f45be7bca3e6fa7ebff0eadb80",
+     "bytes": 2114316
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_D4_v1_1.wav",
+     "file": "Brass/French Horn/French Horn_D5.wav",
+     "note": "D5",
+     "midi": 74,
+     "source_note": "D4",
+     "measured_cents": 0,
+     "sha256": "2866520e737f3826ee9f53693f148109a9cc2d2e54235db0b92f78b2c100b8f7",
+     "bytes": 1445100
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Brass/F%20Horn/sus/MOHorn_sus_F4_v1_1.wav",
+     "file": "Brass/French Horn/French Horn_F5.wav",
+     "note": "F5",
+     "midi": 77,
+     "source_note": "F4",
+     "measured_cents": 0,
+     "sha256": "580b2e57aa42f5fd6e4ecb65dcb79f01dfe510e98ddc2bea0a77fca1cba8d424",
+     "bytes": 1477536
+    }
+   ]
+  },
+  {
+   "name": "Tenor Saxophone",
+   "category": "Woodwinds",
+   "sustain": true,
+   "comment": "Non-vibrato, layer vl3. A#5 is in the altissimo register.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_G%231_vl3_rr1.wav",
+     "file": "Woodwinds/Tenor Saxophone/Tenor Saxophone_G#2.wav",
+     "note": "G#2",
+     "midi": 44,
+     "source_note": "G#1",
+     "measured_cents": 0,
+     "sha256": "03f23ea18c90dba053273de913288f894396a0898028159d054173854cdafa14",
+     "bytes": 2111210
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_D2_vl3_rr1.wav",
+     "file": "Woodwinds/Tenor Saxophone/Tenor Saxophone_D3.wav",
+     "note": "D3",
+     "midi": 50,
+     "source_note": "D2",
+     "measured_cents": 0,
+     "sha256": "d7cf24c3551019db92aaa4c6fa68a90bcca9bd3c3311edec0ebfb8f201005d2e",
+     "bytes": 2344676
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_G%232_vl3_rr1.wav",
+     "file": "Woodwinds/Tenor Saxophone/Tenor Saxophone_G#3.wav",
+     "note": "G#3",
+     "midi": 56,
+     "source_note": "G#2",
+     "measured_cents": 0,
+     "sha256": "8d1307c45fe03229b6dbc3379513440b27a5bd68de9eb1bbd04e189dd8b61222",
+     "bytes": 3199364
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_D3_vl3_rr1.wav",
+     "file": "Woodwinds/Tenor Saxophone/Tenor Saxophone_D4.wav",
+     "note": "D4",
+     "midi": 62,
+     "source_note": "D3",
+     "measured_cents": 0,
+     "sha256": "cc07e85cf6a1768ff66478e07a060eb50be1432d7f12c0ad29c2d605774370b2",
+     "bytes": 1962368
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_G%233_vl3_rr1.wav",
+     "file": "Woodwinds/Tenor Saxophone/Tenor Saxophone_G#4.wav",
+     "note": "G#4",
+     "midi": 68,
+     "source_note": "G#3",
+     "measured_cents": 0,
+     "sha256": "64ca1e942b997a48d59d015b910f8f1aa5d4dec139ca45b3cdb4f7bdacacf1e2",
+     "bytes": 2213360
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_C4_vl3_rr1.wav",
+     "file": "Woodwinds/Tenor Saxophone/Tenor Saxophone_C5.wav",
+     "note": "C5",
+     "midi": 72,
+     "source_note": "C4",
+     "measured_cents": 0,
+     "sha256": "039dff9fa11e807ff5c3ceba33aae3416fa89c7ed2af64dbff4e657f67b28217",
+     "bytes": 2946356
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_E4_vl3_rr1.wav",
+     "file": "Woodwinds/Tenor Saxophone/Tenor Saxophone_E5.wav",
+     "note": "E5",
+     "midi": 76,
+     "source_note": "E4",
+     "measured_cents": 0,
+     "sha256": "bdf15124f79e7d251c740d97f55b7fcf96005a5fe56d626a8a3b8e91f734d62d",
+     "bytes": 2443970
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Aerophones/Reed%20Aerophones/Tenor%20Saxophone/Non-Vibrato/BrettTenor_NV_Main_A%234_vl3_rr1.wav",
+     "file": "Woodwinds/Tenor Saxophone/Tenor Saxophone_A#5.wav",
+     "note": "A#5",
+     "midi": 82,
+     "source_note": "A#4",
+     "measured_cents": 0,
+     "sha256": "e9208313762ac956fe8c25fc13113766685b5e5693babce717268009aa269a12",
+     "bytes": 1877090
+    }
+   ]
+  },
+  {
+   "name": "Flute",
+   "category": "Woodwinds",
+   "sustain": true,
+   "comment": "Sustained with vibrato (the non-vibrato set is much noisier on the low notes).",
+   "files": [
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_C3_v1_1.wav",
+     "file": "Woodwinds/Flute/Flute_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "C3",
+     "measured_cents": -3,
+     "sha256": "073631c8442b275d803e608e840c2ce6cad3b08320018e08510cf3cb57373154",
+     "bytes": 2088144
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_E3_v1_1.wav",
+     "file": "Woodwinds/Flute/Flute_E4.wav",
+     "note": "E4",
+     "midi": 64,
+     "source_note": "E3",
+     "measured_cents": 5,
+     "sha256": "831386b21a704a5fccf204b18a536d638ea191f1b56662200192241215e21abd",
+     "bytes": 2802054
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_C4_v1_1.wav",
+     "file": "Woodwinds/Flute/Flute_C5.wav",
+     "note": "C5",
+     "midi": 72,
+     "source_note": "C4",
+     "measured_cents": 7,
+     "sha256": "e88a0ff35e6b8c29fd88bc778a4c817d955b2c3a2934def97a7d093b72e2ae97",
+     "bytes": 2009832
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_E4_v1_1.wav",
+     "file": "Woodwinds/Flute/Flute_E5.wav",
+     "note": "E5",
+     "midi": 76,
+     "source_note": "E4",
+     "measured_cents": 2,
+     "sha256": "83d4eed0c54ebfe25fe9dfb0475fb90a88a43d11777bc2afac879b8b695e494c",
+     "bytes": 2144718
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_C5_v1_1.wav",
+     "file": "Woodwinds/Flute/Flute_C6.wav",
+     "note": "C6",
+     "midi": 84,
+     "source_note": "C5",
+     "measured_cents": -1,
+     "sha256": "ecb78c59069866ea7c3327594851827cd2f50c5d411aad422269a88e53614fbe",
+     "bytes": 1930938
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_E5_v1_1.wav",
+     "file": "Woodwinds/Flute/Flute_E6.wav",
+     "note": "E6",
+     "midi": 88,
+     "source_note": "E5",
+     "measured_cents": 0,
+     "sha256": "6eab0a4827c43b49415cb0c846affd40e9555c884c74683422554923faf17681",
+     "bytes": 1586118
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Flute/susvib/LDFlute_susvib_C6_v1_1.wav",
+     "file": "Woodwinds/Flute/Flute_C7.wav",
+     "note": "C7",
+     "midi": 96,
+     "source_note": "C6",
+     "measured_cents": -1,
+     "sha256": "0ead172a529daad09ecbab66027027b92189afe79f50f71dc20ee58ca66c9135",
+     "bytes": 1260120
+    }
+   ]
+  },
+  {
+   "name": "Clarinet",
+   "category": "Woodwinds",
+   "sustain": true,
+   "comment": "Long sustains, loudest layer (v3); 16-bit, room noise about 40 to 55 dB below the note. The top note is relabelled (see file).",
+   "files": [
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_D2_v3_rr1_sum.wav",
+     "file": "Woodwinds/Clarinet/Clarinet_D3.wav",
+     "note": "D3",
+     "midi": 50,
+     "source_note": "D2",
+     "measured_cents": 1,
+     "sha256": "346775f54394b9cf5e9513a4ab8292274f20370f2ac4cd47cea6319c1fa494ff",
+     "bytes": 1381704
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_A%232_v3_rr1_sum.wav",
+     "file": "Woodwinds/Clarinet/Clarinet_A#3.wav",
+     "note": "A#3",
+     "midi": 58,
+     "source_note": "A#2",
+     "measured_cents": 0,
+     "sha256": "45db5a4eda1927cb627006145cd751d99bfd4449576730009d521191bfb8d746",
+     "bytes": 2335540
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_D3_v3_rr1_sum.wav",
+     "file": "Woodwinds/Clarinet/Clarinet_D4.wav",
+     "note": "D4",
+     "midi": 62,
+     "source_note": "D3",
+     "measured_cents": -2,
+     "sha256": "bec366e903704a8d267202b16c3f170c513aef18fc6727f5bc4ec424c27efeb3",
+     "bytes": 1856124
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_F3_v3_rr1_sum.wav",
+     "file": "Woodwinds/Clarinet/Clarinet_F4.wav",
+     "note": "F4",
+     "midi": 65,
+     "source_note": "F3",
+     "measured_cents": -1,
+     "sha256": "6b434e88f724e46116dd71bdfe52dc82c9b1ec7cec5f512bf9719be51e646671",
+     "bytes": 1743712
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_D4_v3_rr1_sum.wav",
+     "file": "Woodwinds/Clarinet/Clarinet_D5.wav",
+     "note": "D5",
+     "midi": 74,
+     "source_note": "D4",
+     "measured_cents": -1,
+     "sha256": "f913c749eb6b5a1c621e13548d5c30c8f67a6007a2992a6f85deb977c2d41b1f",
+     "bytes": 2087348
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_F4_v3_rr1_sum.wav",
+     "file": "Woodwinds/Clarinet/Clarinet_F5.wav",
+     "note": "F5",
+     "midi": 77,
+     "source_note": "F4",
+     "measured_cents": 0,
+     "sha256": "8d9bcdf56ed0c2adebb38242d7b5bb0e2da6884fa9f42a6d4226fb21c1bc7f68",
+     "bytes": 2373520
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_D5_v3_rr1_sum.wav",
+     "file": "Woodwinds/Clarinet/Clarinet_D6.wav",
+     "note": "D6",
+     "midi": 86,
+     "source_note": "D5",
+     "measured_cents": 0,
+     "sha256": "4bcff7aa31fe94c9d4a23acde1a9c2cb437dd4ee9c9804c981bbfb184c76509a",
+     "bytes": 1593652
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Woodwinds/Clarinet/susLong/DCClar_susLong_F%235_v3_rr1_sum.wav",
+     "file": "Woodwinds/Clarinet/Clarinet_F6.wav",
+     "note": "F6",
+     "midi": 89,
+     "source_note": "F#5",
+     "measured_cents": -2,
+     "relabelled": "source file name says F#5 (F#6 at C4 = 60) but the recording is an F6; relabelled to the measured pitch",
+     "sha256": "13355ccf2ead9ed98142c0062682aecf3ed3c443df619e94a9b3ec7ef523f057",
+     "bytes": 1586272
+    }
+   ]
+  },
+  {
+   "name": "Solo Voice Aah",
+   "category": "Voices",
+   "sustain": true,
+   "comment": "One deep male voice singing 'ah' (not a choir), D2 to G#3 only. The singer is flat on several notes (see measured_cents) and the files end at full level with no release. Most notes above A2 in the source are 30 to 55 cents flat and the two lowest are unsteady; those were left out.",
+   "files": [
+    {
+     "source": "legatovocal",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_d3.wav",
+     "file": "Voices/Solo Voice Aah/Solo Voice Aah_D2.wav",
+     "note": "D2",
+     "midi": 38,
+     "source_note": "d3",
+     "measured_cents": 3,
+     "sha256": "4b6f6fde9e44d355f7a55e799af7ab885a5da93074f060b7760f38b836b205ed",
+     "bytes": 2241634
+    },
+    {
+     "source": "legatovocal",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_f3.wav",
+     "file": "Voices/Solo Voice Aah/Solo Voice Aah_F2.wav",
+     "note": "F2",
+     "midi": 41,
+     "source_note": "f3",
+     "measured_cents": 0,
+     "sha256": "f16a305b9b25c7e93d1f364d2a27b49280e7469b717a8e6a6a65c2b622e1be4d",
+     "bytes": 1385452
+    },
+    {
+     "source": "legatovocal",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_ab3.wav",
+     "file": "Voices/Solo Voice Aah/Solo Voice Aah_G#2.wav",
+     "note": "G#2",
+     "midi": 44,
+     "source_note": "ab3",
+     "measured_cents": -12,
+     "sha256": "cbf54bbdfce5a2b636295bce4e7da7466b30ddd6e17e3e54affa700885234e90",
+     "bytes": 1647230
+    },
+    {
+     "source": "legatovocal",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_c4.wav",
+     "file": "Voices/Solo Voice Aah/Solo Voice Aah_C3.wav",
+     "note": "C3",
+     "midi": 48,
+     "source_note": "c4",
+     "measured_cents": -21,
+     "sha256": "4e04e8c922b48999a247a7f98974fe4f8fb329a74f7a0b5b45b3e4fc06b15dea",
+     "bytes": 1841584
+    },
+    {
+     "source": "legatovocal",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_d4.wav",
+     "file": "Voices/Solo Voice Aah/Solo Voice Aah_D3.wav",
+     "note": "D3",
+     "midi": 50,
+     "source_note": "d4",
+     "measured_cents": -27,
+     "sha256": "9ad4a4b9bec5113361901304c6b1eea2309eec84fae9e4508988d688f236596e",
+     "bytes": 1479908
+    },
+    {
+     "source": "legatovocal",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/legato_vocal_tutorial/fac6461ee4c7f498b23246eced644616fa58d2ec/Samples/vowel_sustain/a/vowel_a_ab4.wav",
+     "file": "Voices/Solo Voice Aah/Solo Voice Aah_G#3.wav",
+     "note": "G#3",
+     "midi": 56,
+     "source_note": "ab4",
+     "measured_cents": -20,
+     "sha256": "2d7dfb8f25fdf79bb525efec5a4b706de4dd5e10ae2a071d625c57815a3f43e2",
+     "bytes": 1195534
+    }
+   ]
+  },
+  {
+   "name": "Harp",
+   "category": "Plucked",
+   "sustain": false,
+   "comment": "Concert harp, forte layer; 16-bit and quiet in the bass (peaks -20 to -30 dBFS). The whole harp is about 10 cents flat; the lowest (E1) and highest (F7) strings in the source are 30 cents or more flat and were left out.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_G1_f1.wav",
+     "file": "Plucked/Harp/Harp_G1.wav",
+     "note": "G1",
+     "midi": 31,
+     "source_note": "G1",
+     "measured_cents": -20,
+     "sha256": "47a5ea6c3ec629e9f7f40410b36e6dad15213aa660f5f53b436d484cd2e9319d",
+     "bytes": 2786426
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D2_f1.wav",
+     "file": "Plucked/Harp/Harp_D2.wav",
+     "note": "D2",
+     "midi": 38,
+     "source_note": "D2",
+     "measured_cents": 4,
+     "sha256": "2c9a8cf6b68ddd24ae012624bd5b02436ccfa76443204f2b3d580f8e05bdeb62",
+     "bytes": 2452326
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A2_f1.wav",
+     "file": "Plucked/Harp/Harp_A2.wav",
+     "note": "A2",
+     "midi": 45,
+     "source_note": "A2",
+     "measured_cents": -2,
+     "sha256": "c58aae0c0eec982c4cb45034d63b00567266fdbb9351354f916703ac4bc51b4e",
+     "bytes": 1956866
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_E3_f1.wav",
+     "file": "Plucked/Harp/Harp_E3.wav",
+     "note": "E3",
+     "midi": 52,
+     "source_note": "E3",
+     "measured_cents": -2,
+     "sha256": "8a803bd6b96a121e83b4ad7e2e0ed40d9b93540f530e89d1a454957121b95f72",
+     "bytes": 2811614
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_B3_f1.wav",
+     "file": "Plucked/Harp/Harp_B3.wav",
+     "note": "B3",
+     "midi": 59,
+     "source_note": "B3",
+     "measured_cents": -8,
+     "sha256": "f4e218e04bd27b3e56edb8bb34d41cb5b9960b21acaafb2a8553bea2b402ef66",
+     "bytes": 2095102
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_F4_f1.wav",
+     "file": "Plucked/Harp/Harp_F4.wav",
+     "note": "F4",
+     "midi": 65,
+     "source_note": "F4",
+     "measured_cents": -1,
+     "sha256": "990a38119a68a4b84166080be13027cfbbb4eb17333f8914c9e1a89884521155",
+     "bytes": 1873242
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_C5_f1.wav",
+     "file": "Plucked/Harp/Harp_C5.wav",
+     "note": "C5",
+     "midi": 72,
+     "source_note": "C5",
+     "measured_cents": -8,
+     "sha256": "52a002ae0359257f02b972a62f05e86a4bdbeed272820f934c356408e100cda8",
+     "bytes": 2238054
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_G5_f1.wav",
+     "file": "Plucked/Harp/Harp_G5.wav",
+     "note": "G5",
+     "midi": 79,
+     "source_note": "G5",
+     "measured_cents": -6,
+     "sha256": "32ad10059918ed0f60d40c1c35c28031d19e4356edceacf1dcf539279ac822c1",
+     "bytes": 938866
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D6_f1.wav",
+     "file": "Plucked/Harp/Harp_D6.wav",
+     "note": "D6",
+     "midi": 86,
+     "source_note": "D6",
+     "measured_cents": -12,
+     "sha256": "40828e75a36574f0ac1ddb57da3fc18355a5ee5f88c2b1fa397412034985055d",
+     "bytes": 1314286
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A6_f1.wav",
+     "file": "Plucked/Harp/Harp_A6.wav",
+     "note": "A6",
+     "midi": 93,
+     "source_note": "A6",
+     "measured_cents": -20,
+     "sha256": "60fd5298274faabdbcda48f3ccf05de5a5abaaa037e337d88f1b583ea421e929",
+     "bytes": 544050
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D7_f1.wav",
+     "file": "Plucked/Harp/Harp_D7.wav",
+     "note": "D7",
+     "midi": 98,
+     "source_note": "D7",
+     "measured_cents": -11,
+     "sha256": "682b95338233c09889f50e6b71429780dabe0314fb11638cbdd04a735323dfd1",
+     "bytes": 498098
+    }
+   ]
+  },
+  {
+   "name": "Harpsichord",
+   "category": "Plucked",
+   "sustain": false,
+   "comment": "French harpsichord, sustains; 48 kHz 24-bit.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_D0_rr1_Main.wav",
+     "file": "Plucked/Harpsichord/Harpsichord_D1.wav",
+     "note": "D1",
+     "midi": 26,
+     "source_note": "D0",
+     "measured_cents": 1,
+     "sha256": "52ac687aeeb7593c2ea75162c98a7569b715864d5c3579911c54fa40f3a250a9",
+     "bytes": 3774500
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_A%230_rr1_Main.wav",
+     "file": "Plucked/Harpsichord/Harpsichord_A#1.wav",
+     "note": "A#1",
+     "midi": 34,
+     "source_note": "A#0",
+     "measured_cents": 2,
+     "sha256": "cd1aa9ff623f340bba9d20e853a17d9891e7ce4fbbf3fef3bec365cd571bc793",
+     "bytes": 5389760
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_F%231_rr1_Main.wav",
+     "file": "Plucked/Harpsichord/Harpsichord_F#2.wav",
+     "note": "F#2",
+     "midi": 42,
+     "source_note": "F#1",
+     "measured_cents": 0,
+     "sha256": "f65ebd89ff31eb0664c0d1d31c18e30ce68718227470ed9062a957b20325f185",
+     "bytes": 3754388
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_D2_rr1_Main.wav",
+     "file": "Plucked/Harpsichord/Harpsichord_D3.wav",
+     "note": "D3",
+     "midi": 50,
+     "source_note": "D2",
+     "measured_cents": 6,
+     "sha256": "c5551574bde8881040064d6fa497782fa84207ea87ada1d9ca0f8cf05e57bcda",
+     "bytes": 3126458
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_C3_rr1_Main.wav",
+     "file": "Plucked/Harpsichord/Harpsichord_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "C3",
+     "measured_cents": -1,
+     "sha256": "cda5d21cdf4581517933859b8557e32745b5115ba243f63fef757fee025390de",
+     "bytes": 2647268
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_G%233_rr1_Main.wav",
+     "file": "Plucked/Harpsichord/Harpsichord_G#4.wav",
+     "note": "G#4",
+     "midi": 68,
+     "source_note": "G#3",
+     "measured_cents": -1,
+     "sha256": "d065001d0ef782931cd18b2b38b5081654002bb43f8f7c15138cdd5bab5a6aa8",
+     "bytes": 2908280
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_E4_rr1_Main.wav",
+     "file": "Plucked/Harpsichord/Harpsichord_E5.wav",
+     "note": "E5",
+     "midi": 76,
+     "source_note": "E4",
+     "measured_cents": 0,
+     "sha256": "ba938d908943ff8f77434a07298a11f53257a3c02dc8e5dd50d1095c235bf5af",
+     "bytes": 1730096
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Harpsichord%2C%20French/Sustains/Harpsi2_Normal_C5_rr1_Main.wav",
+     "file": "Plucked/Harpsichord/Harpsichord_C6.wav",
+     "note": "C6",
+     "midi": 84,
+     "source_note": "C5",
+     "measured_cents": -3,
+     "sha256": "63132dd11bb1a0b9ca09b89183e86c8020afadc7d48812432448450b354fe3cd",
+     "bytes": 1433186
+    }
+   ]
+  },
+  {
+   "name": "Pizzicato Strings",
+   "category": "Plucked",
+   "sustain": false,
+   "comment": "Built from VSCO 2 CE cello section (C2 to C4) and violin section (F#4 to D6) pizzicato; section pizzicati have a naturally blurred pitch. Mixed 16- and 24-bit.",
+   "files": [
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/pizzT/pizzT_C1_v2_RR1.wav",
+     "file": "Plucked/Pizzicato Strings/Pizzicato Strings_C2.wav",
+     "note": "C2",
+     "midi": 36,
+     "source_note": "C1",
+     "measured_cents": 14,
+     "sha256": "eb757d0688c447d609e9583c3943b9b51f5dee3c8b309ef6e03cac0c36910f15",
+     "bytes": 981176
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/pizzT/pizzT_G1_v2_RR1.wav",
+     "file": "Plucked/Pizzicato Strings/Pizzicato Strings_G2.wav",
+     "note": "G2",
+     "midi": 43,
+     "source_note": "G1",
+     "measured_cents": -2,
+     "sha256": "a12366cff3dd68c4a1622bd504161caa9ed18d23f9d03ed413936a0829188cf1",
+     "bytes": 884180
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/pizzT/pizzT_D2_v2_RR1.wav",
+     "file": "Plucked/Pizzicato Strings/Pizzicato Strings_D3.wav",
+     "note": "D3",
+     "midi": 50,
+     "source_note": "D2",
+     "measured_cents": -13,
+     "sha256": "5f80f5fd2f8f3f2cc33b8e7cdba1c5984b5a8158d6d34cd03fe48ae46b335461",
+     "bytes": 770222
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/pizzT/pizzT_A2_v2_RR1.wav",
+     "file": "Plucked/Pizzicato Strings/Pizzicato Strings_A3.wav",
+     "note": "A3",
+     "midi": 57,
+     "source_note": "A2",
+     "measured_cents": 17,
+     "sha256": "187df4d1d5621877d32cbfb3d174dcacb85aa59caf3359d9ce398bec4f7ccf56",
+     "bytes": 748484
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Cello%20Section/pizzT/pizzT_C3_v2_RR1.wav",
+     "file": "Plucked/Pizzicato Strings/Pizzicato Strings_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "C3",
+     "measured_cents": -5,
+     "sha256": "fbc86686ef092e92e473dce4d1ff5f1e351dcc76ed2d94b0d336c1346f314e59",
+     "bytes": 762122
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/Pizz/VlnEns_Pizz_F%233_v2_rr2.wav",
+     "file": "Plucked/Pizzicato Strings/Pizzicato Strings_F#4.wav",
+     "note": "F#4",
+     "midi": 66,
+     "source_note": "F#3",
+     "measured_cents": 0,
+     "sha256": "fef269022693eef0b318c1db1a03658f1063ee4d7e3b3bb25e29add97bad6cdc",
+     "bytes": 176738
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/Pizz/VlnEns_Pizz_C4_v2_rr1.wav",
+     "file": "Plucked/Pizzicato Strings/Pizzicato Strings_C5.wav",
+     "note": "C5",
+     "midi": 72,
+     "source_note": "C4",
+     "measured_cents": 8,
+     "sha256": "909eb79fc2c9076909680fa3c2dabdbbd15870f674a883ddab33bbcd0dac965a",
+     "bytes": 184590
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/Pizz/VlnEns_Pizz_E4_v2_rr1.wav",
+     "file": "Plucked/Pizzicato Strings/Pizzicato Strings_E5.wav",
+     "note": "E5",
+     "midi": 76,
+     "source_note": "E4",
+     "measured_cents": -11,
+     "sha256": "1e1dcef99c3961a601ed0c8336fbf4819fd432ab783445fe4f44fc488e598993",
+     "bytes": 146742
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/Pizz/VlnEns_Pizz_B4_v2_rr2.wav",
+     "file": "Plucked/Pizzicato Strings/Pizzicato Strings_B5.wav",
+     "note": "B5",
+     "midi": 83,
+     "source_note": "B4",
+     "measured_cents": -4,
+     "sha256": "a316a9761252799f7d5aa64987076432e57b2b4ba31a572e390c4f294ff114f2",
+     "bytes": 126302
+    },
+    {
+     "source": "vsco2ce",
+     "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Violin%20Section/Pizz/VlnEns_Pizz_D5_v2_rr2.wav",
+     "file": "Plucked/Pizzicato Strings/Pizzicato Strings_D6.wav",
+     "note": "D6",
+     "midi": 86,
+     "source_note": "D5",
+     "measured_cents": 15,
+     "sha256": "cbb872a715f93bba14d7913000015e89aefd477e3c1a7535c8e864e8fa6c0583",
+     "bytes": 125806
+    }
+   ]
+  },
+  {
+   "name": "Banjo",
+   "category": "Plucked",
+   "sustain": false,
+   "comment": "Six-string guitar banjo. The source instrument is tuned 30 to 50 cents sharp; only takes measured within 30 cents were chosen, so the range is narrow (F#3 to B4) and the notes are short (0.7 to 1.8 s). 32-bit float WAV normalised to full scale.",
+   "files": [
+    {
+     "source": "ganjo",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20F%234_7.wav",
+     "file": "Plucked/Banjo/Banjo_F#3.wav",
+     "note": "F#3",
+     "midi": 54,
+     "source_note": "F#4",
+     "measured_cents": 5,
+     "sha256": "8d0b0b23d08a3f9841e4c401de328f58cff9b98cd23707316eb273ddde3c6c6b",
+     "bytes": 534684
+    },
+    {
+     "source": "ganjo",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20A4.wav",
+     "file": "Plucked/Banjo/Banjo_A3.wav",
+     "note": "A3",
+     "midi": 57,
+     "source_note": "A4",
+     "measured_cents": 15,
+     "sha256": "fd31432fb20652fe9a21516ff0a552c2c32752e36a0e3d33b83b05a512f09de4",
+     "bytes": 233364
+    },
+    {
+     "source": "ganjo",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20B4_2.wav",
+     "file": "Plucked/Banjo/Banjo_B3.wav",
+     "note": "B3",
+     "midi": 59,
+     "source_note": "B4",
+     "measured_cents": -6,
+     "sha256": "0e4325607caae3c5ada593b752bc7e2540e0c73ceb7628ab754be9becf31d9a6",
+     "bytes": 236988
+    },
+    {
+     "source": "ganjo",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20D%235_2.wav",
+     "file": "Plucked/Banjo/Banjo_D#4.wav",
+     "note": "D#4",
+     "midi": 63,
+     "source_note": "D#5",
+     "measured_cents": 4,
+     "sha256": "c3a5b0dc0d8c373afb5bd4c4c4690da8734cb4a998b71a43f94a1407c98bbdfe",
+     "bytes": 621460
+    },
+    {
+     "source": "ganjo",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20G%235_2.wav",
+     "file": "Plucked/Banjo/Banjo_G#4.wav",
+     "note": "G#4",
+     "midi": 68,
+     "source_note": "G#5",
+     "measured_cents": 26,
+     "sha256": "02a0d87a20028682c59443b006b74827f5a837a68ecbcbb4bac8bd77fe1e8de8",
+     "bytes": 569436
+    },
+    {
+     "source": "ganjo",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/ganjo/ccff5cd5cd3b513873a48994c07724d9d3c39e1c/Common/Banjo_Common%20-%20B5.wav",
+     "file": "Plucked/Banjo/Banjo_B4.wav",
+     "note": "B4",
+     "midi": 71,
+     "source_note": "B5",
+     "measured_cents": 4,
+     "sha256": "45f1f6755c1d892786bde903c789b0051ffafc167dbf282cf1b87eb2a12e76ae",
+     "bytes": 317772
+    }
+   ]
+  },
+  {
+   "name": "Psaltery",
+   "category": "Plucked",
+   "sustain": false,
+   "comment": "Bowed psaltery, plucked articulation.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_A%233_Main_Pluck_rr1.wav",
+     "file": "Plucked/Psaltery/Psaltery_A#4.wav",
+     "note": "A#4",
+     "midi": 70,
+     "source_note": "A#3",
+     "measured_cents": 0,
+     "sha256": "7787947ce936636260ad05ed55465e8299359b7f5c376769a93607d161274eb6",
+     "bytes": 1295120
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_D4_Main_Pluck_rr1.wav",
+     "file": "Plucked/Psaltery/Psaltery_D5.wav",
+     "note": "D5",
+     "midi": 74,
+     "source_note": "D4",
+     "measured_cents": 1,
+     "sha256": "dde20bc47d52e8bff451b3060b27f40e4568697402dc8bab5f63cca964f3d6b0",
+     "bytes": 1189394
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_F%234_Main_Pluck_rr1.wav",
+     "file": "Plucked/Psaltery/Psaltery_F#5.wav",
+     "note": "F#5",
+     "midi": 78,
+     "source_note": "F#4",
+     "measured_cents": -1,
+     "sha256": "747b40dbd3a5ef04ea9d629e32564bdb84d15d86cc0d9b786e61fe48e76850d3",
+     "bytes": 1298180
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_A%234_Main_Pluck_rr1.wav",
+     "file": "Plucked/Psaltery/Psaltery_A#5.wav",
+     "note": "A#5",
+     "midi": 82,
+     "source_note": "A#4",
+     "measured_cents": -1,
+     "sha256": "196517ca0961232e8264623ee3786cfa104695f063425c034d4cca61c6dd276e",
+     "bytes": 1310642
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_D5_Main_Pluck_rr1.wav",
+     "file": "Plucked/Psaltery/Psaltery_D6.wav",
+     "note": "D6",
+     "midi": 86,
+     "source_note": "D5",
+     "measured_cents": -1,
+     "sha256": "7ff1e40a19ad16a5a23ada877af8113aeaf7939e25d5bcae7e801b69ad47bf9f",
+     "bytes": 954200
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Psaltery%2C%20Bowed%20and%20Plucked/Pluck/BowedPsaltery_F%235_Main_Pluck_rr3.wav",
+     "file": "Plucked/Psaltery/Psaltery_F#6.wav",
+     "note": "F#6",
+     "midi": 90,
+     "source_note": "F#5",
+     "measured_cents": -2,
+     "sha256": "ec9e29ccbadb1cca6e2b4803a4e50083a084dcd8e8fc9434938160742bc5c52b",
+     "bytes": 956006
+    }
+   ]
+  },
+  {
+   "name": "Dan Tranh",
+   "category": "Plucked",
+   "sustain": false,
+   "comment": "Vietnamese zither (koto-like), normal pluck, forte, mono.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/B1_f_1.wav",
+     "file": "Plucked/Dan Tranh/Dan Tranh_B2.wav",
+     "note": "B2",
+     "midi": 47,
+     "source_note": "B1",
+     "measured_cents": 0,
+     "sha256": "b861175fa12d69358fb4ffdd3b76c94e276b480390c3f867b69c4dce077c2084",
+     "bytes": 863957
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/F%232_f_1.wav",
+     "file": "Plucked/Dan Tranh/Dan Tranh_F#3.wav",
+     "note": "F#3",
+     "midi": 54,
+     "source_note": "F#2",
+     "measured_cents": 28,
+     "sha256": "45685d2f39a01531bdc16182fe7658ff8737a602ed3f1f8b53f7ff02dc00800a",
+     "bytes": 854735
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/B2_f_1.wav",
+     "file": "Plucked/Dan Tranh/Dan Tranh_B3.wav",
+     "note": "B3",
+     "midi": 59,
+     "source_note": "B2",
+     "measured_cents": 18,
+     "sha256": "ca40d095c4410f98a4e26e9dc90c678ea975cebc3acbd61094dfbfdfb75f9925",
+     "bytes": 866756
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/F%233_f_1.wav",
+     "file": "Plucked/Dan Tranh/Dan Tranh_F#4.wav",
+     "note": "F#4",
+     "midi": 66,
+     "source_note": "F#3",
+     "measured_cents": -5,
+     "sha256": "c7007738a2202fce50d71b000ab56863ec7edc510429037d98c89772a694bf71",
+     "bytes": 784835
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/B3_f_1.wav",
+     "file": "Plucked/Dan Tranh/Dan Tranh_B4.wav",
+     "note": "B4",
+     "midi": 71,
+     "source_note": "B3",
+     "measured_cents": -2,
+     "sha256": "8c16a56d6203ea19d3293ca92fd3f06f87cbf79d43ceca7c9b428801cdc0851d",
+     "bytes": 758849
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/F%234_f_1.wav",
+     "file": "Plucked/Dan Tranh/Dan Tranh_F#5.wav",
+     "note": "F#5",
+     "midi": 78,
+     "source_note": "F#4",
+     "measured_cents": -1,
+     "sha256": "1ab085779be1d32283a9bb15802011a7f629e91780e98538fa47cb94359908ae",
+     "bytes": 568373
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Chordophones/Zithers/Dan%20Tranh/Normal/B4_f_1.wav",
+     "file": "Plucked/Dan Tranh/Dan Tranh_B5.wav",
+     "note": "B5",
+     "midi": 83,
+     "source_note": "B4",
+     "measured_cents": -6,
+     "sha256": "c9cc1e39ef54bd25d428f7eee720126675f3c713ab61ea650cd2a20bf1e8e64a",
+     "bytes": 292481
+    }
+   ]
+  },
+  {
+   "name": "Kalimba",
+   "category": "Plucked",
+   "sustain": false,
+   "comment": "Kenyan kalimba in its own traditional tuning; only the tines within about 30 cents of equal temperament were chosen (B3 to D#5). Neighbouring tines ring in sympathy in every sample. D#5 is about +27 cents at the attack.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_B2_k8_vl3_rr2.wav",
+     "file": "Plucked/Kalimba/Kalimba_B3.wav",
+     "note": "B3",
+     "midi": 59,
+     "source_note": "B2",
+     "measured_cents": -10,
+     "sha256": "b4bd2db5c868be7398e2028ec818a3edc3979e49df620f2250b786f2e45b3905",
+     "bytes": 1093298
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_C%233_k7_vl3_rr2.wav",
+     "file": "Plucked/Kalimba/Kalimba_C#4.wav",
+     "note": "C#4",
+     "midi": 61,
+     "source_note": "C#3",
+     "measured_cents": 19,
+     "sha256": "3ba8ac79db31fbdb68f907de7c59da0c64ae48bc75350a4f7f0c957f72c420cc",
+     "bytes": 1319984
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_D%233_k9_vl3_rr2.wav",
+     "file": "Plucked/Kalimba/Kalimba_D#4.wav",
+     "note": "D#4",
+     "midi": 63,
+     "source_note": "D#3",
+     "measured_cents": -5,
+     "sha256": "91d09e2ef04fb5fadfc2b279d28a8125e0b187c65987e12c598b1f5fbf4b896f",
+     "bytes": 2539442
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_F%233_k5_vl3_rr2.wav",
+     "file": "Plucked/Kalimba/Kalimba_F#4.wav",
+     "note": "F#4",
+     "midi": 66,
+     "source_note": "F#3",
+     "measured_cents": 2,
+     "sha256": "b1f9bbb8a3860306aab71c9fcbeff5ed9cf17a123eef0381380fb20f0e3daa95",
+     "bytes": 1620200
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_B3_k3_vl3_rr2.wav",
+     "file": "Plucked/Kalimba/Kalimba_B4.wav",
+     "note": "B4",
+     "midi": 71,
+     "source_note": "B3",
+     "measured_cents": 18,
+     "sha256": "d35e8f5773ee989511e376876d9698e0027f44a754eb9e001de01abb29b19808",
+     "bytes": 1301696
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_C%234_k2_vl3_rr2.wav",
+     "file": "Plucked/Kalimba/Kalimba_C#5.wav",
+     "note": "C#5",
+     "midi": 73,
+     "source_note": "C#4",
+     "measured_cents": 19,
+     "sha256": "79643a37ffc158acb9995390c3c20aa8d0246375e074e2ea38661313e58b6a5f",
+     "bytes": 1384778
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Plucked%20Idiophones/Kalimba%2C%20Kenya/Mbira6_Normal_MainSpirit_D%234_k13_vl3_rr2.wav",
+     "file": "Plucked/Kalimba/Kalimba_D#5.wav",
+     "note": "D#5",
+     "midi": 75,
+     "source_note": "D#4",
+     "measured_cents": 27,
+     "sha256": "25cee2aabafa43a0acac052a93f95e43b61f12686c0b0f47176f80a06e10deee",
+     "bytes": 867080
+    }
+   ]
+  },
+  {
+   "name": "Marimba",
+   "category": "Mallets",
+   "sustain": false,
+   "comment": "Loud layer; 24-bit but quiet (peaks -15 to -26 dBFS).",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F1_loud_01.wav",
+     "file": "Mallets/Marimba/Marimba_F2.wav",
+     "note": "F2",
+     "midi": 41,
+     "source_note": "F1",
+     "measured_cents": -1,
+     "sha256": "c5cb5ce59540b0a23628a919e90153a6cee9bb35325b056e0710c12b64f0b193",
+     "bytes": 972392
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C2_loud_01.wav",
+     "file": "Mallets/Marimba/Marimba_C3.wav",
+     "note": "C3",
+     "midi": 48,
+     "source_note": "C2",
+     "measured_cents": -8,
+     "sha256": "bfad3b0e57d04c31e6079aba11fb0a6c5c84627fd4bc46e4e0923663586c460c",
+     "bytes": 2236004
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_G2_loud_01.wav",
+     "file": "Mallets/Marimba/Marimba_G3.wav",
+     "note": "G3",
+     "midi": 55,
+     "source_note": "G2",
+     "measured_cents": -1,
+     "sha256": "3bd173f56481e537c3489a94d1e4dd59c304f9f98679c7c90890fc9f5795c25d",
+     "bytes": 1855448
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F3_loud_01.wav",
+     "file": "Mallets/Marimba/Marimba_F4.wav",
+     "note": "F4",
+     "midi": 65,
+     "source_note": "F3",
+     "measured_cents": 0,
+     "sha256": "379e749add43b12959fae06cc272f1871899cc05460faf41ead77b93e5d01843",
+     "bytes": 1589876
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav",
+     "file": "Mallets/Marimba/Marimba_C5.wav",
+     "note": "C5",
+     "midi": 72,
+     "source_note": "C4",
+     "measured_cents": 4,
+     "sha256": "4af539d47a452d7fad26e171b1c8adcca272cee97191f040d192680462c880b8",
+     "bytes": 1016564
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_G4_loud_01.wav",
+     "file": "Mallets/Marimba/Marimba_G5.wav",
+     "note": "G5",
+     "midi": 79,
+     "source_note": "G4",
+     "measured_cents": -2,
+     "sha256": "36f39f9f24789001add2b4c440defb7641178b0e8449c5cb7f1960bccaf0aaaf",
+     "bytes": 800102
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F5_loud_01.wav",
+     "file": "Mallets/Marimba/Marimba_F6.wav",
+     "note": "F6",
+     "midi": 89,
+     "source_note": "F5",
+     "measured_cents": -1,
+     "sha256": "a434c15978b2ea4b8921feeb3fd1f177447324d06c177801e0e46c12a97abc86",
+     "bytes": 551306
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C6_loud_01.wav",
+     "file": "Mallets/Marimba/Marimba_C7.wav",
+     "note": "C7",
+     "midi": 96,
+     "source_note": "C6",
+     "measured_cents": -2,
+     "sha256": "2e42b1b6f6923f32e3daadc12b063e94d15af20fa410ddcb267eb906fd6e0e89",
+     "bytes": 472142
+    }
+   ]
+  },
+  {
+   "name": "Vibraphone",
+   "category": "Mallets",
+   "sustain": false,
+   "comment": "Soft mallets, layer v2; 16-bit. The lowest bar (F3) has a strong upper partial at the attack.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_F2_v2_rr1_Main.wav",
+     "file": "Mallets/Vibraphone/Vibraphone_F3.wav",
+     "note": "F3",
+     "midi": 53,
+     "source_note": "F2",
+     "measured_cents": -4,
+     "sha256": "14c3f7a2492f6a87aecd6463611bbbbfe2094383bfa267a2df67f94766e00df5",
+     "bytes": 1569944
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_C3_v2_rr1_Main.wav",
+     "file": "Mallets/Vibraphone/Vibraphone_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "C3",
+     "measured_cents": -1,
+     "sha256": "83950902ab4323f372bbf81b924fc05c6bd0ea42c9742db44464d562c20414bf",
+     "bytes": 2117636
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_G3_v2_rr1_Main.wav",
+     "file": "Mallets/Vibraphone/Vibraphone_G4.wav",
+     "note": "G4",
+     "midi": 67,
+     "source_note": "G3",
+     "measured_cents": 0,
+     "sha256": "ecd350b0fec96ce465a185c44a9c3b2ee966d6b56784c27c17d42e9b5d887882",
+     "bytes": 3221132
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_D4_v2_rr1_Main.wav",
+     "file": "Mallets/Vibraphone/Vibraphone_D5.wav",
+     "note": "D5",
+     "midi": 74,
+     "source_note": "D4",
+     "measured_cents": 0,
+     "sha256": "aa5626038a653de08057e1dae8a7160b12f2ce26c85a525bc545b8d14843ce80",
+     "bytes": 2625224
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_A4_v2_rr1_Main.wav",
+     "file": "Mallets/Vibraphone/Vibraphone_A5.wav",
+     "note": "A5",
+     "midi": 81,
+     "source_note": "A4",
+     "measured_cents": 0,
+     "sha256": "fb507c5cb2f2023289fdf1384092f3c5e13f03a2b5b1c39f6792cc57aa77d58d",
+     "bytes": 2388580
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Vibraphone/Soft%20Mallets/Vibes_soft_E5_v2_rr1_Main.wav",
+     "file": "Mallets/Vibraphone/Vibraphone_E6.wav",
+     "note": "E6",
+     "midi": 88,
+     "source_note": "E5",
+     "measured_cents": 0,
+     "sha256": "7e854b01269cd206cd863025c5b61416bba90362fa965597a7b174851d07648e",
+     "bytes": 1496764
+    }
+   ]
+  },
+  {
+   "name": "Glockenspiel",
+   "category": "Mallets",
+   "sustain": false,
+   "comment": "Loud layer; 16-bit and quiet (peaks about -24 dBFS); 8 to 24 cents sharp.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_G4_01.wav",
+     "file": "Mallets/Glockenspiel/Glockenspiel_G5.wav",
+     "note": "G5",
+     "midi": 79,
+     "source_note": "G4",
+     "measured_cents": 8,
+     "sha256": "be0bf94731720c0094276fea5646e75ff3a8a646b3c828258e9aaab6a8ef6c49",
+     "bytes": 1323482
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_C5_01.wav",
+     "file": "Mallets/Glockenspiel/Glockenspiel_C6.wav",
+     "note": "C6",
+     "midi": 84,
+     "source_note": "C5",
+     "measured_cents": 12,
+     "sha256": "b28baea01b6028e061e5cc978fca70f9062af6a59d155b0fe55e54ec89f42c07",
+     "bytes": 1323482
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_G5_01.wav",
+     "file": "Mallets/Glockenspiel/Glockenspiel_G6.wav",
+     "note": "G6",
+     "midi": 91,
+     "source_note": "G5",
+     "measured_cents": 12,
+     "sha256": "8aaf97481ef2582c14ef0382ec54c17c1b0a2f901a42976c332bac20fadd74a2",
+     "bytes": 1323482
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_C6_01.wav",
+     "file": "Mallets/Glockenspiel/Glockenspiel_C7.wav",
+     "note": "C7",
+     "midi": 96,
+     "source_note": "C6",
+     "measured_cents": 15,
+     "sha256": "7ca228de549d54770f90bb125e23edcd1dc06cec2b9e1f452661720262f0ecd0",
+     "bytes": 1323482
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_G%236_01.wav",
+     "file": "Mallets/Glockenspiel/Glockenspiel_G#7.wav",
+     "note": "G#7",
+     "midi": 104,
+     "source_note": "G#6",
+     "measured_cents": 16,
+     "sha256": "7649dda2c67decfcf7a8b98b5225c1b2693a191713d4bb83d4e0afa8b88e51c6",
+     "bytes": 931630
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Glockenspiel/glock_loud_C7_01.wav",
+     "file": "Mallets/Glockenspiel/Glockenspiel_C8.wav",
+     "note": "C8",
+     "midi": 108,
+     "source_note": "C7",
+     "measured_cents": 23,
+     "sha256": "d9410b4cd52c1b5eb458098d9f8e7685d6dc12d512ee32db378f19d04f2b1f4b",
+     "bytes": 464710
+    }
+   ]
+  },
+  {
+   "name": "Tubular Bells",
+   "category": "Bells",
+   "sustain": false,
+   "comment": "Orchestral chimes. The note is the strike tone (an octave below the fourth partial), confirmed from the partials, not by the automatic pitch tracker. Files end while still ringing at about -40 to -54 dB.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tubular%20Bells%201/chimes_C3_f_rr1.wav",
+     "file": "Bells/Tubular Bells/Tubular Bells_C4.wav",
+     "note": "C4",
+     "midi": 60,
+     "source_note": "C3",
+     "measured_cents": 3,
+     "sha256": "76d51955e61e70e7a6b46a05865cd0f06f4948aaab97b1925f0f06f193f717f5",
+     "bytes": 3010736
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tubular%20Bells%201/chimes_E3_ff_rr2.wav",
+     "file": "Bells/Tubular Bells/Tubular Bells_E4.wav",
+     "note": "E4",
+     "midi": 64,
+     "source_note": "E3",
+     "measured_cents": 4,
+     "sha256": "086a46cb560dae926014c0494965034aeecdffade7a1d6f54feda13274775a11",
+     "bytes": 4721192
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tubular%20Bells%201/chimes_G%233_ff_rr1.wav",
+     "file": "Bells/Tubular Bells/Tubular Bells_G#4.wav",
+     "note": "G#4",
+     "midi": 68,
+     "source_note": "G#3",
+     "measured_cents": 5,
+     "sha256": "ec7743ccc27b4546f51852965e7d96e97cc14270f6051040c2890fd4d34c24c2",
+     "bytes": 3895904
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tubular%20Bells%201/chimes_C4_ff_rr2.wav",
+     "file": "Bells/Tubular Bells/Tubular Bells_C5.wav",
+     "note": "C5",
+     "midi": 72,
+     "source_note": "C4",
+     "measured_cents": 5,
+     "sha256": "50d2c2bff54396a684ce9b29346bb8d43bb55d5d9adb9d736bdd5a713adc424a",
+     "bytes": 4882730
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tubular%20Bells%201/chimes_E4_ff_rr2.wav",
+     "file": "Bells/Tubular Bells/Tubular Bells_E5.wav",
+     "note": "E5",
+     "midi": 76,
+     "source_note": "E4",
+     "measured_cents": 10,
+     "sha256": "1bec82ee61186bf12863842251b1ec726322a649bc90f50f7bca423d30b345ac",
+     "bytes": 3407718
+    }
+   ]
+  },
+  {
+   "name": "Acoustic Kit",
+   "category": "Drums",
+   "sustain": false,
+   "comment": "Kick, snare, hi-hats, high and mid tom, crash and ride are one jazz kit (Virtuosity Drums: kick from the kick microphone, snare and toms from the mid pair, cymbals from the overheads; FLAC 48 kHz 24-bit). tom_low is a concert tom and tambourine, shaker, clap, cowbell and woodblock are orchestral percussion from VCSL.",
+   "files": [
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/kickmic/kick/kickmic_kick_snoff_vl3_rr1.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_kick.flac",
+     "note": "",
+     "hit": "kick",
+     "sha256": "4f5ce76c313c39f3f3af340deee3c5d2058632b6d1c6c1aab561d3f2433f30d4",
+     "bytes": 97631
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_center_vl28.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_snare.flac",
+     "note": "",
+     "hit": "snare",
+     "sha256": "f8df18766689f44fa92ca17980555fac7e462b2f9c7afd56ef703b24bef36e03",
+     "bytes": 241162
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_rimshot_vl10.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_rimshot.flac",
+     "note": "",
+     "hit": "rimshot",
+     "sha256": "18de2922c3433c7f96e8ff520dcd529875d4e05b0bf83faaa87098c3f8a92189",
+     "bytes": 290162
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/snare/mid_snare_crossstick_vl12.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_sidestick.flac",
+     "note": "",
+     "hit": "sidestick",
+     "sha256": "2b8d7b1c38afe98d339cb3a82a138e1286e5d5b95ac3a71e4a8d1a8c0c2cda14",
+     "bytes": 341116
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/oh/hh/oh_hh_closed_vl3_rr1.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_hihat_closed.flac",
+     "note": "",
+     "hit": "hihat_closed",
+     "sha256": "328a4d33daf15c72362db234312eba56eda60c1668f5c39a5527d61279793fef",
+     "bytes": 85639
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/oh/hh/oh_hh_open_vl3_rr1.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_hihat_open.flac",
+     "note": "",
+     "hit": "hihat_open",
+     "sha256": "046d72bfece4891ba114e090961cde55c7a42e9805a5a2a1b8f5f57e76a190fc",
+     "bytes": 1050271
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/oh/hh/oh_hh_pedal_vl3_rr1.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_hihat_pedal.flac",
+     "note": "",
+     "hit": "hihat_pedal",
+     "sha256": "5311c752a8852e48a05be2d5841bbccb5dedce5b606f49ad8168cc8c52b22235",
+     "bytes": 245386
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/htom/mid_htom_center_vl12.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_tom_high.flac",
+     "note": "",
+     "hit": "tom_high",
+     "sha256": "adc4d06cd73e10611e6dfc31d238319c80e6c8c3e0c74d75c255820af2d1e196",
+     "bytes": 222272
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/mid/ltom/mid_ltom_center_vl12.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_tom_mid.flac",
+     "note": "",
+     "hit": "tom_mid",
+     "sha256": "42b71234a4b414858346fa4d1deb6a47d9c4b30074f2eb612b92732964229835",
+     "bytes": 561706
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Tom%202/Stick/TomL_HitS_v3_rr1_Mid.wav",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_tom_low.wav",
+     "note": "",
+     "hit": "tom_low",
+     "sha256": "bdc312f2f4c799cb43319a7aa0e664bf6194c6f8b14151051b375968df55eab4",
+     "bytes": 508520
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/oh/crash/oh_crash_crash_vl2_rr1.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_crash.flac",
+     "note": "",
+     "hit": "crash",
+     "sha256": "2eb8c5bddc510bb56a48f325d9cdcc54ea52d926645df9180b206a820638fce1",
+     "bytes": 1426940
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/oh/ride/oh_ride_ride_vl2_rr1.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_ride.flac",
+     "note": "",
+     "hit": "ride",
+     "sha256": "56481c1109ac7baba9ab4b049cacfbc5050cf29d59951c654e7316595385eeaa",
+     "bytes": 961942
+    },
+    {
+     "source": "virtuosity",
+     "url": "https://raw.githubusercontent.com/sfzinstruments/virtuosity_drums/9f04cf9a734527edfbb0a4eee1f674e45bbf71bc/Samples/oh/ride/oh_ride_bell_vl2_rr1.flac",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_ride_bell.flac",
+     "note": "",
+     "hit": "ride_bell",
+     "sha256": "36930c1702ff868d84e1bf58fad899c9559b0312b6393bb1b7a4c5d5e91e28aa",
+     "bytes": 659602
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Tambourine%201/Tamb1_Hit_v2_rr1_Mid.wav",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_tambourine.wav",
+     "note": "",
+     "hit": "tambourine",
+     "sha256": "885ebf1d70f8e888f576682e4e4112b92b69649162f392c83b3379c91a09cf41",
+     "bytes": 293256
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Hit_rr1_Mid.wav",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_shaker.wav",
+     "note": "",
+     "hit": "shaker",
+     "sha256": "0d3d62742a6c01ec8b8812faee945eaa2e75bfe02f83df3cc622ba7f00213ddf",
+     "bytes": 230676
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Claps/Clap_rr1.wav",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_clap.wav",
+     "note": "",
+     "hit": "clap",
+     "sha256": "4c9f3fe4a34733b9be6ed9ce5e5aad48b19c1029ae9c6dd1b96294a847539e3f",
+     "bytes": 141974
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Cowbells/Cowbell1_Normal_v3_rr1_Mid.wav",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_cowbell.wav",
+     "note": "",
+     "hit": "cowbell",
+     "sha256": "e212cc27b3490d7927d41508bd7e90d6e09b0b8da169f0357341d3057c4910c4",
+     "bytes": 165900
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Woodblock/wood_click_f_rr1.wav",
+     "file": "Drums/Acoustic Kit/Acoustic Kit_woodblock.wav",
+     "note": "",
+     "hit": "woodblock",
+     "sha256": "86b690a393ad62d65dc6832948adb0cc164fe22f544a8065809f000c65d615fc",
+     "bytes": 497338
+    }
+   ]
+  },
+  {
+   "name": "Orchestral Effects",
+   "category": "Effects",
+   "sustain": false,
+   "comment": "Acoustic stand-ins for impacts, risers and sweeps: gong, concert bass drum, clash cymbals, anvil, slapstick, suspended-cymbal crescendos, a bass-drum roll crescendo and wind chimes. No vinyl noise and no synthetic risers were found.",
+   "files": [
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Gong%201/gong_f.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_impact_gong.wav",
+     "note": "",
+     "hit": "impact_gong",
+     "sha256": "348226a7aceea02fa2d508f329283ea0329d76d21afa6f5a56af95bfaa037048",
+     "bytes": 5433094
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bass%20Drum%202/bassdrum_hit_f.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_impact_bass_drum.wav",
+     "note": "",
+     "hit": "impact_bass_drum",
+     "sha256": "e2f909d4986e2502b0653858c47bd10b0914c5893da770eae3034a9431e31439",
+     "bytes": 1933602
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Clash%20Cymbals%201/cymbal_crash1_mf1.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_impact_clash_cymbals.wav",
+     "note": "",
+     "hit": "impact_clash_cymbals",
+     "sha256": "3b4a6ed42627eedca39f6480e9825dedeaab538197fc734f85be13ba655aa6aa",
+     "bytes": 1495666
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Anvil/Anvil_Hit2_v3_rr1_Mid.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_impact_anvil.wav",
+     "note": "",
+     "hit": "impact_anvil",
+     "sha256": "1482a60b6da77eecb02dea1710ddc9c6711db4bb6feb0b113cba5de4cf188b0b",
+     "bytes": 360728
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Slapstick/slapstick_rr2.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_impact_slapstick.wav",
+     "note": "",
+     "hit": "impact_slapstick",
+     "sha256": "c1fef8439ef3e5c1db60c074255fc072807bde049026ef9e3b199deb75acc1e8",
+     "bytes": 184126
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Suspended%20Cymbal%201/susCymb1_cresc_2s.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_riser_cymbal_swell_2s.wav",
+     "note": "",
+     "hit": "riser_cymbal_swell_2s",
+     "sha256": "a5507bf116b33ee220f4eff54506be56fd455e908c8d53903f217590341e5008",
+     "bytes": 1837622
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Suspended%20Cymbal%201/susCymb1_cresc_4s.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_riser_cymbal_swell_4s.wav",
+     "note": "",
+     "hit": "riser_cymbal_swell_4s",
+     "sha256": "bb3b6b251b0b9dac23b7b0fae47aab84a70abbefa4a110b05c9f4ad733e70741",
+     "bytes": 2291710
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Suspended%20Cymbal%201/susCymb1_cresc_7.5s.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_riser_cymbal_swell_7s.wav",
+     "note": "",
+     "hit": "riser_cymbal_swell_7s",
+     "sha256": "545ac0e20d235af9f6a54031ebdb9d82a27730bb7ca47ea192763a6aa8a4aa9b",
+     "bytes": 2991302
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Membranophones/Struck%20Membranophones/Bass%20Drum%202/bassdrum_cresc_short.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_riser_bass_drum_roll.wav",
+     "note": "",
+     "hit": "riser_bass_drum_roll",
+     "sha256": "0ab359be2a8f4ae9ceda83b935060bf63a93197fbf2246d0ee7fca5dc958c7e9",
+     "bytes": 2866570
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Mark%20Trees/Legacy/windchimes_asc1.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_sweep_wind_chimes_up.wav",
+     "note": "",
+     "hit": "sweep_wind_chimes_up",
+     "sha256": "4da1f0ec4ed2d94902a35995faef9ce2bd747a525761c0db7ace093359939693",
+     "bytes": 2054074
+    },
+    {
+     "source": "vcsl",
+     "url": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck%20Idiophones/Mark%20Trees/Legacy/windchimes_desc1.wav",
+     "file": "Effects/Orchestral Effects/Orchestral Effects_sweep_wind_chimes_down.wav",
+     "note": "",
+     "hit": "sweep_wind_chimes_down",
+     "sha256": "171d34ccb881e5ece4728faae4e5f25fb8aa30831180457a1dce74e7fbf00c1a",
+     "bytes": 2612842
+    }
+   ]
+  }
+ ],
+ "not_found": [
+  {
+   "name": "Choir",
+   "why": "No multi-voice choir with a clear CC0 / CC BY licence was found on the listed sources. A single male solo voice ('Solo Voice Aah', D2 to G#3) is included as the nearest thing; a choir pad should be synthesised."
+  },
+  {
+   "name": "Rhodes electric piano",
+   "why": "jRhodes3d (sfzinstruments/jlearman.jRhodes3d) licenses its samples CC BY-NC, which has a non-commercial clause, so it was not used. A Hohner Pianet T and a Wurlitzer EP200 (CC BY 3.0) are included instead."
+  },
+  {
+   "name": "Tonewheel / drawbar organ",
+   "why": "Only pipe organs were found under a clean licence; a Hammond-style organ should be synthesised."
+  },
+  {
+   "name": "Flat-top steel-string or nylon acoustic guitar",
+   "why": "The only cleanly licensed single-note acoustic guitar found is a microphone-recorded archtop (included as Acoustic Guitar). The University of Iowa guitar page offers multi-note scale files (its zip archives were not inspected); GitHub reports no licence file for OvationGuitar on sfzinstruments."
+  },
+  {
+   "name": "Five-string banjo",
+   "why": "FlameStudios Kay 5-String Banjo is GPL-3.0, not a permissive sample licence, so it was not used. A six-string guitar banjo (CC0, narrow in-tune range) is included."
+  },
+  {
+   "name": "Mandolin, ukulele, koto, music box",
+   "why": "GitHub reports no licence file for Terkelsen.Mandolin on sfzinstruments; no ukulele, koto or music box was found on the listed sources. Dan Tranh (a koto-like zither), psaltery, harpsichord, kalimba and pizzicato strings are included."
+  },
+  {
+   "name": "Vinyl noise",
+   "why": "Not present in any of the checked sources; synthesise it."
+  },
+  {
+   "name": "Synthetic risers and cinematic impacts",
+   "why": "Only acoustic ones exist in the checked sources (cymbal and bass-drum crescendos, gong, bass drum, anvil, slapstick), included under Orchestral Effects. Noise sweeps and sub drops should be synthesised."
+  },
+  {
+   "name": "Third drum-kit tom from the same kit",
+   "why": "Virtuosity Drums has only a high and a low tom; the lowest tom in Acoustic Kit is a VCSL concert tom recorded in a different room."
+  }
+ ]
+}

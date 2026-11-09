@@ -1,0 +1,38 @@
+# Milestone 14 (silent): mixer tracks change places and the song sounds the same.
+# Run with: PULP.exe --no-audio --script scripts\m14_mixorder.txt --log out\m14_mixorder.log
+# Then compare out\m14\order_before.wav with order_after.wav and order_reopened.wav (they must be identical).
+wait 600
+new demo
+wait 300
+show mixer
+mixer
+autos
+export ../out/m14/order_before.wav song 48000 24 cut
+waitexport
+log --- Alt+Right moves the selected track (2) one place to the right; the selection goes with it
+mixsel 2
+keyto mixer alt + cursor right
+mixer
+autos
+log --- and again, then track 1 to the right as the track menu does it
+keyto mixer alt + cursor right
+mixmove 1 right
+log --- the track whose filter two curves automate moves: the curves follow it
+mixmove 5 right
+mixer
+autos
+export ../out/m14/order_after.wav song 48000 24 cut
+waitexport
+log --- undo and redo
+undo
+mixer
+undo
+log --- saved, read back, exported again
+save ../out/m14_mixorder.pulp
+new
+open ../out/m14_mixorder.pulp
+wait 300
+mixer
+export ../out/m14/order_reopened.wav song 48000 24 cut
+waitexport
+quit

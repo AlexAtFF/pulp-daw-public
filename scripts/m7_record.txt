@@ -1,0 +1,41 @@
+# Milestone 7 (silent, sandboxed): record a take from a test tone on input 1 with a one-bar count-in.
+wait 600
+click rack 254 49
+click rack 331 49
+click rack 408 49
+click rack 485 49
+click playlist 237 65
+save ../out/m7/song.pulp
+# arm insert 1 with input 1 (mono), switch the test tone on, one bar of count-in
+mixinput 1 1
+testinput on
+countin 1
+record on
+audio
+key space
+wait 600
+state
+audio
+wait 3200
+key space
+wait 200
+audio
+playlist
+state
+shot playlistwin ../out/m7_playlist.png
+# an audio file placed by hand, as if dropped on track 4
+addaudio "../dist/PULP/factory/Drums/808 Kit/808 Cymbal.wav" 3 1920
+playlist
+show mixer
+mixsel 1
+wait 300
+shot mixerwin ../out/m7_mixer.png
+save ../out/m7/song.pulp
+# undo removes the placed file and then the take; redo brings them back
+undostep
+undostep
+playlist
+redo
+redo
+playlist
+quit

@@ -1,0 +1,54 @@
+# Milestone 14 (silent): a group of playlist tracks folds away under its top track and comes back.
+# Run with: PULP.exe --no-audio --script scripts\m14_groups.txt --log out\m14_groups.log
+wait 600
+new demo
+wait 300
+show playlist
+wait 200
+log --- tracks 2 and 3 (counting from 0) are grouped under track 1
+pltrack 2 group
+pltrack 3 group
+pltracks 6
+shot playlistwin ../out/m14_groups_open.png
+log --- a click on the triangle at the left of track 1's name hides them; the tracks under move up
+click playlist 128 95
+wait 200
+pltracks 6
+shot playlistwin ../out/m14_groups_shut.png
+log --- select all leaves the hidden clips alone
+keyto playlist ctrl + A
+playlist
+keyto playlist ctrl + D
+log --- the same click shows them again
+click playlist 128 95
+wait 200
+pltracks 6
+log --- hidden again by command; undo shows them, redo hides them
+pltrack 1 collapse
+undo
+pltracks 6
+undo
+log --- saved, and read back into a new project
+save ../out/m14_groups.pulp
+new
+pltracks 6
+open ../out/m14_groups.pulp
+wait 300
+pltracks 6
+log --- clips are not dragged onto hidden tracks: two clips on tracks 0 and 1, tracks 2 and 3 folded under 1
+new
+wait 200
+click playlist 237 65
+click playlist 237 95
+pltrack 2 group
+pltrack 3 group
+pltrack 1 collapse
+keyto playlist ctrl + A
+log --- dragged down one row the second clip would land on a hidden track: neither moves
+drag playlist 260 70 260 100
+playlist
+log --- dragged down two rows both land on tracks that show (4 and 5)
+keyto playlist ctrl + A
+drag playlist 260 70 260 130
+playlist
+quit

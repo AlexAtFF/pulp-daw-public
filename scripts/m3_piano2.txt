@@ -1,0 +1,49 @@
+# Milestone 3, second interface check (silent): clone, slice, paint, mute, stamp, scale, ghost notes, backdrop.
+wait 600
+addchannel trio
+show piano
+wait 300
+# one note, then Shift-drag clones it a beat later
+click piano 67 309
+drag piano 70 309 176 309 shift
+piano
+# slice tool: a vertical line through the first note cuts it in two
+ptool 4
+drag piano 75 290 75 330
+piano
+# paint tool: a run of notes along E5
+ptool 1
+drag piano 300 253 460 253
+piano
+# mute tool: mute the first note
+ptool 3
+click piano 66 309
+piano
+# Alt bypasses snap when moving: drag the cloned note by a few pixels
+ptool 0
+drag piano 1024 309 1029 309 alt
+drag piano 176 309 181 309 alt
+piano
+# stamp a minor chord with a scale highlighted
+pianoset stamp 1
+pianoset scaleroot 9
+pianoset scale 1
+click piano 600 197
+piano
+shot pianowin ../out/m3_piano_scale.png
+# ghost notes: put steps on the kick, then look at them from the Trio channel
+set channel 0
+click rack 254 49
+click rack 331 49
+set channel 4
+pianoset wave 1
+shot pianowin ../out/m3_piano_ghost.png
+# double-click a ghost note (the kick's first step is at C5, tick 0, hidden under our note: use its second at tick 960)
+dblclick piano 172 309
+state
+set channel 0
+pianoset wave 1
+keyto piano ctrl + 0
+wait 200
+shot pianowin ../out/m3_piano_wave.png
+quit

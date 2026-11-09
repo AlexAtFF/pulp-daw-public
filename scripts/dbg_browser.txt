@@ -1,0 +1,6 @@
+wait 500
+shot browser ../out/dbg_browser1.png
+click rack 254 49
+wait 100
+shot browser ../out/dbg_browser2.png
+quit

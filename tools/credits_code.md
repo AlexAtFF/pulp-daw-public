@@ -1,0 +1,1 @@
+| Steinberg VST3 SDK, as bundled inside JUCE's juce_audio_processors_headless | bundled with JUCE 9.0.4 | hosting VST3 plugins | MIT (Copyright 2025 Steinberg Media Technologies GmbH; `VST3_SDK/LICENSE.txt` in the JUCE source). VST is a trademark of Steinberg Media Technologies GmbH. |

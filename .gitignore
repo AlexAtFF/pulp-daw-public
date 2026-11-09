@@ -1,0 +1,16 @@
+build/
+dist/
+.deps/
+tools/cmake/
+tools/ninja/
+tools/dl/
+out/
+*.user
+# the downloaded recordings and what is built from them (rebuilt by "build.bat library")
+/factory-cache/
+factory/Instruments/
+factory/Drums/Acoustic Kit/
+factory/Effects/
+# private staging folders for plugins being written
+/staging/
+/buildstaging*/

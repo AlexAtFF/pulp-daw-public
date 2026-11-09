@@ -1,0 +1,59 @@
+# Milestone 9 (silent): the multisample engine in the program.
+# Needs the factory library (build.bat library) and the test notes in out\m9\notes (see PROGRESS.md).
+# Run with: PULP.exe --no-audio --script scripts\m9_instruments.txt --log out\m9_instruments.log --data-dir out\m9_data
+wait 600
+set tempo 120
+
+log --- one recording of a voice is enough: it becomes an instrument that plays on every key
+buildinst "../out/m9/notes/my voice.wav"
+state
+show chan
+move chan 900 80 420 640
+wait 300
+shot chanwin ../out/m9_voice.png
+note on 67
+wait 400
+state
+note off 67
+
+log --- several notes are laid out across the keyboard
+buildinst ../out/m9/notes/reed_C5.wav ../out/m9/notes/reed_C3.wav ../out/m9/notes/reed_C4.wav
+wait 300
+shot chanwin ../out/m9_reed.png
+record on
+key space
+wait 250
+note on 64
+wait 500
+note off 64
+wait 300
+key space
+record off
+piano
+export ../out/m9/reed_e.wav pattern 48000 24 cut
+waitexport
+
+log --- dropping a recording on the instrument's window rebuilds it from that recording
+buildinst ../out/m9/notes/pluck.wav
+state
+
+log --- factory instruments: a recorded one and a synthesized one, straight from the library
+loadinst "../dist/PULP/factory/Instruments/Strings/Violin/Violin.pulpinst"
+loadinst "../dist/PULP/factory/Instruments/Keys/Grand Piano/Grand Piano.pulpinst"
+loadinst "../dist/PULP/factory/Instruments/Bass/808 Bass/808 Bass.pulpinst"
+state
+wait 300
+shot chanwin ../out/m9_factory.png
+note on 60
+wait 300
+state
+note off 60
+shot browser ../out/m9_browser.png
+save ../out/m9/song.pulp
+new
+open ../out/m9/song.pulp
+state
+steps
+export ../out/m9/song.wav pattern 48000 24 cut
+waitexport
+quit

@@ -1,0 +1,299 @@
+{
+ "format": "pulp-project",
+ "version": 2,
+ "name": "untitled",
+ "tempo": 140,
+ "masterVolume": 0.8,
+ "masterPitch": 0,
+ "timeSig": [4, 4],
+ "songMode": false,
+ "currentPattern": 0,
+ "loop": [0, 0],
+ "channels": [
+  {
+   "id": 1,
+   "name": "Kick",
+   "color": 4285501350,
+   "mixerTrack": 0,
+   "strip": {
+    "volume": 0.78,
+    "pan": 0,
+    "mute": 0,
+    "pitch": 0,
+    "pitchrange": 2,
+    "poly": 0,
+    "mono": 0,
+    "porta": 0,
+    "portatime": 120,
+    "cut": 0,
+    "cutby": 0,
+    "gate": 0,
+    "shift": 0,
+    "swingmix": 1,
+    "arpdir": 0,
+    "arprange": 1,
+    "arptime": 1,
+    "arpgate": 0.9,
+    "arpchord": 0,
+    "arprepeat": 1,
+    "echocount": 0,
+    "echotime": 3,
+    "echofeed": 0.5,
+    "echopan": 0,
+    "echopitch": 0,
+    "echomodx": 0,
+    "echomody": 0,
+    "veltrack": 1,
+    "keypan": 0,
+    "keymodx": 0
+   },
+   "plugin": {
+    "type": "sampler",
+    "params": {
+     "root": 60,
+     "fine": 0,
+     "keytrack": 1,
+     "reverse": 0,
+     "normalize": 0,
+     "start": 0,
+     "end": 1,
+     "env": 0,
+     "attack": 0,
+     "decay": 300,
+     "sustain": 1,
+     "release": 100,
+     "cutself": 0,
+     "cutoff": 20000,
+     "reso": 0
+    },
+    "extra": {
+     "sample": "factory:Drums/808 Kit/808 Kick.wav"
+    }
+   }
+  },
+  {
+   "id": 2,
+   "name": "Clap",
+   "color": 4290343770,
+   "mixerTrack": 0,
+   "strip": {
+    "volume": 0.78,
+    "pan": 0,
+    "mute": 0,
+    "pitch": 0,
+    "pitchrange": 2,
+    "poly": 0,
+    "mono": 0,
+    "porta": 0,
+    "portatime": 120,
+    "cut": 0,
+    "cutby": 0,
+    "gate": 0,
+    "shift": 0,
+    "swingmix": 1,
+    "arpdir": 0,
+    "arprange": 1,
+    "arptime": 1,
+    "arpgate": 0.9,
+    "arpchord": 0,
+    "arprepeat": 1,
+    "echocount": 0,
+    "echotime": 3,
+    "echofeed": 0.5,
+    "echopan": 0,
+    "echopitch": 0,
+    "echomodx": 0,
+    "echomody": 0,
+    "veltrack": 1,
+    "keypan": 0,
+    "keymodx": 0
+   },
+   "plugin": {
+    "type": "sampler",
+    "params": {
+     "root": 60,
+     "fine": 0,
+     "keytrack": 1,
+     "reverse": 0,
+     "normalize": 0,
+     "start": 0,
+     "end": 1,
+     "env": 0,
+     "attack": 0,
+     "decay": 300,
+     "sustain": 1,
+     "release": 100,
+     "cutself": 0,
+     "cutoff": 20000,
+     "reso": 0
+    },
+    "extra": {
+     "sample": "factory:Drums/808 Kit/808 Clap.wav"
+    }
+   }
+  },
+  {
+   "id": 3,
+   "name": "Hat",
+   "color": 4286555759,
+   "mixerTrack": 0,
+   "strip": {
+    "volume": 0.78,
+    "pan": 0,
+    "mute": 0,
+    "pitch": 0,
+    "pitchrange": 2,
+    "poly": 0,
+    "mono": 0,
+    "porta": 0,
+    "portatime": 120,
+    "cut": 0,
+    "cutby": 0,
+    "gate": 0,
+    "shift": 0,
+    "swingmix": 1,
+    "arpdir": 0,
+    "arprange": 1,
+    "arptime": 1,
+    "arpgate": 0.9,
+    "arpchord": 0,
+    "arprepeat": 1,
+    "echocount": 0,
+    "echotime": 3,
+    "echofeed": 0.5,
+    "echopan": 0,
+    "echopitch": 0,
+    "echomodx": 0,
+    "echomody": 0,
+    "veltrack": 1,
+    "keypan": 0,
+    "keymodx": 0
+   },
+   "plugin": {
+    "type": "sampler",
+    "params": {
+     "root": 60,
+     "fine": 0,
+     "keytrack": 1,
+     "reverse": 0,
+     "normalize": 0,
+     "start": 0,
+     "end": 1,
+     "env": 0,
+     "attack": 0,
+     "decay": 300,
+     "sustain": 1,
+     "release": 100,
+     "cutself": 0,
+     "cutoff": 20000,
+     "reso": 0
+    },
+    "extra": {
+     "sample": "factory:Drums/808 Kit/808 Hat Closed.wav"
+    }
+   }
+  },
+  {
+   "id": 4,
+   "name": "Snare",
+   "color": 4289105759,
+   "mixerTrack": 0,
+   "strip": {
+    "volume": 0.78,
+    "pan": 0,
+    "mute": 0,
+    "pitch": 0,
+    "pitchrange": 2,
+    "poly": 0,
+    "mono": 0,
+    "porta": 0,
+    "portatime": 120,
+    "cut": 0,
+    "cutby": 0,
+    "gate": 0,
+    "shift": 0,
+    "swingmix": 1,
+    "arpdir": 0,
+    "arprange": 1,
+    "arptime": 1,
+    "arpgate": 0.9,
+    "arpchord": 0,
+    "arprepeat": 1,
+    "echocount": 0,
+    "echotime": 3,
+    "echofeed": 0.5,
+    "echopan": 0,
+    "echopitch": 0,
+    "echomodx": 0,
+    "echomody": 0,
+    "veltrack": 1,
+    "keypan": 0,
+    "keymodx": 0
+   },
+   "plugin": {
+    "type": "sampler",
+    "params": {
+     "root": 60,
+     "fine": 0,
+     "keytrack": 1,
+     "reverse": 0,
+     "normalize": 0,
+     "start": 0,
+     "end": 1,
+     "env": 0,
+     "attack": 0,
+     "decay": 300,
+     "sustain": 1,
+     "release": 100,
+     "cutself": 0,
+     "cutoff": 20000,
+     "reso": 0
+    },
+    "extra": {
+     "sample": "factory:Drums/808 Kit/808 Snare.wav"
+    }
+   }
+  }
+ ],
+ "patterns": [
+  {
+   "id": 1,
+   "name": "Pattern 1",
+   "color": 4283399848,
+   "steps": 16,
+   "swing": 0,
+   "notes": {
+    "1": [
+     [0, 240, 60, 0.78740156, 0, 0.5, 0.5, 0.5, 0, 0, 0],
+     [960, 240, 64, 0.78740156, 0, 0.5, 0.5, 0.5, 0, 0, 0]
+    ]
+   }
+  }
+ ],
+ "playlist": {
+  "clips": [],
+  "tracks": [],
+  "markers": []
+ },
+ "audio": [],
+ "mixer": [
+  {
+   "slots": [
+    {
+     "slot": 0,
+     "plugin": {
+      "type": "limiter",
+      "params": {
+       "gain": 0,
+       "ceiling": -0.3,
+       "release": 80,
+       "gate": -90,
+       "gaterel": 120
+      }
+     }
+    }
+   ],
+   "index": 0
+  }
+ ]
+}

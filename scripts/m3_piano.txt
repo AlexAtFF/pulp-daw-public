@@ -1,0 +1,84 @@
+# Milestone 3 interface check (silent): piano roll editing with the mouse, keys and tools.
+wait 600
+addchannel trio
+show piano
+wait 300
+state
+# draw three notes: C5 at bar start, E5 on beat 2, G5 on beat 3
+click piano 67 309
+click piano 171 253
+click piano 276 211
+piano
+# resize the first note by dragging its right edge to five steps long
+drag piano 86 309 192 309
+# move the second note one beat later and two keys up
+drag piano 175 253 281 225
+# right-click deletes the third
+click piano 280 211 right
+piano
+shot pianowin ../out/m3_piano1.png
+# select all, transpose up a semitone, duplicate
+keyto piano ctrl + A
+keyto piano shift + cursor up
+keyto piano ctrl + B
+piano
+# chop the selection with the tool panel, then accept
+tool 4
+wait 200
+shot pianowin ../out/m3_piano_dialog.png
+tool -2
+piano
+# a tool panel can be cancelled: randomize, then cancel leaves the notes alone
+keyto piano ctrl + A
+tool 10
+tool -1
+piano
+# marquee-select everything with Ctrl-drag and delete it
+drag piano 64 60 900 318 ctrl
+keyto piano delete
+piano
+# riff generator
+tool 16
+tool -2
+keyto piano ctrl + 0
+wait 200
+piano
+# property lane: drag across the velocity bars
+drag piano 70 330 900 400
+shot pianowin ../out/m3_piano_riff.png
+# tool keys
+keyto piano E
+keyto piano P
+piano
+# MIDI export and import round trip
+midi export ../out/m3_export.mid
+keyto piano ctrl + A
+keyto piano delete
+piano
+midi import ../out/m3_export.mid
+piano
+# step recording: three notes land one snap unit apart
+keyto piano ctrl + A
+keyto piano delete
+click piano 890 15
+note on 60
+note off 60
+note on 64
+note off 64
+note on 67
+note off 67
+piano
+click piano 890 15
+# live recording with the pattern playing (silent device)
+record on
+key space
+wait 400
+note on 72
+wait 300
+note off 72
+wait 200
+key space
+record off
+piano
+state
+quit

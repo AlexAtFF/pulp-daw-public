@@ -1,0 +1,74 @@
+# Milestone 11 (silent): every synthesizer added in this milestone plays the step sequencer's notes.
+# Run with: PULP.exe --no-audio --script scripts\m11_synths.txt --log out\m11_synths.log --data-dir out\m1x_data
+wait 600
+new
+set tempo 120
+addchannel acid
+click rack 254 169
+click rack 408 169
+export ../out/m11/synth_squelch.wav pattern 48000 24 cut
+waitexport
+new
+set tempo 120
+addchannel pluck
+click rack 254 169
+click rack 408 169
+export ../out/m11/synth_twine.wav pattern 48000 24 cut
+waitexport
+new
+set tempo 120
+addchannel bass
+click rack 254 169
+click rack 408 169
+export ../out/m11/synth_lowfour.wav pattern 48000 24 cut
+waitexport
+new
+set tempo 120
+addchannel kick
+click rack 254 169
+click rack 408 169
+export ../out/m11/synth_thud.wav pattern 48000 24 cut
+waitexport
+new
+set tempo 120
+addchannel drumsynth
+click rack 254 169
+click rack 408 169
+export ../out/m11/synth_clatter.wav pattern 48000 24 cut
+waitexport
+new
+set tempo 120
+addchannel zest
+click rack 254 169
+click rack 408 169
+export ../out/m11/synth_zest.wav pattern 48000 24 cut
+waitexport
+new
+set tempo 120
+addchannel fm6
+click rack 254 169
+click rack 408 169
+export ../out/m11/synth_sextet.wav pattern 48000 24 cut
+waitexport
+new
+set tempo 120
+addchannel wavetable
+click rack 254 169
+click rack 408 169
+export ../out/m11/synth_ripple.wav pattern 48000 24 cut
+waitexport
+log --- a preset from each, and the panels
+addchannel acid
+click rack 152 199
+wait 300
+shot chanwin ../out/m11_squelch.png
+addchannel drumsynth
+click rack 152 229
+wait 300
+shot chanwin ../out/m11_clatter.png
+state
+save ../out/m11/synths.pulp
+new
+open ../out/m11/synths.pulp
+state
+quit

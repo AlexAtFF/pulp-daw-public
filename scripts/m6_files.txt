@@ -1,0 +1,48 @@
+# Milestone 6 (silent, sandboxed data folder): save, undo history, versions, export, pack, reopen, autosave, crash.
+wait 600
+history
+click rack 254 49
+click rack 331 49
+click rack 408 49
+click rack 485 49
+click rack 331 79
+save ../out/m6/song.pulp
+history
+# one more edit, then undo and redo it
+click rack 485 79
+steps
+undo
+steps
+undo
+steps
+# step back twice more, then forward again
+undostep
+undostep
+steps
+redo
+redo
+redo
+steps
+history
+# a knob move is an undo step too
+param 0 volume 0.4
+undo
+state
+saveversion
+history
+export ../out/m6/song.wav pattern 48000 24 leave
+waitexport
+export ../out/m6/song_44k_16.wav pattern 44100 16 cut
+waitexport
+pack ../out/m6/song.pulpz
+new
+steps
+open ../out/m6/song.pulp
+steps
+history
+shot main ../out/m6_main.png
+# make an unsaved change, autosave it, then crash
+click rack 254 139
+autosave
+backups
+crash

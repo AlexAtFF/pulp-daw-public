@@ -1,0 +1,67 @@
+# Milestone 5 interface check (silent): mixer tracks, routing, effects, effect editors.
+wait 600
+mixer
+# a beat: kick on the beats, hat on the off-beats
+click rack 254 49
+click rack 331 49
+click rack 408 49
+click rack 485 49
+click rack 292 109
+click rack 369 109
+click rack 446 109
+click rack 523 109
+# give the kick and the hat their own mixer tracks: select both, Ctrl+L
+click rack 152 49
+click rack 234 109 ctrl
+keyto rack ctrl + L
+state
+mixer
+# a synth on insert 3
+addchannel trio
+tool 16
+tool -2
+param 4 volume 0.6
+show mixer
+wait 300
+# effects: compressor on the kick, EQ on the hat, reverb bus on insert 10 fed by the hat
+fx 1 0 comp
+fx 2 0 eq7
+fxparam 2 0 b1type 3
+fxparam 2 0 b1freq 400
+fxparam 2 0 b6gain 6
+fx 10 0 reverb
+fxparam 10 0 mix 1
+mixsel 2
+# click insert 10's arrow to send the hat (selected) to it: strips are 56 wide, order master, current, 1, 2, ...
+# insert 10 is the 12th strip: x = 11*56 + 6 + 28
+click mixer 650 380
+mixer
+# a loop is refused: try to send insert 10 back to the hat
+route 10 2
+mixer
+mixparam 10 volume 0.6
+# sidechain: the synth (insert 3) ducked by the kick
+param 4 volume 0.6
+set channel 4
+keyto rack ctrl + L
+fx 3 0 comp
+fxparam 3 0 side 1
+fxparam 3 0 thresh -30
+fxparam 3 0 ratio 10
+route 1 3 sc
+mixer
+openfx 2 0
+wait 200
+key space
+wait 1500
+state
+shot main ../out/m5_main.png
+shot mixerwin ../out/m5_mixer.png
+shot fx ../out/m5_eq.png
+openfx 0 0
+wait 600
+shot fx ../out/m5_limiter.png
+key space
+hint mixer 30 12
+dump ../out/m5_project.pulp
+quit

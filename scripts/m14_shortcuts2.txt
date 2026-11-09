@@ -1,0 +1,8 @@
+# Run after m14_shortcuts.txt with the same data folder: the changed keys are still there, then put back.
+wait 600
+shortcut list
+key ctrl + K
+windows
+shortcut reset
+shortcut list
+quit

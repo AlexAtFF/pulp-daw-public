@@ -1,0 +1,23 @@
+# Milestone 7 on the real device, quiet and brief: record about 1.5 s from input 1 while a quiet beat plays.
+# The take is only checked for existing, its length and the latency the driver reports.
+wait 500
+set master 0.2
+device "Windows Audio" ""
+wait 700
+click rack 254 49
+click rack 408 49
+click playlist 237 65
+mixinput 1 1
+record on
+audio
+key space
+wait 1500
+audio
+key space
+wait 300
+audio
+state
+key F10
+wait 400
+shot settingswin ../out/m7_settings_real.png
+quit

@@ -1,0 +1,25 @@
+# Milestone 14 (silent): how long each window takes to draw, with the demo song loaded and a MIDI file imported on top.
+# Run with: PULP.exe --no-audio --size 1920x1080 --script scripts\m14_paint.txt --log out\m14_paint.log
+wait 600
+new demo
+midisong import ../out/m13/song.mid
+dismiss
+show playlist
+show mixer
+show piano
+show rack
+wait 500
+paintbench main 20
+paintbench playlist 40
+paintbench piano 40
+paintbench mixer 40
+paintbench rack 40
+paintbench browser 40
+paintbench toolbar 40
+key space
+wait 1500
+paintbench main 20
+paintbench playlist 40
+paintbench mixer 40
+key space
+quit

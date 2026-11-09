@@ -1,0 +1,26 @@
+# Milestone 14 (silent): double-clicking a note in the piano roll opens its properties.
+# Run with: PULP.exe --no-audio --script scripts\m14_noteprops.txt --log out\m14_noteprops.log
+wait 600
+show piano
+wait 200
+click piano 67 309
+click piano 171 253
+piano
+dblclick piano 75 309
+wait 300
+dialog info
+dialog set velocity 64
+dialog set length 480
+dialog set fine 25
+dialog ok
+wait 200
+save ../out/m14_noteprops.pulp
+log --- with both notes selected, a change goes to both and the rest stays different
+keyto piano ctrl + A
+dblclick piano 180 253
+wait 300
+dialog set pan -50
+dialog ok
+wait 200
+save ../out/m14_noteprops.pulp
+quit

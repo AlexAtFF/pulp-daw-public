@@ -1,0 +1,27 @@
+# Milestone 7, real device, silent: what does the audio interface's input deliver to PULP?
+# Nothing is played (master at zero, transport stopped); only the input level is read, through
+# Windows Audio and then through the ASIO driver. Nothing is recorded to disk.
+# Run with: PULP.exe --script scripts\m7_input.txt --log out\m7_input.log
+wait 500
+set master 0
+device "Windows Audio" ""
+wait 900
+audio
+wait 1500
+log --- Windows Audio, 1.5 seconds of input:
+audio
+key F10
+wait 300
+shot settingswin ../out/m7_input_wasapi.png
+key F10
+# set this to your own ASIO driver's name before running:
+device ASIO "Your ASIO Driver"
+wait 900
+audio
+wait 1500
+log --- ASIO, 1.5 seconds of input:
+audio
+key F10
+wait 300
+shot settingswin ../out/m7_input_asio.png
+quit

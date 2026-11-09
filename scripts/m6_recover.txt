@@ -1,0 +1,11 @@
+# Milestone 6, second run after the deliberate crash: the lock is found and the backup restores.
+wait 600
+backups
+steps
+recover
+steps
+history
+open ../out/m6/song.pulpz
+steps
+state
+quit

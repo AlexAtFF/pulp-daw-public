@@ -1,0 +1,51 @@
+# Milestone 11 stretch goal (silent): Sheaf, the additive synthesizer, and resynthesis of real recordings.
+# Needs the factory library (build.bat library). Run with:
+#   PULP.exe --no-audio --script scripts\m11_sheaf.txt --log out\m11_sheaf.log --data-dir out\m1x_data
+# Then compare the exports in out\m11 (sheaf_*.wav): see PROGRESS.md, milestone 11, for what was measured.
+wait 600
+new
+set tempo 120
+addchannel additive
+click rack 254 169
+click rack 408 169
+state
+log --- as it arrives: a saw made of sines
+export ../out/m11/sheaf_saw.wav pattern 48000 24 cut
+waitexport
+log --- a sung note dropped on the channel is analysed and becomes the User spectrum
+drop "../factory/Instruments/Voices/Solo Voice Aah/Solo Voice Aah C4.flac" 150 169
+click rack 152 169
+show chan
+wait 300
+shot chanwin ../out/m11_sheaf.png
+export ../out/m11/sheaf_voice.wav pattern 48000 24 cut
+waitexport
+log --- saved, a new project, opened again: the same sound without the recording being read again
+save ../out/m11/sheaf.pulp
+new
+open ../out/m11/sheaf.pulp
+export ../out/m11/sheaf_voice2.wav pattern 48000 24 cut
+waitexport
+log --- a cello note replaces the voice
+drop "../factory/Instruments/Strings/Cello/Cello C3.flac" 150 169
+export ../out/m11/sheaf_cello.wav pattern 48000 24 cut
+waitexport
+log --- something that is not one note is refused with a message and nothing changes
+drop "../factory/Drums/808 Kit/808 Clap.wav" 150 169
+export ../out/m11/sheaf_cello2.wav pattern 48000 24 cut
+waitexport
+log --- CLEAR forgets the analysed sound: the User shape is a saw again; undo brings the cello back
+click rack 152 169
+show chan
+wait 300
+shot chanwin ../out/m11_sheaf_cello.png
+click chan 242 60
+wait 200
+export ../out/m11/sheaf_cleared.wav pattern 48000 24 cut
+waitexport
+shot chanwin ../out/m11_sheaf_cleared.png
+undo
+wait 200
+export ../out/m11/sheaf_cello3.wav pattern 48000 24 cut
+waitexport
+quit

@@ -1,0 +1,46 @@
+# Milestone 12 (silent): the creative effects and their controls, and Motes, the granular sampler.
+# Run with: PULP.exe --no-audio --script scripts\m12_creative.txt --log out\m12_creative.log --data-dir out\m1x_data
+wait 600
+new demo
+log --- Rewind on the keys: its two curves are drawn; a point is added to each by a double-click
+fx 4 1 timewarp
+openfx 4 1
+wait 300
+rewind info
+rewind add time 0.5 0.5
+rewind add volume 0.25 0.2
+shot fx ../out/m12_rewind.png
+fxpreset 4 1 3
+rewind info
+wait 200
+shot fx ../out/m12_rewind_preset.png
+log --- Thumb Pad, Platter and Hiccup
+fx 5 1 xyfx
+openfx 5 1
+wait 300
+shot fx ../out/m12_thumbpad.png
+fx 6 1 scratch
+openfx 6 1
+wait 300
+shot fx ../out/m12_platter.png
+fx 2 1 glitch
+mixer
+export ../out/m12/creative.flac song 48000 24 cut
+waitexport
+log --- Motes: a recording dropped on the channel becomes a cloud of grains
+new
+set tempo 120
+addchannel grains
+drop "../factory/Instruments/Voices/Solo Voice Aah/Solo Voice Aah C4.flac" 150 169
+click rack 254 169
+click rack 152 169
+wait 300
+shot chanwin ../out/m12_motes.png
+export ../out/m12/motes.wav pattern 48000 24 cut
+waitexport
+save ../out/m12/motes.pulp
+new
+open ../out/m12/motes.pulp
+export ../out/m12/motes2.wav pattern 48000 24 cut
+waitexport
+quit

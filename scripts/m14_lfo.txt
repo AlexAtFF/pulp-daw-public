@@ -1,0 +1,37 @@
+# Milestone 14 (silent): the piano roll's LFO tool writes events for the channel's volume.
+# Run with: PULP.exe --no-audio --script scripts\m14_lfo.txt --log out\m14_lfo.log
+# Then look in out\m14_lfo.pulp (the pattern's "events") and at out\m14\lfo_on.wav against lfo_off.wav.
+wait 600
+new
+set tempo 120
+addchannel trio
+show piano
+wait 200
+log --- one long note, exported as it is
+click piano 67 309
+drag piano 86 309 990 309
+piano
+export ../out/m14/lfo_off.wav pattern 48000 24 cut
+waitexport
+log --- Tools > LFO (tool 14): channel volume, a square, four steps to the cycle, between 10 % and 90 %
+tool 14
+toolset prop 6
+toolset shape 2
+toolset period 4
+toolset lo 0.1
+toolset hi 0.9
+shot pianowin ../out/m14_lfo.png
+tool -2
+save ../out/m14_lfo.pulp
+export ../out/m14/lfo_on.wav pattern 48000 24 cut
+waitexport
+log --- cancelled, a second LFO leaves the events as they were
+tool 14
+toolset prop 7
+toolset shape 0
+tool -1
+save ../out/m14_lfo_cancelled.pulp
+log --- undo takes the accepted LFO away
+undo
+save ../out/m14_lfo_undone.pulp
+quit

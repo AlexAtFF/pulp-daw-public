@@ -1,0 +1,54 @@
+# Milestone 4 interface check (silent): arrange patterns in the playlist and play the song.
+wait 600
+# pattern 1: kick on the beats.  pattern 2: clap on 5 and 13.
+click rack 254 49
+click rack 331 49
+click rack 408 49
+click rack 485 49
+key F4
+click rack 331 79
+click rack 485 79
+set pattern 0
+# place pattern 1 at bars 1 and 2 on track 1, pattern 2 at bar 1 on track 2
+click playlist 237 65
+click playlist 352 65
+set pattern 1
+click playlist 237 95
+playlist
+# move the clap clip one bar later and down a track
+drag playlist 260 95 375 125
+# shorten the second kick clip to two beats from its right edge
+drag playlist 460 65 404 65
+playlist
+# Shift-drag clones the first kick clip onto track 5
+drag playlist 260 70 260 190 shift
+# slice the clone in half with the slice tool
+pltool 5
+drag playlist 290 180 290 205
+playlist
+# mute tool on the first half, slip tool on the second half
+pltool 3
+click playlist 250 195
+pltool 4
+drag playlist 320 195 291 195
+playlist
+pltool 0
+# loop region over the first two bars, then play the song
+drag playlist 232 40 462 40 ctrl
+set song 1
+key space
+wait 1200
+state
+shot main ../out/m4_main.png
+shot playlistwin ../out/m4_playlist.png
+key space
+# mute track 1 from its lamp, then select everything and duplicate
+click playlist 222 65
+keyto playlist ctrl + A
+keyto playlist ctrl + B
+keyto playlist shift + G
+playlist
+keyto playlist alt + T
+hint playlist 60 100
+dump ../out/m4_project.pulp
+quit

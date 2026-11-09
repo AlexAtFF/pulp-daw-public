@@ -1,0 +1,136 @@
+# Milestone 7 (silent, sandboxed): loop recording with takes, comping, punch in / out, wait for input,
+# latency calibration through a simulated cable, a clip stretched to the tempo, and the audio editor.
+# Run with: PULP.exe --no-audio --script scripts\m7_takes.txt --log out\m7_takes.log --data-dir out\m7b_data
+wait 600
+set tempo 120
+click rack 254 49
+click rack 331 49
+click rack 408 49
+click rack 485 49
+click playlist 237 65
+save ../out/m7b/song.pulp
+mixinput 1 1
+testinput on
+record on
+
+log --- loop recording: a two-bar loop, a little over two passes
+loopregion 0 7680
+set song 1
+key space
+wait 9500
+key space
+wait 400
+audio
+playlist
+show playlist
+move playlist 270 80 1100 420
+wait 200
+shot playlistwin ../out/m7_takes.png
+log --- audition take 1, then comp the middle of take 2 into it
+usetake 1
+audio
+splitclip 2 1920
+splitclip 4 3840
+usetake 4
+audio
+playlist
+undostep
+undostep
+undostep
+undostep
+audio
+
+log --- punch in / out on the second bar, no looping
+recopt punch on
+recopt loop off
+loopregion 3840 7680
+seek 0
+key space
+wait 4700
+key space
+wait 400
+audio
+recopt punch off
+recopt loop on
+loopregion 0 0
+
+log --- wait for input: armed, nothing moves until the tone starts
+testinput off
+wait 300
+recopt wait on
+seek 0
+key space
+wait 600
+state
+audio
+testinput on
+wait 900
+state
+key space
+wait 400
+recopt wait off
+record off
+audio
+
+log --- latency calibration through a cable 1000 frames long
+testinput off
+testloop 1000
+wait 300
+calibrate
+waitbusy
+key F10
+wait 300
+shot settingswin ../out/m7_calibration.png
+key F10
+testloop 0
+
+log --- a one-bar loop at 120 BPM, fitted to a project at 150
+set song 0
+export ../out/m7b/loop.wav pattern 48000 24 cut
+waitexport
+set song 1
+addaudio ../out/m7b/loop.wav 12 0
+audio
+set tempo 150
+clipstretch 6 1 1 1 0
+audio
+wait 500
+shot playlistwin ../out/m7_stretch.png
+
+log --- the audio editor on the master: record two seconds of the song, edit, send to the playlist
+fx 0 1 editor
+openfx 0 1
+fxparam 0 1 rec 1
+seek 0
+key space
+wait 2200
+key space
+fxparam 0 1 rec 0
+wait 400
+ed info
+ed sel 0.2 1.0
+ed op trim
+ed info
+ed op normalize
+ed sel 0 0.1
+ed op fadein
+ed sel 0 0
+ed op reverse
+ed op undo
+ed sel 0 0.2
+ed op learn
+ed sel 0 0
+ed op denoise
+ed info
+ed toplaylist
+ed info
+wait 300
+shot fx ../out/m7_editor.png
+audio
+save ../out/m7b/song.pulp
+new
+open ../out/m7b/song.pulp
+audio
+playlist
+mixer
+quit

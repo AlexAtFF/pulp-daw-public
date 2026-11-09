@@ -1,0 +1,20 @@
+# Milestone 14 (silent): a MIDI file with tempo changes comes in with a tempo automation clip.
+# Needs out\m13\tempo.mid (python tools\make_test_midi.py writes it: bars 1 and 2 at 120 BPM, bar 3 at 90, bar 4 at 150).
+# Run with: PULP.exe --no-audio --script scripts\m14_tempomap.txt --log out\m14_tempomap.log
+# The export must be 8.267 s long (4 + 2.667 + 1.6): 396800 frames at 48 kHz.
+wait 600
+new
+wait 200
+midisong import ../out/m13/tempo.mid
+state
+playlist
+autos
+show playlist
+wait 200
+shot playlistwin ../out/m14_tempomap.png
+export ../out/m14/tempomap.wav song 48000 24 cut
+waitexport
+log --- into a project that already has music, the file's tempo changes are left out and the message says so
+midisong import ../out/m13/tempo.mid
+autos
+quit

@@ -1,0 +1,23 @@
+# Milestone 14 (silent): Sextet's EDIT ALGORITHM AS MATRIX button.
+# Run with: PULP.exe --no-audio --script scripts\m14_sextet.txt --log out\m14_sextet.log
+# out\m14\sextet_algo.wav and sextet_matrix.wav must be identical, and the saved project must say "algo": 0.
+wait 600
+new
+set tempo 120
+addchannel fm6
+click rack 254 169
+click rack 408 169
+export ../out/m14/sextet_algo.wav pattern 48000 24 cut
+waitexport
+show chan
+wait 300
+click chan 110 20
+wait 200
+shot chanwin ../out/m14_sextet.png
+export ../out/m14/sextet_matrix.wav pattern 48000 24 cut
+waitexport
+save ../out/m14_sextet.pulp
+log --- undo brings the algorithm back
+undo
+save ../out/m14_sextet_undone.pulp
+quit

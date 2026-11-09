@@ -1,0 +1,37 @@
+# Milestone 13 (silent): the templates and the demo song in the program.
+# Run with: PULP.exe --no-audio --script scripts\m13_demo.txt --log out\m13_demo.log --data-dir out\m13_data
+wait 600
+log --- every template opens
+new 0
+state
+new 2
+state
+mixer
+new 3
+state
+new 4
+state
+new 5
+state
+log --- the demo song: opened, shown, played for a moment, exported, saved and opened again
+new demo
+state
+playlist
+autos
+show playlist
+show mixer
+wait 400
+shot main ../out/m13_demo.png
+key space
+wait 1500
+state
+key space
+export ../out/m13/demo.flac song 48000 24 cut
+waitexport
+save ../out/m13/demo.pulp
+new
+open ../out/m13/demo.pulp
+state
+export ../out/m13/demo2.flac song 48000 24 cut
+waitexport
+quit

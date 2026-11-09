@@ -1,0 +1,21 @@
+# Milestone 14 (silent): the first-run tour, step by step.
+# Run with: PULP.exe --no-audio --script scripts\m14_tour.txt --log out\m14_tour.log
+wait 600
+tour start
+shot main ../out/m14_tour1.png
+tour next
+shot main ../out/m14_tour2.png
+tour next
+tour next
+tour next
+shot main ../out/m14_tour5.png
+tour next
+tour next
+shot main ../out/m14_tour7.png
+tour next
+tour next
+shot main ../out/m14_tour9.png
+tour back
+tour close
+windows
+quit

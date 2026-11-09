@@ -1,0 +1,117 @@
+# Milestone 10 (silent): hosting VST3 plugins.
+# Needs the two test plugins (build.bat testplugins). TDR Nova is used as the real third-party plugin;
+# without it the lines that name it report errors and the rest still runs.
+# Run with: PULP.exe --no-audio --script scripts\m10_vst3.txt --log out\m10_vst3.log --data-dir out\m10_data
+wait 600
+set tempo 120
+
+log --- the scanner: two test plugins, a real one, and a file that crashes whatever looks inside it
+vstscan "../build/release/testplugins/pulp_test_tone_artefacts/Release/VST3/PULP Test Tone.vst3" "../build/release/testplugins/pulp_test_delay_artefacts/Release/VST3/PULP Test Delay.vst3" ../out/m10/pulp-crash-test.vst3 "C:/Program Files/Common Files/VST3/TDR Nova.vst3"
+waitbusy
+vstlist
+settingspage 2
+show settings
+wait 300
+shot settings ../out/m10_plugins_page.png
+
+log --- an instrument from another maker plays the pattern's notes
+vstchan "PULP Test Tone"
+vstinfo ch 4
+click rack 254 169
+click rack 408 169
+steps
+export ../out/m10/tone.wav pattern 48000 24 cut
+waitexport
+
+log --- its window (this plugin has no editor of its own, so it gets a plain list of its parameters)
+openchan 4
+wait 600
+vstwin
+vstshot ../out/m10_tone.png
+
+log --- a control moved in the plugin's own window: PULP sees it, and it is a step in the undo history
+vsttouch ch 4 0 0.9
+wait 400
+vstinfo ch 4
+vstwin
+history
+undo
+wait 300
+vstinfo ch 4
+vstwin
+redo
+wait 300
+vstinfo ch 4
+
+log --- a parameter set from PULP's side reaches the plugin
+param 4 v102865796 0.25
+export ../out/m10/tone_quiet.wav pattern 48000 24 cut
+waitexport
+param 4 v102865796 0.5
+vstclose
+
+log --- an effect that delays the sound by 256 samples and says so: everything stays in time
+click rack 254 49
+click rack 408 49
+keyto rack ctrl + L
+export ../out/m10/dry.wav pattern 48000 24 cut
+waitexport
+vstfx 1 0 "PULP Test Delay"
+vstinfo 1 0
+export ../out/m10/delayed.wav pattern 48000 24 cut
+waitexport
+fxparam 1 0 #1 1
+export ../out/m10/flipped.wav pattern 48000 24 cut
+waitexport
+fxparam 1 0 #1 0
+
+log --- automating a hosted plugin's parameter: the gain of the delay follows an automation clip
+show playlist
+move playlist 270 80 1100 420
+click playlist 237 65
+autoclip fx:1:0:v3165055 2 0 3840
+autopoints 1 0,0 3840,0.5
+autos
+playlist
+set song 1
+export ../out/m10/automated.wav song 48000 24 cut
+waitexport
+set song 0
+
+log --- a real third-party plugin on the master: its own window, its parameters, its latency
+vstfx 0 1 "TDR Nova"
+vstinfo 0 1
+openfx 0 1
+wait 1500
+vstwin
+fxparam 0 1 #2 0.95
+wait 600
+vstinfo 0 1
+vstshot ../out/m10_nova.png
+export ../out/m10/nova.wav pattern 48000 24 cut
+waitexport
+mixer
+
+log --- saved, closed and opened again: the plugins come back with their state
+save ../out/m10/song.pulp
+new
+vstwin
+open ../out/m10/song.pulp
+vstinfo ch 4
+vstinfo 1 0
+vstinfo 0 1
+export ../out/m10/reopened.wav pattern 48000 24 cut
+waitexport
+
+log --- playing live with the plugins in place and a plugin window open; then closing the program with it open
+openfx 0 1
+openchan 4
+wait 800
+vstwin
+key space
+wait 1500
+state
+key space
+wait 200
+state
+quit

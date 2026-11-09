@@ -1,0 +1,69 @@
+# Milestone 2 interface check (silent): program a beat with clicks, open windows, take screenshots.
+wait 700
+state
+windows
+# kick on 1, 5, 9, 13
+click rack 254 49
+click rack 331 49
+click rack 408 49
+click rack 485 49
+# clap on 5 and 13
+click rack 331 79
+click rack 485 79
+# hat: drag across all sixteen steps, then clear step 2 with a right-click
+drag rack 254 109 542 109
+click rack 272 109 right
+# snare on 5, then removed again
+click rack 331 139
+click rack 331 139 right
+steps
+key space
+wait 900
+state
+shot main ../out/m2_main.png
+shot toolbar ../out/m2_toolbar.png 2
+key space
+# open the kick's channel settings
+click rack 152 49
+wait 300
+shot chanwin ../out/m2_channel.png
+# new pattern with F4, then back with numpad minus
+key F4
+state
+steps
+key numpad -
+state
+# add a sample from the factory library by dropping it on the rack
+drop "../dist/PULP/factory/Drums/909 Kit/909 Kick.wav" 300 200
+state
+# graph editor: lower the velocity of the hat's steps by dragging across the bars
+set channel 2
+click rack 140 17
+wait 200
+drag rack 254 250 542 215
+shot rackwin ../out/m2_rack_graph.png
+# channel keys: clone (Alt+C), move up (Alt+Up), then delete the clone (Alt+Delete)
+key alt + C
+key alt + cursor up
+state
+key alt + delete
+state
+hint rack 30 17
+hint chan 200 60
+# browser preview
+preview "../dist/PULP/factory/Drums/808 Kit/808 Cowbell.wav"
+wait 150
+state
+key F10
+wait 300
+windows
+shot settingswin ../out/m2_settings.png
+detach rack
+wait 300
+windows
+dock rack
+wait 200
+windows
+shot main ../out/m2_main2.png
+dump ../out/m2_project.json
+quit

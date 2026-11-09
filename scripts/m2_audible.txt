@@ -1,0 +1,21 @@
+# Milestone 2 on the real device, quiet and brief: a clicked-in kick pattern plays for about 2.2 s.
+wait 500
+set master 0.2
+device "Windows Audio" ""
+wait 600
+click rack 254 49
+click rack 331 49
+click rack 408 49
+click rack 485 49
+steps
+dump ../out/m2_audible.pulp
+key F10
+wait 400
+shot settingswin ../out/m2_settings_real.png
+key F10
+key space
+wait 2200
+state
+key space
+wait 300
+quit

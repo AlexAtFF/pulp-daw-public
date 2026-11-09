@@ -1,0 +1,39 @@
+# Milestone 13 (silent): a whole MIDI file in and out.
+# Needs out\m13\song.mid (written by out\m13\make_midi.py: four bars at 110 BPM for piano, bass, lead and drums).
+# Run with: PULP.exe --no-audio --script scripts\m13_midi.txt --log out\m13_midi.log --data-dir out\m13_data
+wait 600
+log --- a MIDI file becomes channels with instruments from the factory library, a pattern and a clip in the playlist
+midisong import ../out/m13/song.mid
+state
+steps
+playlist
+show playlist
+wait 300
+shot main ../out/m13_midi.png
+set song 1
+export ../out/m13/song.wav song 48000 24 cut
+waitexport
+log --- and out again as a MIDI file
+midisong export ../out/m13/song_out.mid
+
+log --- export formats and stems: each part on its own mixer track, the limiter taken off the master so the stems add up
+click rack 152 169
+click rack 152 199 ctrl
+click rack 152 229 ctrl
+click rack 152 259 ctrl
+keyto rack ctrl + L
+mixer
+fx 0 0 none
+export ../out/m13/mix.flac song 48000 24 cut
+waitexport
+export ../out/m13/mix16.flac song 44100 16 cut
+waitexport
+export ../out/m13/mix.wav song 48000 32 cut
+waitexport
+export ../out/m13/stem.wav song 48000 32 cut stems
+waitexport
+show export
+wait 300
+shot export ../out/m13_export.png
+save ../out/m13/midi.pulp
+quit

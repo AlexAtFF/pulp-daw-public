@@ -1,0 +1,91 @@
+# Milestone 12 (silent): the effects added in this milestone, in the program.
+# Run with: PULP.exe --no-audio --script scripts\m12_effects.txt --log out\m12_effects.log --data-dir out\m12_data
+wait 600
+new demo
+log --- the analyser on the master, in each of its displays, while the demo song plays
+fx 0 1 gauge
+openfx 0 1
+key space
+wait 2500
+gaugeinfo
+shot fx ../out/m12_gauge_spectrum.png
+fxparam 0 1 view 1
+wait 1500
+shot fx ../out/m12_gauge_spectrogram.png
+fxparam 0 1 view 2
+wait 500
+shot fx ../out/m12_gauge_scope.png
+fxparam 0 1 view 3
+wait 500
+shot fx ../out/m12_gauge_vector.png
+fxparam 0 1 view 4
+wait 800
+gaugeinfo
+shot fx ../out/m12_gauge_loudness.png
+fxparam 0 1 view 5
+wait 1200
+gaugeinfo
+shot fx ../out/m12_gauge_tuner.png
+key space
+log --- every other new effect loads, shows its panel and passes sound
+fx 4 1 multiband
+fx 4 2 transient
+fx 4 3 clip
+fx 4 4 enhance
+fx 4 5 deess
+fx 4 6 gate
+fx 5 1 convolve
+fx 5 2 multitap
+fx 5 3 flanger
+fx 5 4 phaser
+fx 5 5 tremolo
+fx 5 6 vibrato
+fx 5 7 rotary
+openfx 5 1
+wait 300
+shot fx ../out/m12_spaces.png
+openfx 4 1
+wait 300
+shot fx ../out/m12_triband.png
+openfx 4 6
+wait 300
+shot fx ../out/m12_gate.png
+log --- the distortions, the graphic EQ and the rest: loaded on the lead's track; the waveshaper's curve is drawn by hand
+fx 6 1 geq
+fx 6 2 modfilter
+fx 6 3 tape
+fx 6 4 tube
+fx 6 5 amp
+fx 6 6 fuzz
+fx 6 7 crush
+fx 6 8 shaper
+fx 7 1 midside
+openfx 6 8
+wait 300
+curve info
+curve add 0.5 0.9
+curve drag -1 -1 -1 -0.4
+curve info
+wait 200
+shot fx ../out/m12_bend.png
+undo
+curve info
+redo
+curve info
+openfx 6 1
+wait 200
+shot fx ../out/m12_geq.png
+openfx 6 5
+wait 200
+shot fx ../out/m12_amp.png
+mixer
+export ../out/m12/effects.flac song 48000 24 cut
+waitexport
+save ../out/m12/effects.pulp
+new
+open ../out/m12/effects.pulp
+wait 300
+mixer
+export ../out/m12/effects2.flac song 48000 24 cut
+waitexport
+quit
